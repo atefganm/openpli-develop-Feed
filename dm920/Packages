@@ -1,0 +1,1645 @@
+Package: 3rd-party-feed-configs-dbg
+Version: 1.1-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f99fadf4cb6287e9660297f9631e9a22
+Size: 684
+Filename: 3rd-party-feed-configs-dbg_1.1-r0_dm920.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0 - Debugging files
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: 3rd-party-feed-configs-dev
+Version: 1.1-r0
+Depends: 3rd-party-feed-configs (= 1.1-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c0c8b760af747970e1d1c55b55955733
+Size: 714
+Filename: 3rd-party-feed-configs-dev_1.1-r0_dm920.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0 - Development files
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: 3rd-party-feed-configs
+Version: 1.1-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4be44d69caee10d86c81f2a212217c92
+Size: 962
+Filename: 3rd-party-feed-configs_1.1-r0_dm920.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: alsa-state-dbg
+Version: 0.2.0-r5
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 66db65c8a66ff33846caaf4e2f512d94
+Size: 760
+Filename: alsa-state-dbg_0.2.0-r5_dm920.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration - Debugging files
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: alsa-state-dev
+Version: 0.2.0-r5
+Depends: alsa-state (= 0.2.0-r5)
+Recommends: alsa-utils-alsactl-dev, initd-functions-dev, initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1f052432b38fcbc47883b1b00665fe33
+Size: 832
+Filename: alsa-state-dev_0.2.0-r5_dm920.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration - Development files
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: alsa-state
+Version: 0.2.0-r5
+Depends: alsa-utils-alsactl, initd-functions
+Recommends: alsa-states, update-rc.d
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 035992438034e1da598f82f4e766a70a
+Size: 1652
+Filename: alsa-state_0.2.0-r5_dm920.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: alsa-states
+Version: 0.2.0-r5
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5589598e863ff1e3205778844065f95
+Size: 846
+Filename: alsa-states_0.2.0-r5_dm920.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: base-files-dbg
+Version: 3.0.14-r89
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 43ba8e2a95397aa4befa4cc41d425910
+Size: 744
+Filename: base-files-dbg_3.0.14-r89_dm920.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89
+Depends: base-files (= 3.0.14-r89)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b9ab662fee1a3848debba498606c8406
+Size: 774
+Filename: base-files-dev_3.0.14-r89_dm920.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r89
+Section: doc
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7e4cabccd1eae080536286c6ace91ca1
+Size: 854
+Filename: base-files-doc_3.0.14-r89_dm920.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3551a58602e3452b0832d39563464005
+Size: 3208
+Filename: base-files_3.0.14-r89_dm920.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: distro-feed-configs-dbg
+Version: 1.0-r6
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 759412373e3bbf1f7ed7e59fe7cbc1f8
+Size: 690
+Filename: distro-feed-configs-dbg_1.0-r6_dm920.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Debugging files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs-dev
+Version: 1.0-r6
+Depends: distro-feed-configs (= 1.0-r6)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 14fac03e060c3e64f1c2fd738621dc42
+Size: 722
+Filename: distro-feed-configs-dev_1.0-r6_dm920.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Development files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs
+Version: 1.0-r6
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 80e005ac85614fa9e7b0e25d0d5aa7a5
+Size: 928
+Filename: distro-feed-configs_1.0-r6_dm920.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: dvb-usb-drivers-meta
+Version: 1.1-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 637613da1ca041b65d3ac322769c493e
+Size: 618
+Filename: dvb-usb-drivers-meta_1.1-r0_dm920.ipk
+Source: dvb-usb-drivers-meta.bb
+Description: dvb-usb-drivers-meta version 1.1-r0
+OE: dvb-usb-drivers-meta
+License: GPLv2+
+Priority: optional
+
+Package: e2fsprogs-badblocks
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libext2fs2 (>= 1.45.3)
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b97d244a5917c793244fb94de65626f
+Size: 8968
+Filename: e2fsprogs-badblocks_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs-dbg
+Version: 1.45.3-r0
+Recommends: libc6-dbg, libcomerr-dbg, libe2p-dbg, libext2fs-dbg, libss-dbg, util-linux-libblkid-dbg, util-linux-libuuid-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5126f778010d850f5a73d029b25a26c2
+Size: 1177716
+Filename: e2fsprogs-dbg_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Debugging files
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-dev
+Version: 1.45.3-r0
+Depends: e2fsprogs (= 1.45.3-r0), libcom-err2, libe2p2, libext2fs2, libss2
+Recommends: attr-dev, bash-dev, e2fsprogs-badblocks-dev, libc6-dev, libcomerr-dev, libe2p-dev, libext2fs-dev, libss-dev, update-alternatives-opkg-dev, util-linux-dev, util-linux-libblkid-dev, util-linux-libuuid-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0f7e3e37ba065de6817b55ec7f89bf7
+Size: 41434
+Filename: e2fsprogs-dev_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Development files
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-doc
+Version: 1.45.3-r0
+Depends: update-alternatives-opkg
+Section: doc
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fce20eaafd3634b73fb73709da1346d6
+Size: 70334
+Filename: e2fsprogs-doc_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Documentation files
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-e2fsck
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libuuid1 (>= 2.34)
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cd5919bc0c10c78c47ce80c84bfea2e1
+Size: 94990
+Filename: e2fsprogs-e2fsck_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs-e2scrub
+Version: 1.45.3-r0
+Depends: bash
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c8cce7ba4717e6cf958dc2bbcb2f2ed
+Size: 4884
+Filename: e2fsprogs-e2scrub_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-ca
+Version: 1.45.3-r0
+Provides: ca-translation, e2fsprogs-locale
+Recommends: virtual-locale-ca
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0c7086ebc460d13ce6134f6f02117b41
+Size: 39196
+Filename: e2fsprogs-locale-ca_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - ca translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-cs
+Version: 1.45.3-r0
+Provides: cs-translation, e2fsprogs-locale
+Recommends: virtual-locale-cs
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b1ec96160098f2e3715fa80c3b42714
+Size: 51256
+Filename: e2fsprogs-locale-cs_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - cs translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-da
+Version: 1.45.3-r0
+Provides: da-translation, e2fsprogs-locale
+Recommends: virtual-locale-da
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 61f527d236c07cecd24ec40de6436a89
+Size: 40044
+Filename: e2fsprogs-locale-da_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - da translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-de
+Version: 1.45.3-r0
+Provides: de-translation, e2fsprogs-locale
+Recommends: virtual-locale-de
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4ee181218fcb9ecf44047da1e3ae1238
+Size: 49186
+Filename: e2fsprogs-locale-de_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - de translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-eo
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, eo-translation
+Recommends: virtual-locale-eo
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e87ed539683f544927507559bdd302c8
+Size: 26374
+Filename: e2fsprogs-locale-eo_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - eo translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-es
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, es-translation
+Recommends: virtual-locale-es
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a732a36e475fb7bf8beb0908abc9c0df
+Size: 50502
+Filename: e2fsprogs-locale-es_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - es translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-fi
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, fi-translation
+Recommends: virtual-locale-fi
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1417bce87f2bc2c5581afe138f5fec3f
+Size: 8010
+Filename: e2fsprogs-locale-fi_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - fi translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-fr
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, fr-translation
+Recommends: virtual-locale-fr
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 71370f91122563c7fdbd421f9bb28c6e
+Size: 49572
+Filename: e2fsprogs-locale-fr_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - fr translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-hu
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, hu-translation
+Recommends: virtual-locale-hu
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1082a1ab9dd41dc00587f52ec5b3ca5
+Size: 47814
+Filename: e2fsprogs-locale-hu_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - hu translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-id
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, id-translation
+Recommends: virtual-locale-id
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fd829721ac1d7ab01cfa636433b96698
+Size: 24128
+Filename: e2fsprogs-locale-id_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - id translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-it
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, it-translation
+Recommends: virtual-locale-it
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b55154716b0a5f854115e3b7c1697497
+Size: 18180
+Filename: e2fsprogs-locale-it_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - it translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-ms
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, ms-translation
+Recommends: virtual-locale-ms
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 83f7ba0a9984e6b875f6e686cd4c1cad
+Size: 6884
+Filename: e2fsprogs-locale-ms_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - ms translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-nl
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, nl-translation
+Recommends: virtual-locale-nl
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9f487946c9a0c59d8d2bb8bd691e9f2b
+Size: 44892
+Filename: e2fsprogs-locale-nl_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - nl translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-pl
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, pl-translation
+Recommends: virtual-locale-pl
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3379808606ebf9a7db3160a42de08e16
+Size: 49800
+Filename: e2fsprogs-locale-pl_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - pl translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-pt
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e085adbfed4e06629c14a7fedcdee737
+Size: 47816
+Filename: e2fsprogs-locale-pt_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - pt translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-sr
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, sr-translation
+Recommends: virtual-locale-sr
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f197e1b13f5adac0083efead98662da
+Size: 50176
+Filename: e2fsprogs-locale-sr_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - sr translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-sv
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e42f5c01ec78e977932ffe709196a2f
+Size: 48712
+Filename: e2fsprogs-locale-sv_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - sv translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-tr
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, tr-translation
+Recommends: virtual-locale-tr
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d0c9b3af261bb69bfe27f710448307c0
+Size: 22076
+Filename: e2fsprogs-locale-tr_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - tr translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-uk
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, uk-translation
+Recommends: virtual-locale-uk
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc8cb3a273619c0af664e03805f7e412
+Size: 53856
+Filename: e2fsprogs-locale-uk_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - uk translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-vi
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, vi-translation
+Recommends: virtual-locale-vi
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 125c0b8789a0f463bf857642e3f47ca7
+Size: 49028
+Filename: e2fsprogs-locale-vi_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - vi translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-zh-cn
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, zh-cn-translation
+Recommends: virtual-locale-zh-cn
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: abeb8c52125c1aea8dc9abdce9c6d66d
+Size: 45448
+Filename: e2fsprogs-locale-zh-cn_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - zh_CN translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-mke2fs
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libuuid1 (>= 2.34), update-alternatives-opkg
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7e46edc05db6ad796746fd692c1ca86
+Size: 42938
+Filename: e2fsprogs-mke2fs_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs-resize2fs
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3)
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 53913547d0645c6b4c558b098da02cb7
+Size: 22590
+Filename: e2fsprogs-resize2fs_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-staticdev
+Version: 1.45.3-r0
+Depends: e2fsprogs-dev (= 1.45.3-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b7274643f951c5e7bc92a300a9a1062
+Size: 715422
+Filename: e2fsprogs-staticdev_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Development files (Static Libraries)
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-tune2fs
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libuuid1 (>= 2.34), update-alternatives-opkg
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 50a9469a6a115e5f88f0b99f09e72ac4
+Size: 33208
+Filename: e2fsprogs-tune2fs_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs
+Version: 1.45.3-r0
+Depends: e2fsprogs-badblocks, libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libss2 (>= 1.45.3), libuuid1 (>= 2.34), update-alternatives-opkg
+Recommends: e2fsprogs-e2fsck, e2fsprogs-mke2fs
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ccf08f816c6bb14cdf87665837231c1e
+Size: 100724
+Filename: e2fsprogs_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dbg
+Version: 1+git3915+be17a6a-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f6b2c66fa21cef6675874d6fbbb476f6
+Size: 726
+Filename: enigma2-plugin-extensions-openwebif-dbg_1+git3915+be17a6a-r0_dm920.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0 - Debugging files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dev
+Version: 1+git3915+be17a6a-r0
+Depends: enigma2-plugin-extensions-openwebif (= 1+git3915+be17a6a-r0)
+Recommends: aio-grab-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pyopenssl-dev, python-shell-dev, python-unixadmin-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 17a546da63ed1512fd7caf8fd3483123
+Size: 842
+Filename: enigma2-plugin-extensions-openwebif-dev_1+git3915+be17a6a-r0_dm920.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0 - Development files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-src
+Version: 1+git3915+be17a6a-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 416d1fe2b260c20ae8bc579cb7db6ad2
+Size: 235006
+Filename: enigma2-plugin-extensions-openwebif-src_1+git3915+be17a6a-r0_dm920.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0 - Source files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-vxg
+Version: 1+git3915+be17a6a-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6a8624ba67e55ac20bbd9dbb423ec04a
+Size: 1232520
+Filename: enigma2-plugin-extensions-openwebif-vxg_1+git3915+be17a6a-r0_dm920.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif
+Version: 1+git3915+be17a6a-r0
+Depends: aio-grab, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pyopenssl, python-shell, python-unixadmin
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0dc5b4f91b5568646ae1ff518fbe1220
+Size: 1679384
+Filename: enigma2-plugin-extensions-openwebif_1+git3915+be17a6a-r0_dm920.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dbg
+Version: 2.0+git6+0b2e06b-r1
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a9ac66c72c161941b473818184281c5a
+Size: 720
+Filename: enigma2-plugin-extensions-screenposition-dbg_2.0+git6+0b2e06b-r1_dm920.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Debugging files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dev
+Version: 2.0+git6+0b2e06b-r1
+Depends: enigma2-plugin-extensions-screenposition (= 2.0+git6+0b2e06b-r1)
+Recommends: python-core-dev, python-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e30650065897585d2a22f392ceb2c071
+Size: 770
+Filename: enigma2-plugin-extensions-screenposition-dev_2.0+git6+0b2e06b-r1_dm920.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Development files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-src
+Version: 2.0+git6+0b2e06b-r1
+Depends: enigma2-plugin-extensions-screenposition
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4eef8f8f4256bb835640d01f04253de8
+Size: 2268
+Filename: enigma2-plugin-extensions-screenposition-src_2.0+git6+0b2e06b-r1_dm920.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Source files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition
+Version: 2.0+git6+0b2e06b-r1
+Depends: python-core
+Replaces: enigma2-plugin-pli-screenposition
+Conflicts: enigma2-plugin-pli-screenposition
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4614fbc62fc36c620cf2c2945e718af9
+Size: 3024
+Filename: enigma2-plugin-extensions-screenposition_2.0+git6+0b2e06b-r1_dm920.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dbg
+Version: 0.2+git12+abdfb2b-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 42fbe6acd5b748a9c41d4429322adf41
+Size: 734
+Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git12+abdfb2b-r0_dm920.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Debugging files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dev
+Version: 0.2+git12+abdfb2b-r0
+Depends: enigma2-plugin-extensions-shootyourscreen (= 0.2+git12+abdfb2b-r0)
+Recommends: aio-grab-dev, python-core-dev, python-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bdd51d6acb8ef415aa41ca9bb86b9e10
+Size: 792
+Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git12+abdfb2b-r0_dm920.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Development files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-src
+Version: 0.2+git12+abdfb2b-r0
+Depends: enigma2-plugin-extensions-shootyourscreen
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8c4260b8cf5de7c40f572d6b40fdec09
+Size: 4268
+Filename: enigma2-plugin-extensions-shootyourscreen-src_0.2+git12+abdfb2b-r0_dm920.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Source files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen
+Version: 0.2+git12+abdfb2b-r0
+Depends: aio-grab, python-core
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ab1f134c7d841eac464f874a1de68e0f
+Size: 9316
+Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git12+abdfb2b-r0_dm920.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dbg
+Version: 0.6+git40+c9150af-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ed3e92bf2e1b112c6a4c1613dad746cb
+Size: 724
+Filename: enigma2-plugin-systemplugins-autoshutdown-dbg_0.6+git40+c9150af-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dev
+Version: 0.6+git40+c9150af-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown (= 0.6+git40+c9150af-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5dd97f738cece9d776db3d7000dcd5d0
+Size: 754
+Filename: enigma2-plugin-systemplugins-autoshutdown-dev_0.6+git40+c9150af-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Development files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-src
+Version: 0.6+git40+c9150af-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f9877d34f3d88738bc2048ccc1400483
+Size: 6042
+Filename: enigma2-plugin-systemplugins-autoshutdown-src_0.6+git40+c9150af-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Source files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown
+Version: 0.6+git40+c9150af-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b9584c5e587fade934a1b021c044f7ef
+Size: 21096
+Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git40+c9150af-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satscan-dbg
+Version: 1.3+git0+f0ebcdff98-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3da9317959b590a0e84a625e9462b5a0
+Size: 714
+Filename: enigma2-plugin-systemplugins-satscan-dbg_1.3+git0+f0ebcdff98-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-satscan.bb
+Description: enigma2-plugin-systemplugins-satscan version 1.3+gitAUTOINC+f0ebcdff98-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-satscan
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satscan-dev
+Version: 1.3+git0+f0ebcdff98-r0
+Depends: enigma2-plugin-systemplugins-satscan (= 1.3+git0+f0ebcdff98-r0)
+Recommends: python-core-dev, python-dev, python-subprocess-dev, virtual/blindscan-dvbs-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b74c70933425695501135c255b5e63ce
+Size: 786
+Filename: enigma2-plugin-systemplugins-satscan-dev_1.3+git0+f0ebcdff98-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-satscan.bb
+Description: enigma2-plugin-systemplugins-satscan version 1.3+gitAUTOINC+f0ebcdff98-r0 - Development files
+OE: enigma2-plugin-systemplugins-satscan
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satscan-src
+Version: 1.3+git0+f0ebcdff98-r0
+Depends: enigma2-plugin-systemplugins-satscan
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e64c7a35a0225d7dac8a1d4abc353d27
+Size: 6390
+Filename: enigma2-plugin-systemplugins-satscan-src_1.3+git0+f0ebcdff98-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-satscan.bb
+Description: enigma2-plugin-systemplugins-satscan version 1.3+gitAUTOINC+f0ebcdff98-r0 - Source files
+OE: enigma2-plugin-systemplugins-satscan
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satscan
+Version: 1.3+git0+f0ebcdff98-r0
+Depends: python-core, python-subprocess, virtual/blindscan-dvbs
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 27b38c525457b1d98bf6b2e25bf42631
+Size: 8492
+Filename: enigma2-plugin-systemplugins-satscan_1.3+git0+f0ebcdff98-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-satscan.bb
+Description: enigma2-plugin-systemplugins-satscan version 1.3+gitAUTOINC+f0ebcdff98-r0
+OE: enigma2-plugin-systemplugins-satscan
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dbg
+Version: 1+git163+1559e94-r0
+Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, uchardet-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1f0953a8f55aa582b73f5e86c7f7eab
+Size: 954984
+Filename: enigma2-plugin-systemplugins-serviceapp-dbg_1+git163+1559e94-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dev
+Version: 1+git163+1559e94-r0
+Depends: enigma2-plugin-systemplugins-serviceapp (= 1+git163+1559e94-r0)
+Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, libstdc++-dev, openssl-dev, python-json-dev, uchardet-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b65de5b1ddd30df4ec081e8ca21323d5
+Size: 5672
+Filename: enigma2-plugin-systemplugins-serviceapp-dev_1+git163+1559e94-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0 - Development files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp
+Version: 1+git163+1559e94-r0
+Depends: enigma2, libc6 (>= 2.30), libcrypto1.1 (>= 1.1.1g), libgcc1 (>= 9.2.0), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 9.2.0), openssl, python-json, uchardet (>= 0.0.6+git267+6f38ab9)
+Recommends: exteplayer3, gstplayer
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 76b50232342f3d0aa5b93b76a922e967
+Size: 77866
+Filename: enigma2-plugin-systemplugins-serviceapp_1+git163+1559e94-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3-dbg
+Version: git31+a84cd6e-r0
+Recommends: gstreamer1.0-dbg, libc6-dbg, libgcc-s-dbg, libglib-2.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgsttag-1.0-dbg, libgstvideo-1.0-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 661abca3d83b0b005b8007da6081101a
+Size: 391438
+Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git31+a84cd6e-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3-dev
+Version: git31+a84cd6e-r0
+Depends: enigma2-plugin-systemplugins-servicemp3 (= git31+a84cd6e-r0)
+Recommends: enigma2-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libgcc-s-dev, libglib-2.0-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgsttag-1.0-dev, libgstvideo-1.0-dev, libstdc++-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7374acee9dbde5e82c707f4ea1f52d35
+Size: 1154
+Filename: enigma2-plugin-systemplugins-servicemp3-dev_git31+a84cd6e-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0 - Development files
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3
+Version: git31+a84cd6e-r0
+Depends: enigma2, gstreamer1.0 (>= 1.18.4+git19055+eacb7aa), libc6 (>= 2.30), libgcc1 (>= 9.2.0), libglib-2.0-0 (>= 2.60.7), libgstaudio-1.0-0 (>= 1.18.4+git20584+64fa797), libgstpbutils-1.0-0 (>= 1.18.4+git20584+64fa797), libgsttag-1.0-0 (>= 1.18.4+git20584+64fa797), libgstvideo-1.0-0 (>= 1.18.4+git20584+64fa797), libstdc++6 (>= 9.2.0)
+Provides: virtual/enigma2-mediaservice
+Recommends: glib-networking, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mms, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-mpg123, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, virtual/gstreamer1.0-dvbmediasink
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e512e8cf3d6fa9b75bb5cdb0e0e7fce6
+Size: 36374
+Filename: enigma2-plugin-systemplugins-servicemp3_git31+a84cd6e-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: flash-scripts
+Version: 1.1+git152+fbd0c5f-r0
+Depends: coreutils-realpath, libc6 (>= 2.30), util-linux-sfdisk
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e097d3722d790fa50e06ae89c0c1c048
+Size: 22650
+Filename: flash-scripts_1.1+git152+fbd0c5f-r0_dm920.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-dbg
+Version: 1.0+git95+1d19731-r0
+Recommends: gstreamer1.0-dbg, libc6-dbg, libdca-dbg, libglib-2.0-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ab4d69ab7c983fa0fac5ca48857c404b
+Size: 104202
+Filename: gstreamer1.0-plugin-dvbmediasink-dbg_1.0+git95+1d19731-r0_dm920.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Debugging files
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-dev
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0-plugin-dvbmediasink (= 1.0+git95+1d19731-r0)
+Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libdca-dev, libglib-2.0-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5dc8ba2f680ffca2cd11ff459ca21321
+Size: 772
+Filename: gstreamer1.0-plugin-dvbmediasink-dev_1.0+git95+1d19731-r0_dm920.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Development files
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-staticdev
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0-plugin-dvbmediasink-dev (= 1.0+git95+1d19731-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 87d6c3e3d4364e1d0e761a176b3e88bd
+Size: 128738
+Filename: gstreamer1.0-plugin-dvbmediasink-staticdev_1.0+git95+1d19731-r0_dm920.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Development files (Static Libraries)
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0 (>= 1.18.4+git19055+eacb7aa), libc6 (>= 2.30), libdca (>= 0.0.6), libglib-2.0-0 (>= 2.60.7)
+Provides: gst-plugin-dvbmediasink, virtual/gstreamer1.0-dvbmediasink
+Replaces: gst-plugin-dvbmediasink
+Conflicts: gst-plugin-dvbmediasink
+Section: multimedia
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6030492187f5a581f885743154dbccd3
+Size: 27680
+Filename: gstreamer1.0-plugin-dvbmediasink_1.0+git95+1d19731-r0_dm920.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: libcom-err2
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30)
+Provides: libcomerr
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2266fc2564951fbfb30d55cbb930c1ac
+Size: 4428
+Filename: libcom-err2_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libe2p2
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30)
+Provides: libe2p
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d6a12e3d315e7d321608b0691a280339
+Size: 9992
+Filename: libe2p2_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libext2fs2
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3)
+Provides: libext2fs
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 86c1c6450f4f00826c3865163b268099
+Size: 136012
+Filename: libext2fs2_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libss2
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30), libcom-err2 (>= 1.45.3)
+Provides: libss
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 049238b38b227df5d4046746e3d0d205
+Size: 7462
+Filename: libss2_1.45.3-r0_dm920.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libtuxtxt32bpp-dbg
+Version: 2.0+git71+fa18f77-r3
+Provides: tuxtxt-enigma2-dbg
+Recommends: libc6-dbg, libfreetype-dbg, libtuxtxt-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9c34651921339c1aac0ffdf56bebc8af
+Size: 27814
+Filename: libtuxtxt32bpp-dbg_2.0+git71+fa18f77-r3_dm920.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Debugging files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-dev
+Version: 2.0+git71+fa18f77-r3
+Depends: libtuxtxt32bpp0 (= 2.0+git71+fa18f77-r3)
+Provides: tuxtxt-enigma2-dev
+Recommends: libc6-dev, libfreetype-dev, libtuxtxt-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e72b16e36299f2cec2b8826ed2a8b17c
+Size: 874
+Filename: libtuxtxt32bpp-dev_2.0+git71+fa18f77-r3_dm920.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Development files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-src
+Version: 2.0+git71+fa18f77-r3
+Provides: tuxtxt-enigma2-src
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7a3d89d8277b04e5c627ac2e050a6e41
+Size: 1876
+Filename: libtuxtxt32bpp-src_2.0+git71+fa18f77-r3_dm920.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Source files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp0
+Version: 2.0+git71+fa18f77-r3
+Depends: libc6 (>= 2.30), libfreetype6 (>= 2.10.1), libtuxtxt0 (>= 2.0+git71+fa18f77)
+Provides: tuxtxt-enigma2
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8dc97decac3022107d9f3f03ccf6bb57
+Size: 58958
+Filename: libtuxtxt32bpp0_2.0+git71+fa18f77-r3_dm920.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: openmultiboot-dbg
+Version: 1.0+git107+e2d97a4-r0
+Recommends: libc6-dbg, libfreetype-dbg
+Section: devel
+Architecture: dm920
+Maintainer: oe-alliance
+MD5Sum: 18a3f6c810b9ff2b0e0f45c7aae3f87e
+Size: 32876
+Filename: openmultiboot-dbg_1.0+git107+e2d97a4-r0_dm920.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Debugging files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot-dev
+Version: 1.0+git107+e2d97a4-r0
+Depends: openmultiboot (= 1.0+git107+e2d97a4-r0)
+Recommends: libc6-dev, libfreetype-dev
+Section: devel
+Architecture: dm920
+Maintainer: oe-alliance
+MD5Sum: 48c5a1978ebfd7032c19713cfca5bf90
+Size: 708
+Filename: openmultiboot-dev_1.0+git107+e2d97a4-r0_dm920.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Development files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot
+Version: 1.0+git107+e2d97a4-r0
+Depends: libc6 (>= 2.30), libfreetype6 (>= 2.10.1)
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance
+MD5Sum: 743dcaed03416c94d3226c81e9b7129c
+Size: 35016
+Filename: openmultiboot_1.0+git107+e2d97a4-r0_dm920.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e73ad4a2755add3979c37d3fb55eb60d
+Size: 710
+Filename: opkg-arch-config-dbg_1.0-r1_dm920.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Depends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: da6df6d5a19ea5038d956c9688a16955
+Size: 740
+Filename: opkg-arch-config-dev_1.0-r1_dm920.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d536eded5237749e54ef580e33e1702
+Size: 920
+Filename: opkg-arch-config_1.0-r1_dm920.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: recovery-autoflashd
+Version: 1.1+git152+fbd0c5f-r0
+Depends: libc6 (>= 2.30), libudev1 (>= 3.2.8)
+Recommends: update-rc.d
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9af6dfeb710bd6688864563fabbc913c
+Size: 4658
+Filename: recovery-autoflashd_1.1+git152+fbd0c5f-r0_dm920.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-dbg
+Version: 1.1+git152+fbd0c5f-r0
+Recommends: libc6-dbg, libudev-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7da9bfa921ab9d3a19e8552aae61e774
+Size: 33324
+Filename: recovery-dbg_1.1+git152+fbd0c5f-r0_dm920.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox - Debugging files
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-dev
+Version: 1.1+git152+fbd0c5f-r0
+Depends: recovery (= 1.1+git152+fbd0c5f-r0)
+Recommends: coreutils-realpath-dev, e2fsprogs-mke2fs-dev, flash-scripts-dev, gpgv-dev, gptfdisk-dev, initscripts-dev, libc6-dev, libudev-dev, pigz-dev, recovery-autoflashd-dev, udev-dev, update-rc.d-dev, util-linux-blkid-dev, util-linux-mount-dev, util-linux-sfdisk-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fe55830e8738d58ad46ea078a8f14e5d
+Size: 866
+Filename: recovery-dev_1.1+git152+fbd0c5f-r0_dm920.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox - Development files
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-fbscaled
+Version: 1.1+git152+fbd0c5f-r0
+Recommends: update-rc.d
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8421d527247374b413f32ea386e55d21
+Size: 1950
+Filename: recovery-fbscaled_1.1+git152+fbd0c5f-r0_dm920.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery
+Version: 1.1+git152+fbd0c5f-r0
+Depends: e2fsprogs-mke2fs, flash-scripts, gpgv, gptfdisk, pigz, recovery-autoflashd, util-linux-blkid, util-linux-mount
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1c4a61f40dcd95350addb3946b56892e
+Size: 21028
+Filename: recovery_1.1+git152+fbd0c5f-r0_dm920.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: satipclient-dbg
+Version: 1.0+git74+6d342c0-r0
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 719561682e10beb71fe4e16aca51a4db
+Size: 199896
+Filename: satipclient-dbg_1.0+git74+6d342c0-r0_dm920.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Debugging files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient-dev
+Version: 1.0+git74+6d342c0-r0
+Depends: satipclient (= 1.0+git74+6d342c0-r0)
+Recommends: initscripts-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, update-rc.d-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 42df498cebe07f87ee94220c41f8a849
+Size: 752
+Filename: satipclient-dev_1.0+git74+6d342c0-r0_dm920.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Development files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient
+Version: 1.0+git74+6d342c0-r0
+Depends: libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0)
+Recommends: update-rc.d
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b12e57f8d0d6e1ca0ef89759e16a0e0
+Size: 20942
+Filename: satipclient_1.0+git74+6d342c0-r0_dm920.ipk
+Source: satipclient.bb
+Description: satip client using vtuner
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: shadow-securetty-dbg
+Version: 4.6-r3
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7a12398443a62bc4ad1ad3d8be16a3ac
+Size: 690
+Filename: shadow-securetty-dbg_4.6-r3_dm920.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Debugging files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dev
+Version: 4.6-r3
+Depends: shadow-securetty (= 4.6-r3)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4df7ad94987b4c0f597177a24b6c76e8
+Size: 718
+Filename: shadow-securetty-dev_4.6-r3_dm920.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Development files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty
+Version: 4.6-r3
+Section: base utils
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e6755ad7052acc44e9e55b7977045267
+Size: 1368
+Filename: shadow-securetty_4.6-r3_dm920.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
