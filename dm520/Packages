@@ -1,0 +1,3445 @@
+Package: 3rd-party-feed-configs-dbg
+Version: 1.1-r0
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0622d0a6d4c43521b48e84be131cec7f
+Size: 686
+Filename: 3rd-party-feed-configs-dbg_1.1-r0_dm520.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0 - Debugging files
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: 3rd-party-feed-configs-dev
+Version: 1.1-r0
+Depends: 3rd-party-feed-configs (= 1.1-r0)
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bdc640e5619a00283a3800dd97482fb1
+Size: 714
+Filename: 3rd-party-feed-configs-dev_1.1-r0_dm520.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0 - Development files
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: 3rd-party-feed-configs
+Version: 1.1-r0
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: efa10e8a9e6c72c58ab51f7300fb2fd9
+Size: 934
+Filename: 3rd-party-feed-configs_1.1-r0_dm520.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: alsa-state-dbg
+Version: 0.2.0-r5
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de9dcf255940545a368352a37d8cba60
+Size: 758
+Filename: alsa-state-dbg_0.2.0-r5_dm520.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration - Debugging files
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: alsa-state-dev
+Version: 0.2.0-r5
+Depends: alsa-state (= 0.2.0-r5)
+Recommends: alsa-utils-alsactl-dev, initd-functions-dev, initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6fa48d1126e8be1bdff5cee7b67ccc65
+Size: 832
+Filename: alsa-state-dev_0.2.0-r5_dm520.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration - Development files
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: alsa-state
+Version: 0.2.0-r5
+Depends: alsa-utils-alsactl, initd-functions
+Recommends: alsa-states, update-rc.d
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e5e28fa1f163c08076f28b954b8deb1b
+Size: 1650
+Filename: alsa-state_0.2.0-r5_dm520.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: alsa-states
+Version: 0.2.0-r5
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 53b634ce202a3c15216a01566ec58973
+Size: 846
+Filename: alsa-states_0.2.0-r5_dm520.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: base-files-dbg
+Version: 3.0.14-r89
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b860eabba71aa853a9b174910cdb5ff8
+Size: 742
+Filename: base-files-dbg_3.0.14-r89_dm520.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89
+Depends: base-files (= 3.0.14-r89)
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 913d68e15f02700c15e64b9bb0830f46
+Size: 772
+Filename: base-files-dev_3.0.14-r89_dm520.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r89
+Section: doc
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2b203d27db869ea07115d0ee496103bf
+Size: 858
+Filename: base-files-doc_3.0.14-r89_dm520.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 37cb4c69b38adcb982d1c2c6b2cc62ba
+Size: 3212
+Filename: base-files_3.0.14-r89_dm520.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: distro-feed-configs-dbg
+Version: 1.0-r6
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d00bd1eb9ff039d9790ed9ba37ac0469
+Size: 690
+Filename: distro-feed-configs-dbg_1.0-r6_dm520.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Debugging files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs-dev
+Version: 1.0-r6
+Depends: distro-feed-configs (= 1.0-r6)
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 675b419a1485a12002ada2015bc8a353
+Size: 722
+Filename: distro-feed-configs-dev_1.0-r6_dm520.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Development files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs
+Version: 1.0-r6
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 85a56f4debb8cab68016981329484fce
+Size: 898
+Filename: distro-feed-configs_1.0-r6_dm520.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: dreambox-dvb-modules-dm520-dbg
+Version: 3.4-4.0-20180222-r0
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1e39339aefe429076e2359b3fc3ccb91
+Size: 698
+Filename: dreambox-dvb-modules-dm520-dbg_3.4-4.0-20180222-r0_dm520.ipk
+Source: dreambox-dvb-modules-dm520_3.4-4.0-20180222.bb
+Description: Hardware drivers for Dreambox - Debugging files
+OE: dreambox-dvb-modules-dm520
+License: CLOSED
+Priority: required
+
+Package: dreambox-dvb-modules-dm520-dev
+Version: 3.4-4.0-20180222-r0
+Depends: dreambox-dvb-modules-dm520 (= 3.4-4.0-20180222-r0)
+Recommends: dreambox-dvb-modules-dm520-stb-core-dev, dreambox-secondstage-dm520-dev, kernel-3.4-4.0-dm520-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cdf6e2fbe1f98e1811c555a32f58e78f
+Size: 762
+Filename: dreambox-dvb-modules-dm520-dev_3.4-4.0-20180222-r0_dm520.ipk
+Source: dreambox-dvb-modules-dm520_3.4-4.0-20180222.bb
+Description: Hardware drivers for Dreambox - Development files
+OE: dreambox-dvb-modules-dm520
+License: CLOSED
+Priority: required
+
+Package: dreambox-dvb-modules-dm520-stb-core
+Version: 3.4-4.0-20180222-r0
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3edf18482243f3269a126b8286a48fa3
+Size: 10114
+Filename: dreambox-dvb-modules-dm520-stb-core_3.4-4.0-20180222-r0_dm520.ipk
+Source: dreambox-dvb-modules-dm520_3.4-4.0-20180222.bb
+Description: Hardware drivers for Dreambox
+OE: dreambox-dvb-modules-dm520
+License: CLOSED
+Priority: required
+
+Package: dreambox-dvb-modules-dm520
+Version: 3.4-4.0-20180222-r0
+Depends: dreambox-dvb-modules-dm520-stb-core, dreambox-secondstage-dm520, kernel-3.4-4.0-dm520
+Recommends: dreambox-dvb-modules-dm520-lcd
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 144e01daf98d175320242156c71deca6
+Size: 1882184
+Filename: dreambox-dvb-modules-dm520_3.4-4.0-20180222-r0_dm520.ipk
+Source: dreambox-dvb-modules-dm520_3.4-4.0-20180222.bb
+Description: Hardware drivers for Dreambox
+OE: dreambox-dvb-modules-dm520
+License: CLOSED
+Priority: required
+
+Package: dreambox-secondstage-dm520
+Version: 3-r0
+Depends: flash-scripts
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0e46323ab77e3abbdb393843bfda23a1
+Size: 131894
+Filename: dreambox-secondstage-dm520_3-r0_dm520.ipk
+Source: dreambox-secondstage-dm520_3.bb
+Description: Dreambox second stage bootloader
+OE: dreambox-secondstage-dm520
+License: CLOSED
+Priority: required
+
+Package: dvb-usb-drivers-meta
+Version: 1.1-r0
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 55415aa0adb07c69ef173f6fb01d3c41
+Size: 616
+Filename: dvb-usb-drivers-meta_1.1-r0_dm520.ipk
+Source: dvb-usb-drivers-meta.bb
+Description: dvb-usb-drivers-meta version 1.1-r0
+OE: dvb-usb-drivers-meta
+License: GPLv2+
+Priority: optional
+
+Package: e2fsprogs-badblocks
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libext2fs2 (>= 1.45.3)
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1278a3f998a563408a63465e0c3014b3
+Size: 9590
+Filename: e2fsprogs-badblocks_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs-dbg
+Version: 1.45.3-r0
+Recommends: libc6-dbg, libcomerr-dbg, libe2p-dbg, libext2fs-dbg, libss-dbg, util-linux-libblkid-dbg, util-linux-libuuid-dbg
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 328bbd8765858ab4577b881086fc3548
+Size: 1188088
+Filename: e2fsprogs-dbg_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Debugging files
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-dev
+Version: 1.45.3-r0
+Depends: e2fsprogs (= 1.45.3-r0), libcom-err2, libe2p2, libext2fs2, libss2
+Recommends: attr-dev, bash-dev, e2fsprogs-badblocks-dev, libc6-dev, libcomerr-dev, libe2p-dev, libext2fs-dev, libss-dev, update-alternatives-opkg-dev, util-linux-dev, util-linux-libblkid-dev, util-linux-libuuid-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 94f49baae2b27636ceb73ce235809321
+Size: 41428
+Filename: e2fsprogs-dev_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Development files
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-doc
+Version: 1.45.3-r0
+Depends: update-alternatives-opkg
+Section: doc
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b8422d2603daeea47c25004a2a446cd1
+Size: 70364
+Filename: e2fsprogs-doc_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Documentation files
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-e2fsck
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libuuid1 (>= 2.34)
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 80f12c203621a21fca9616a42a725f78
+Size: 105524
+Filename: e2fsprogs-e2fsck_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs-e2scrub
+Version: 1.45.3-r0
+Depends: bash
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: edbf4621d7977bc7c48d981be150e830
+Size: 4882
+Filename: e2fsprogs-e2scrub_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-ca
+Version: 1.45.3-r0
+Provides: ca-translation, e2fsprogs-locale
+Recommends: virtual-locale-ca
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b77fa22231f42a3ae5621f13087da646
+Size: 39188
+Filename: e2fsprogs-locale-ca_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - ca translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-cs
+Version: 1.45.3-r0
+Provides: cs-translation, e2fsprogs-locale
+Recommends: virtual-locale-cs
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a6a438463aebd0af32dabc4bf2b97420
+Size: 51256
+Filename: e2fsprogs-locale-cs_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - cs translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-da
+Version: 1.45.3-r0
+Provides: da-translation, e2fsprogs-locale
+Recommends: virtual-locale-da
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a6c34ef1ee5e7d3115916711021f9d5
+Size: 40064
+Filename: e2fsprogs-locale-da_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - da translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-de
+Version: 1.45.3-r0
+Provides: de-translation, e2fsprogs-locale
+Recommends: virtual-locale-de
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 93f7ab667e8daf3656af411b2cf9d72f
+Size: 49184
+Filename: e2fsprogs-locale-de_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - de translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-eo
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, eo-translation
+Recommends: virtual-locale-eo
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fe14ead6c3d9c0a8ca4836a61058a107
+Size: 26372
+Filename: e2fsprogs-locale-eo_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - eo translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-es
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, es-translation
+Recommends: virtual-locale-es
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: caecb5bf86264e638e7e16365b5ee672
+Size: 50494
+Filename: e2fsprogs-locale-es_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - es translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-fi
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, fi-translation
+Recommends: virtual-locale-fi
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 19584a1e982444502206bec321b59a1f
+Size: 8006
+Filename: e2fsprogs-locale-fi_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - fi translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-fr
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, fr-translation
+Recommends: virtual-locale-fr
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bcbc51bc96d6c512544fdef2c4368aa6
+Size: 49636
+Filename: e2fsprogs-locale-fr_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - fr translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-hu
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, hu-translation
+Recommends: virtual-locale-hu
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e822619bf1f1eba73e13084b9adf11a5
+Size: 47784
+Filename: e2fsprogs-locale-hu_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - hu translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-id
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, id-translation
+Recommends: virtual-locale-id
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ebfa7c4d19e3b8f4fba70ba77434844f
+Size: 24126
+Filename: e2fsprogs-locale-id_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - id translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-it
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, it-translation
+Recommends: virtual-locale-it
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e57e203d5f84a651f73ed64f9c575db
+Size: 18182
+Filename: e2fsprogs-locale-it_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - it translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-ms
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, ms-translation
+Recommends: virtual-locale-ms
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fca1bafe94a6ade9c8d8a4d45ac5abc7
+Size: 6878
+Filename: e2fsprogs-locale-ms_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - ms translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-nl
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, nl-translation
+Recommends: virtual-locale-nl
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f56e2eb8beff4e34da1c4a966fe1a723
+Size: 44886
+Filename: e2fsprogs-locale-nl_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - nl translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-pl
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, pl-translation
+Recommends: virtual-locale-pl
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 50a1fec7634050675fac69c993e64d2d
+Size: 49786
+Filename: e2fsprogs-locale-pl_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - pl translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-pt
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: feda4fbc669046ced196719ef0b2d80a
+Size: 47814
+Filename: e2fsprogs-locale-pt_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - pt translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-sr
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, sr-translation
+Recommends: virtual-locale-sr
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ada8b805e3a9fdccdc3beef8012568aa
+Size: 50178
+Filename: e2fsprogs-locale-sr_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - sr translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-sv
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b07b5a4b1eddcfbddced3040300fa18
+Size: 48686
+Filename: e2fsprogs-locale-sv_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - sv translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-tr
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, tr-translation
+Recommends: virtual-locale-tr
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1d10fa9bf9184170dfcd19e41eb43820
+Size: 22054
+Filename: e2fsprogs-locale-tr_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - tr translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-uk
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, uk-translation
+Recommends: virtual-locale-uk
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a3b345346b203b73ae8477ff04d69ca1
+Size: 53846
+Filename: e2fsprogs-locale-uk_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - uk translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-vi
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, vi-translation
+Recommends: virtual-locale-vi
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d3d07b586a5505977ea6d4a761c66e9a
+Size: 49030
+Filename: e2fsprogs-locale-vi_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - vi translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-zh-cn
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, zh-cn-translation
+Recommends: virtual-locale-zh-cn
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc52fb8da56f5413d1bd0723c7aea0da
+Size: 45526
+Filename: e2fsprogs-locale-zh-cn_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - zh_CN translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-mke2fs
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libuuid1 (>= 2.34), update-alternatives-opkg
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c08adaf72b0627cf750fb77c5e4401d
+Size: 47468
+Filename: e2fsprogs-mke2fs_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs-resize2fs
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3)
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 702f4427add38634112924175e867fea
+Size: 25472
+Filename: e2fsprogs-resize2fs_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-staticdev
+Version: 1.45.3-r0
+Depends: e2fsprogs-dev (= 1.45.3-r0)
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c6c7e5c9da7a26b79c3b2716c3193118
+Size: 747474
+Filename: e2fsprogs-staticdev_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Development files (Static Libraries)
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-tune2fs
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libuuid1 (>= 2.34), update-alternatives-opkg
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0b747f345616f96dd6eabab58c08987
+Size: 36738
+Filename: e2fsprogs-tune2fs_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs
+Version: 1.45.3-r0
+Depends: e2fsprogs-badblocks, libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libss2 (>= 1.45.3), libuuid1 (>= 2.34), update-alternatives-opkg
+Recommends: e2fsprogs-e2fsck, e2fsprogs-mke2fs
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 544ae6b4406877c258df4e636e0c159c
+Size: 113154
+Filename: e2fsprogs_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: enigma2-dbg
+Version: 2.7+git18996+3d3f0d3-r0
+Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
+Section: devel
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 3b0bcb52aa61fb9642001555a00cb6eb
+Size: 838
+Filename: enigma2-dbg_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Debugging files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-dev
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: enigma2 (= 2.7+git18996+3d3f0d3-r0)
+Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-iso8859-15-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypt-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libjpeg-dev, libmad-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-imaging-dev, python-lang-dev, python-logging-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-re-dev, python-shell-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, virtual/blindscan-dvbc-dev, wireless-tools-dev, wpa-supplicant-dev
+Section: devel
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: d4cfb1b7a549a9615211d81c427e5071
+Size: 122758
+Filename: enigma2-dev_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Development files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-fonts
+Version: 2020.10.17-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 60eb257d16ff7ba4d4e34e5eecabe4e5
+Size: 2336400
+Filename: enigma2-fonts_2020.10.17-r0_dm520.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-meta
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 1a76794ed7c7abed836e78f67f734265
+Size: 4026
+Filename: enigma2-meta_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge-950q
+Version: 1.0-r0
+Recommends: firmware-xc5000c, kernel-module-au0828, kernel-module-au8522, kernel-module-au8522-common, kernel-module-au8522-dig, kernel-module-tveeprom, kernel-module-xc5000
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8fbf6c83f50f40c1d23270d18861c7e7
+Size: 724
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge-950q_1.0-r0_dm520.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge-950q.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge-950q version 1.0-r0
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge-950q
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-af9015
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-af9013, firmware-dvb-usb-af9015, kernel-module-af9013, kernel-module-dvb-pll, kernel-module-dvb-usb, kernel-module-dvb-usb-af9015, kernel-module-mc44s803, kernel-module-mt2060, kernel-module-mxl5005s, kernel-module-mxl5007t, kernel-module-qt1010, kernel-module-stv0299, kernel-module-tda18218, kernel-module-tda18271
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df77095ecfd0836f258bf19e63d5facd
+Size: 744
+Filename: enigma2-plugin-drivers-dvb-usb-af9015_1.1-r0_dm520.ipk
+Source: enigma2-plugin-drivers-dvb-usb-af9015.bb
+Description: enigma2-plugin-drivers-dvb-usb-af9015 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-af9015
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dib0700
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-dib0700-1.20, firmware-dvb-usb-dibusb-5.0.0.11, firmware-dvb-usb-dibusb-6.0.0.8, firmware-dvb-usb-dibusb-an2235-01, firmware-xc3028-v27, firmware-xc3028l-v36, kernel-module-dib0070, kernel-module-dib0090, kernel-module-dib3000mb, kernel-module-dib3000mc, kernel-module-dib7000m, kernel-module-dib7000p, kernel-module-dib8000, kernel-module-dibx000-common, kernel-module-dvb-usb, kernel-module-dvb-usb-dib0700, kernel-module-dvb-usb-dibusb-common, kernel-module-dvb-usb-dibusb-mc, kernel-module-fc0013, kernel-module-mt2060, kernel-module-mt2266, kernel-module-tuner-xc2028
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a762bc3fc533a804c0f2ff7a247f22e3
+Size: 792
+Filename: enigma2-plugin-drivers-dvb-usb-dib0700_1.1-r0_dm520.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dib0700.bb
+Description: enigma2-plugin-drivers-dvb-usb-dib0700 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-dib0700
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dtt200u
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-dtt200u-01, firmware-dvb-usb-wt220u-02, firmware-dvb-usb-wt220u-fc03, firmware-dvb-usb-wt220u-miglia-01, firmware-dvb-usb-wt220u-zl0353-01, kernel-module-dvb-usb-dtt200u
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 216070dc25536b4454c23999ece375ed
+Size: 694
+Filename: enigma2-plugin-drivers-dvb-usb-dtt200u_1.1-r0_dm520.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dtt200u.bb
+Description: enigma2-plugin-drivers-dvb-usb-dtt200u version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-dtt200u
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dw2102
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-ds3000, firmware-dvb-usb-s660, kernel-module-dvb-usb-dw2102, kernel-module-stb6100, kernel-module-stv090x
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f96e71b7ed50ffa79f48fad9b28a31a7
+Size: 702
+Filename: enigma2-plugin-drivers-dvb-usb-dw2102_1.1-r0_dm520.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dw2102.bb
+Description: enigma2-plugin-drivers-dvb-usb-dw2102 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-dw2102
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-siano
+Version: 1.1-r0
+Recommends: firmware-dvb-nova-12mhz-b0, firmware-dvb-siano, firmware-isdbt-nova-12mhz-b0, kernel-module-smsdvb, kernel-module-smsmdtv, kernel-module-smsusb
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 384b91df9c4f7a0e935f8dd746e0badc
+Size: 696
+Filename: enigma2-plugin-drivers-dvb-usb-siano_1.1-r0_dm520.ipk
+Source: enigma2-plugin-drivers-dvb-usb-siano.bb
+Description: enigma2-plugin-drivers-dvb-usb-siano version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-siano
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-tbs
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-tbs5925, firmware-dvb-usb-tbs5980, kernel-module-cx24116, kernel-module-dvb-usb-tbsusb, kernel-module-stb6000, kernel-module-stb6100, kernel-module-stv0288, kernel-module-stv0299, kernel-module-stv090x, kernel-module-tda10071
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4caf6ae2c9939d4460de8584aa26a9f7
+Size: 714
+Filename: enigma2-plugin-drivers-dvb-usb-tbs_1.1-r0_dm520.ipk
+Source: enigma2-plugin-drivers-dvb-usb-tbs.bb
+Description: enigma2-plugin-drivers-dvb-usb-tbs version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-tbs
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-technisat-skystar
+Version: 1.0-r0
+Recommends: blindscan-s2, firmware-dvb-usb-technisat-skystar, kernel-module-dvb-usb-technisat-usb2, kernel-module-stv090x, kernel-module-stv6110x
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7abd608bd5cccc2c44fc4901d7edf521
+Size: 702
+Filename: enigma2-plugin-drivers-dvb-usb-technisat-skystar_1.0-r0_dm520.ipk
+Source: enigma2-plugin-drivers-dvb-usb-technisat-skystar.bb
+Description: enigma2-plugin-drivers-dvb-usb-technisat-skystar version 1.0-r0
+OE: enigma2-plugin-drivers-dvb-usb-technisat-skystar
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: af155da17af05fd61709457bffe60bc9
+Size: 5258
+Filename: enigma2-plugin-extensions-cutlisteditor-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: aio-grab
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 339f674cbe8cf4763294944b5b70faa5
+Size: 7620
+Filename: enigma2-plugin-extensions-cutlisteditor_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 90fb4f68335b8a2879e23da127aab9bf
+Size: 21710
+Filename: enigma2-plugin-extensions-dvdburn-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, python-imaging, replex
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 2573583c1496ebee817edfbfc0b4af34
+Size: 796560
+Filename: enigma2-plugin-extensions-dvdburn_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 1c8fafa1095bcc5bfa7757dc823a8a50
+Size: 1864
+Filename: enigma2-plugin-extensions-dvdplayer-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer
+Version: 2.7+git18996+3d3f0d3-r0
+Recommends: kernel-module-udf
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 0f18f5b4948b15a3f8c576c43dc5a863
+Size: 2596
+Filename: enigma2-plugin-extensions-dvdplayer_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 44c032107c9622edd0053e6e31faf1b0
+Size: 14768
+Filename: enigma2-plugin-extensions-graphmultiepg-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 94e5e24bdf37223c2a652cecf4cd6781
+Size: 22030
+Filename: enigma2-plugin-extensions-graphmultiepg_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: cff579c3a14eda5ec5a74e228208a566
+Size: 11100
+Filename: enigma2-plugin-extensions-mediaplayer-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 008169a22e1ad2e0732ab6c7e18d170f
+Size: 20426
+Filename: enigma2-plugin-extensions-mediaplayer_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 7d9b8cb7a17902d51235d8a260798484
+Size: 1950
+Filename: enigma2-plugin-extensions-mediascanner-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 5252b486606d9f66ccdbd7c6777b9898
+Size: 5294
+Filename: enigma2-plugin-extensions-mediascanner_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dbg
+Version: 1+git3915+be17a6a-r0
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 682649060347f1e97528a3bf27625374
+Size: 726
+Filename: enigma2-plugin-extensions-openwebif-dbg_1+git3915+be17a6a-r0_dm520.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0 - Debugging files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dev
+Version: 1+git3915+be17a6a-r0
+Depends: enigma2-plugin-extensions-openwebif (= 1+git3915+be17a6a-r0)
+Recommends: aio-grab-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pyopenssl-dev, python-shell-dev, python-unixadmin-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f122a3f8a5c3e6f96cb25ad39e2e094c
+Size: 842
+Filename: enigma2-plugin-extensions-openwebif-dev_1+git3915+be17a6a-r0_dm520.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0 - Development files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-src
+Version: 1+git3915+be17a6a-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ff3044a8f3b6b56fdce1a56310bf5fd1
+Size: 234914
+Filename: enigma2-plugin-extensions-openwebif-src_1+git3915+be17a6a-r0_dm520.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0 - Source files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-vxg
+Version: 1+git3915+be17a6a-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4379bae6fc1bfd32706b09be45c271c4
+Size: 1232116
+Filename: enigma2-plugin-extensions-openwebif-vxg_1+git3915+be17a6a-r0_dm520.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif
+Version: 1+git3915+be17a6a-r0
+Depends: aio-grab, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pyopenssl, python-shell, python-unixadmin
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 00243cb799da525a4d289a4c5f82cc00
+Size: 1679498
+Filename: enigma2-plugin-extensions-openwebif_1+git3915+be17a6a-r0_dm520.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 03caa85669dc2650ca4239056b4b2b87
+Size: 6546
+Filename: enigma2-plugin-extensions-pictureplayer-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 911214c4a1f84b753f48185a339556ea
+Size: 13178
+Filename: enigma2-plugin-extensions-pictureplayer_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dbg
+Version: 2.0+git6+0b2e06b-r1
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e124fd9cd5d2de1676f30debdda5b7bc
+Size: 718
+Filename: enigma2-plugin-extensions-screenposition-dbg_2.0+git6+0b2e06b-r1_dm520.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Debugging files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dev
+Version: 2.0+git6+0b2e06b-r1
+Depends: enigma2-plugin-extensions-screenposition (= 2.0+git6+0b2e06b-r1)
+Recommends: python-core-dev, python-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0b483e6f86d5f9b5f3d0f0c5a298b57
+Size: 770
+Filename: enigma2-plugin-extensions-screenposition-dev_2.0+git6+0b2e06b-r1_dm520.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Development files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-src
+Version: 2.0+git6+0b2e06b-r1
+Depends: enigma2-plugin-extensions-screenposition
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dd7611f0c7c631c24b50173e825f438c
+Size: 2266
+Filename: enigma2-plugin-extensions-screenposition-src_2.0+git6+0b2e06b-r1_dm520.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Source files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition
+Version: 2.0+git6+0b2e06b-r1
+Depends: python-core
+Replaces: enigma2-plugin-pli-screenposition
+Conflicts: enigma2-plugin-pli-screenposition
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 65b117043bb5cbd27d0b055c2d4031e7
+Size: 3028
+Filename: enigma2-plugin-extensions-screenposition_2.0+git6+0b2e06b-r1_dm520.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dbg
+Version: 0.2+git12+abdfb2b-r0
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1e858d5cb042660fba1716242fdaa62
+Size: 736
+Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git12+abdfb2b-r0_dm520.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Debugging files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dev
+Version: 0.2+git12+abdfb2b-r0
+Depends: enigma2-plugin-extensions-shootyourscreen (= 0.2+git12+abdfb2b-r0)
+Recommends: aio-grab-dev, python-core-dev, python-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4310e1ebe4c9223419e8f111e0ec0266
+Size: 792
+Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git12+abdfb2b-r0_dm520.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Development files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-src
+Version: 0.2+git12+abdfb2b-r0
+Depends: enigma2-plugin-extensions-shootyourscreen
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8bc04209ed3893c426a3ccc3cd44845b
+Size: 4272
+Filename: enigma2-plugin-extensions-shootyourscreen-src_0.2+git12+abdfb2b-r0_dm520.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Source files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen
+Version: 0.2+git12+abdfb2b-r0
+Depends: aio-grab, python-core
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 952faa0c2809ef0dd96ea1f3b2862248
+Size: 9324
+Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git12+abdfb2b-r0_dm520.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-dbg
+Version: 2.7+git18996+3d3f0d3-r0
+Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 894037ffeb8a5370bbefcfac9cfac350
+Size: 8809948
+Filename: enigma2-plugin-extensions-socketmmi-dbg_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (debug)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: bd19e075465e7c7e8457f6004d8cb2b6
+Size: 1472
+Filename: enigma2-plugin-extensions-socketmmi-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-staticdev
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 5e738518167d657f13643065585b8995
+Size: 87050
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (static development)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0), libudfread0 (>= 1.0.0+git104+2ba6fa9), libxml2 (>= 2.9.9)
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: bcf849ecc4f3c2a2e836fe5474dc6e7c
+Size: 10038
+Filename: enigma2-plugin-extensions-socketmmi_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dbg
+Version: 0.6+git40+c9150af-r0
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c8b6ab06c69290ad0793ffa511fb283b
+Size: 724
+Filename: enigma2-plugin-systemplugins-autoshutdown-dbg_0.6+git40+c9150af-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dev
+Version: 0.6+git40+c9150af-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown (= 0.6+git40+c9150af-r0)
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a84013ac754ad42885c0ce2a4073eab0
+Size: 754
+Filename: enigma2-plugin-systemplugins-autoshutdown-dev_0.6+git40+c9150af-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Development files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-src
+Version: 0.6+git40+c9150af-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b27dc1eaeadb4654df301cf889ee9e7e
+Size: 6042
+Filename: enigma2-plugin-systemplugins-autoshutdown-src_0.6+git40+c9150af-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Source files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown
+Version: 0.6+git40+c9150af-r0
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a9dbbc3933ee2e0e8c871507fb921ce
+Size: 21104
+Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git40+c9150af-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 2530579758a388ea040714eca7bb703b
+Size: 3896
+Filename: enigma2-plugin-systemplugins-cablescan-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 4f8e7eda985efedc6c63e8844c7bf8bc
+Size: 5772
+Filename: enigma2-plugin-systemplugins-cablescan_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: b2e4c106ad472719f3d079ba9547de73
+Size: 6212
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 7de3cd9656b422086b309c64218bf76c
+Size: 9622
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: ccd723610fb520ee1419b2b88d32a74e
+Size: 2546
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: afbbc88f8646d235170fdbbeabeca09d
+Size: 3340
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 2119ae0f80b800ebc539de25852825d4
+Size: 6226
+Filename: enigma2-plugin-systemplugins-diseqctester-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: a0d7bb40aa407654ad11379f4adb287f
+Size: 8790
+Filename: enigma2-plugin-systemplugins-diseqctester_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 92eb64054b3ad9b3be7863f128185447
+Size: 4876
+Filename: enigma2-plugin-systemplugins-fastscan-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 6f6baa45473586662f18106e6489ef1a
+Size: 7400
+Filename: enigma2-plugin-systemplugins-fastscan_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: a67f94abe24c1666b439aea2af1f6b0e
+Size: 3166
+Filename: enigma2-plugin-systemplugins-hdmicec-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 4e51ad5d0f957a1445042c2ad4fcdbc4
+Size: 4332
+Filename: enigma2-plugin-systemplugins-hdmicec_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 112c76696a07d38562fb93f54ea8cc37
+Size: 1950
+Filename: enigma2-plugin-systemplugins-hotplug-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: hotplug-e2-helper
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 8f1c431b1688f0e44b738069a9b4e413
+Size: 2486
+Filename: enigma2-plugin-systemplugins-hotplug_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 71b655e0733510b8d141a3295bcec457
+Size: 4220
+Filename: enigma2-plugin-systemplugins-networkwizard-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: ccaa85d604286f1d74837b3fc269449c
+Size: 7262
+Filename: enigma2-plugin-systemplugins-networkwizard_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 848336f1c32d7c22ab5352b8aaefb36e
+Size: 2434
+Filename: enigma2-plugin-systemplugins-osd3dsetup-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 5b3c9fe11558140e9ee07c80d757c93e
+Size: 3430
+Filename: enigma2-plugin-systemplugins-osd3dsetup_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 79e57b7d91c1aab2bfe2c058d15aba37
+Size: 3956
+Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 18e26193d4d678d5be9084794ad308ec
+Size: 5442
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: a3fa315b2644c8cd88b834a9c7988038
+Size: 14424
+Filename: enigma2-plugin-systemplugins-positionersetup-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: f120dfdae871c6dcf0f4f04a630d6cfd
+Size: 21048
+Filename: enigma2-plugin-systemplugins-positionersetup_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 2276a727943c2d65e54781010c94afa6
+Size: 2086
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 880d6b4c8e37953158114e310f654158
+Size: 2834
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 078c99c2ada04b16ddec8a9d49677450
+Size: 6088
+Filename: enigma2-plugin-systemplugins-satfinder-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: c0fa2f4ee016fc530d3f36632e7fcfc9
+Size: 7954
+Filename: enigma2-plugin-systemplugins-satfinder_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dbg
+Version: 1+git163+1559e94-r0
+Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, uchardet-dbg
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 723b72fa77e4225fcaa9d190ad14378d
+Size: 957690
+Filename: enigma2-plugin-systemplugins-serviceapp-dbg_1+git163+1559e94-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dev
+Version: 1+git163+1559e94-r0
+Depends: enigma2-plugin-systemplugins-serviceapp (= 1+git163+1559e94-r0)
+Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, libstdc++-dev, openssl-dev, python-json-dev, uchardet-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d89722f1d73b7cae368e367ef61f807b
+Size: 5668
+Filename: enigma2-plugin-systemplugins-serviceapp-dev_1+git163+1559e94-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0 - Development files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp
+Version: 1+git163+1559e94-r0
+Depends: enigma2, libc6 (>= 2.30), libcrypto1.1 (>= 1.1.1g), libgcc1 (>= 9.2.0), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 9.2.0), openssl, python-json, uchardet (>= 0.0.6+git267+6f38ab9)
+Recommends: exteplayer3, gstplayer
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 769f990868ff24f383e3960dc125f7b1
+Size: 88906
+Filename: enigma2-plugin-systemplugins-serviceapp_1+git163+1559e94-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3-dbg
+Version: git31+a84cd6e-r0
+Recommends: gstreamer1.0-dbg, libc6-dbg, libgcc-s-dbg, libglib-2.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgsttag-1.0-dbg, libgstvideo-1.0-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e27bf7f08d6625e7fcf5cee9a455f69a
+Size: 391298
+Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git31+a84cd6e-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3-dev
+Version: git31+a84cd6e-r0
+Depends: enigma2-plugin-systemplugins-servicemp3 (= git31+a84cd6e-r0)
+Recommends: enigma2-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libgcc-s-dev, libglib-2.0-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgsttag-1.0-dev, libgstvideo-1.0-dev, libstdc++-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 21385472a2802159854a51a646616948
+Size: 1154
+Filename: enigma2-plugin-systemplugins-servicemp3-dev_git31+a84cd6e-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0 - Development files
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3
+Version: git31+a84cd6e-r0
+Depends: enigma2, gstreamer1.0 (>= 1.18.4+git19055+eacb7aa), libc6 (>= 2.30), libgcc1 (>= 9.2.0), libglib-2.0-0 (>= 2.60.7), libgstaudio-1.0-0 (>= 1.18.4+git20584+64fa797), libgstpbutils-1.0-0 (>= 1.18.4+git20584+64fa797), libgsttag-1.0-0 (>= 1.18.4+git20584+64fa797), libgstvideo-1.0-0 (>= 1.18.4+git20584+64fa797), libstdc++6 (>= 9.2.0)
+Provides: virtual/enigma2-mediaservice
+Recommends: glib-networking, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mms, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-mpg123, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, virtual/gstreamer1.0-dvbmediasink
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b3d1eb9454c855ce3bfcb2d2eda8251
+Size: 42096
+Filename: enigma2-plugin-systemplugins-servicemp3_git31+a84cd6e-r0_dm520.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 6b353c328a8b04e50319f530e820f84e
+Size: 16236
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: python-twisted-web
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 0d1e477f7546ffe30c78a01d1dbc2ecd
+Size: 42616
+Filename: enigma2-plugin-systemplugins-softwaremanager_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: ef1ae885f885fcb522c612a537e18a11
+Size: 2192
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 79eeabc9edbc44bb6f6dc1e9f7614316
+Size: 2932
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 97ad1ab959279b6974af114b1011032c
+Size: 5458
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: d053cbde56d60513bbfbf039b81aa920
+Size: 8172
+Filename: enigma2-plugin-systemplugins-videoenhancement_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: db467014d42faefb8fc217b7f9be25fc
+Size: 8372
+Filename: enigma2-plugin-systemplugins-videomode-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 8d1989209755649236e49d07b7eaad11
+Size: 57354
+Filename: enigma2-plugin-systemplugins-videomode_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: ae5e0e402b9baa7fa4afca2c57991d4d
+Size: 4472
+Filename: enigma2-plugin-systemplugins-videotune-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 74465b94824031faf3abb56a742ec228
+Size: 64904
+Filename: enigma2-plugin-systemplugins-videotune_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 198ee8ed04c3d2b111e3737075c7a964
+Size: 7558
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: python-wifi, wireless-tools, wpa-supplicant
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: e7cdebce31163b1c348d55c22fd073b8
+Size: 11088
+Filename: enigma2-plugin-systemplugins-wirelesslan_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: devel
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 72fc86d472bd8907b0ad57cdf3a294ce
+Size: 399104
+Filename: enigma2-src_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Source files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-staticdev
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: enigma2-dev (= 2.7+git18996+3d3f0d3-r0)
+Section: devel
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 35a303f0ff66b98e4da233241c3cbcaf
+Size: 7190
+Filename: enigma2-staticdev_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: alsa-conf, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.30), libcrypt2 (>= 4.4.8), libcrypto1.1 (>= 1.1.1g), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git128+515a1b6), libfreetype6 (>= 2.10.1), libfribidi0 (>= 1.0.5), libgcc1 (>= 9.2.0), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.60.7), libgomp1 (>= 9.2.0), libjpeg62 (>= 2.0.3), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.2), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 9.2.0), libtuxtxt0 (>= 2.0+git71+fa18f77), libtuxtxt32bpp0 (>= 2.0+git71+fa18f77), libudfread0 (>= 1.0.0+git104+2ba6fa9), libxml2 (>= 2.9.9), python-codecs, python-core, python-crypt, python-fcntl, python-lang, python-logging, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-re, python-shell, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, virtual/blindscan-dvbc
+Replaces: enigma2-plugin-pli-softcamsetup, enigma2-plugin-systemplugins-skinselector
+Conflicts: enigma2-plugin-pli-softcamsetup, enigma2-plugin-systemplugins-skinselector
+Recommends: enigma2-plugin-skins-pli-hd, glibc-gconv-utf-16, hotplug-e2-helper, libdvdcss2, ofgwrite, python-sendfile, virtual/enigma2-mediaservice
+Section: base
+Architecture: dm520
+Maintainer: RAED
+MD5Sum: 9d46dbb1e8614b5300158f6154eef4a7
+Size: 5641184
+Filename: enigma2_2.7+git18996+3d3f0d3-r0_dm520.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: flash-scripts
+Version: 1.1+git152+fbd0c5f-r0
+Depends: coreutils-realpath, libc6 (>= 2.30), mtd-utils
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a8a9ac883d1131740faf4c40f793788
+Size: 23532
+Filename: flash-scripts_1.1+git152+fbd0c5f-r0_dm520.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-dbg
+Version: 1.0+git95+1d19731-r0
+Recommends: gstreamer1.0-dbg, libc6-dbg, libdca-dbg, libglib-2.0-dbg
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8b5c8ee5295bde9ed9b0aa6632ebbd90
+Size: 101798
+Filename: gstreamer1.0-plugin-dvbmediasink-dbg_1.0+git95+1d19731-r0_dm520.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Debugging files
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-dev
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0-plugin-dvbmediasink (= 1.0+git95+1d19731-r0)
+Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libdca-dev, libglib-2.0-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 893350a786ad8e9b330b481f6497a52e
+Size: 772
+Filename: gstreamer1.0-plugin-dvbmediasink-dev_1.0+git95+1d19731-r0_dm520.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Development files
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-staticdev
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0-plugin-dvbmediasink-dev (= 1.0+git95+1d19731-r0)
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 576107ac2b41fd7e52a5df9563c9443a
+Size: 136438
+Filename: gstreamer1.0-plugin-dvbmediasink-staticdev_1.0+git95+1d19731-r0_dm520.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Development files (Static Libraries)
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0 (>= 1.18.4+git19055+eacb7aa), libc6 (>= 2.30), libdca (>= 0.0.6), libglib-2.0-0 (>= 2.60.7)
+Provides: gst-plugin-dvbmediasink, virtual/gstreamer1.0-dvbmediasink
+Replaces: gst-plugin-dvbmediasink
+Conflicts: gst-plugin-dvbmediasink
+Section: multimedia
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e076d7ec4758aee824fd9b76a566008
+Size: 28212
+Filename: gstreamer1.0-plugin-dvbmediasink_1.0+git95+1d19731-r0_dm520.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8189es-3.4-4.0-dm520
+Version: 1.0-r0
+Depends: kernel-3.4-4.0-dm520
+Provides: kernel-module-8189es
+Section: kernel/modules
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 58314502151550affb2b2a137f78558d
+Size: 385848
+Filename: kernel-module-8189es-3.4-4.0-dm520_1.0-r0_dm520.ipk
+Source: kernel-module-8189es_1.0.bb
+Description: 8189es kernel module
+OE: kernel-module-8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8189es-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4feb3b355e5494e668baa05bc2937089
+Size: 702
+Filename: kernel-module-8189es-dbg_1.0-r0_dm520.ipk
+Source: kernel-module-8189es_1.0.bb
+Description: Ralink 8189es v1.0 - Debugging files
+OE: kernel-module-8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8189es-dev
+Version: 1.0-r0
+Depends: kernel-module-8189es (= 1.0-r0)
+Recommends: kernel-3.4-4.0-dm520-dev, kernel-module-8189es-3.4-4.0-dm520-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1ccf31d17d8cd4e79baf30a2c611cb83
+Size: 754
+Filename: kernel-module-8189es-dev_1.0-r0_dm520.ipk
+Source: kernel-module-8189es_1.0.bb
+Description: Ralink 8189es v1.0 - Development files
+OE: kernel-module-8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8189es
+Version: 1.0-r0
+Depends: kernel-module-8189es-3.4-4.0-dm520
+Section: kernel/modules
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 90ee711082c39be1d1c12ea49249297c
+Size: 654
+Filename: kernel-module-8189es_1.0-r0_dm520.ipk
+Source: kernel-module-8189es_1.0.bb
+Description: Ralink 8189es v1.0
+OE: kernel-module-8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu-3.4-4.0-dm520
+Version: 1.0-r0
+Depends: kernel-3.4-4.0-dm520
+Provides: kernel-module-8192eu
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e218ba157e9eafe73263b841dda5996a
+Size: 379680
+Filename: kernel-module-8192eu-3.4-4.0-dm520_1.0-r0_dm520.ipk
+Source: kernel-module-8192eu.bb
+Description: 8192eu kernel module
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ef660c12ea1d373de0e78d5172292fb
+Size: 716
+Filename: kernel-module-8192eu-dbg_1.0-r0_dm520.ipk
+Source: kernel-module-8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Debugging files
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu-dev
+Version: 1.0-r0
+Depends: kernel-module-8192eu (= 1.0-r0)
+Recommends: kernel-3.4-4.0-dm520-dev, kernel-module-8192eu-3.4-4.0-dm520-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e0914e63a298346e84ed8b49cb58126d
+Size: 768
+Filename: kernel-module-8192eu-dev_1.0-r0_dm520.ipk
+Source: kernel-module-8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Development files
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu
+Version: 1.0-r0
+Depends: kernel-module-8192eu-3.4-4.0-dm520
+Provides: rtl8192eu
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e4a0e5500a5ca925b942516dfe5cafde
+Size: 678
+Filename: kernel-module-8192eu_1.0-r0_dm520.ipk
+Source: kernel-module-8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-88x2bu-3.4-4.0-dm520
+Version: 5.6.1-r0
+Depends: kernel-3.4-4.0-dm520
+Provides: kernel-module-88x2bu
+Section: kernel/modules
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 456b01eb39b9998e4712353df1acd4de
+Size: 657560
+Filename: kernel-module-88x2bu-3.4-4.0-dm520_5.6.1-r0_dm520.ipk
+Source: kernel-module-88x2bu_5.6.1.bb
+Description: 88x2bu kernel module
+OE: kernel-module-88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-88x2bu-dbg
+Version: 5.6.1-r0
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 396bbd29a07be6aae8a5bf00a5dc16ec
+Size: 708
+Filename: kernel-module-88x2bu-dbg_5.6.1-r0_dm520.ipk
+Source: kernel-module-88x2bu_5.6.1.bb
+Description: Ralink 88x2BU v5.6.1 - Debugging files
+OE: kernel-module-88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-88x2bu-dev
+Version: 5.6.1-r0
+Depends: kernel-module-88x2bu (= 5.6.1-r0)
+Recommends: kernel-3.4-4.0-dm520-dev, kernel-module-88x2bu-3.4-4.0-dm520-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 16343a4b66a26e029c13ee0782c6386d
+Size: 760
+Filename: kernel-module-88x2bu-dev_5.6.1-r0_dm520.ipk
+Source: kernel-module-88x2bu_5.6.1.bb
+Description: Ralink 88x2BU v5.6.1 - Development files
+OE: kernel-module-88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-88x2bu
+Version: 5.6.1-r0
+Depends: kernel-module-88x2bu-3.4-4.0-dm520
+Provides: rtl8822bu
+Section: kernel/modules
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d0e059e0e3aaddbdf0f275f434dd10e
+Size: 670
+Filename: kernel-module-88x2bu_5.6.1-r0_dm520.ipk
+Source: kernel-module-88x2bu_5.6.1.bb
+Description: Ralink 88x2BU v5.6.1
+OE: kernel-module-88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: libcom-err2
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30)
+Provides: libcomerr
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fd443ce8ca696e0d65dc762185b067c6
+Size: 4688
+Filename: libcom-err2_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libe2p2
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30)
+Provides: libe2p
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 619b76ae79c3ed0a1d9c45dc9aa8c1c6
+Size: 10786
+Filename: libe2p2_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libext2fs2
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3)
+Provides: libext2fs
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c17bc09688cd5a171a989a57c83cb1db
+Size: 153854
+Filename: libext2fs2_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libss2
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30), libcom-err2 (>= 1.45.3)
+Provides: libss
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 04c0eca831defc1e7523c8e956cd07dd
+Size: 8130
+Filename: libss2_1.45.3-r0_dm520.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libtuxtxt32bpp-dbg
+Version: 2.0+git71+fa18f77-r3
+Provides: tuxtxt-enigma2-dbg
+Recommends: libc6-dbg, libfreetype-dbg, libtuxtxt-dbg
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 66fdea68bdf60ef251dffc4a2e03b500
+Size: 28080
+Filename: libtuxtxt32bpp-dbg_2.0+git71+fa18f77-r3_dm520.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Debugging files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-dev
+Version: 2.0+git71+fa18f77-r3
+Depends: libtuxtxt32bpp0 (= 2.0+git71+fa18f77-r3)
+Provides: tuxtxt-enigma2-dev
+Recommends: libc6-dev, libfreetype-dev, libtuxtxt-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c305ea4d8c3872e7507c1e6a681fde05
+Size: 874
+Filename: libtuxtxt32bpp-dev_2.0+git71+fa18f77-r3_dm520.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Development files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-src
+Version: 2.0+git71+fa18f77-r3
+Provides: tuxtxt-enigma2-src
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aa320c9abbbedebfadd5d1033f957ccc
+Size: 1876
+Filename: libtuxtxt32bpp-src_2.0+git71+fa18f77-r3_dm520.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Source files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp0
+Version: 2.0+git71+fa18f77-r3
+Depends: libc6 (>= 2.30), libfreetype6 (>= 2.10.1), libtuxtxt0 (>= 2.0+git71+fa18f77)
+Provides: tuxtxt-enigma2
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ba3e9f0aaefa76199733c9d5bdc2e97a
+Size: 58736
+Filename: libtuxtxt32bpp0_2.0+git71+fa18f77-r3_dm520.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: make-mod-scripts-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e68e5de69fe0c8de29f6fbd14cd9462
+Size: 686
+Filename: make-mod-scripts-dbg_1.0-r0_dm520.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Debugging files
+OE: make-mod-scripts
+License: GPLv2
+Priority: optional
+
+Package: make-mod-scripts-dev
+Version: 1.0-r0
+Depends: make-mod-scripts (= 1.0-r0)
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 953b3fa37966b1ffdc6aef7bc6feb3a4
+Size: 716
+Filename: make-mod-scripts-dev_1.0-r0_dm520.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Development files
+OE: make-mod-scripts
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot-dbg
+Version: 1.0+git107+e2d97a4-r0
+Recommends: libc6-dbg, libfreetype-dbg
+Section: devel
+Architecture: dm520
+Maintainer: oe-alliance
+MD5Sum: 76825cfd594bc68d7f05ad81fbc754f4
+Size: 33256
+Filename: openmultiboot-dbg_1.0+git107+e2d97a4-r0_dm520.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Debugging files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot-dev
+Version: 1.0+git107+e2d97a4-r0
+Depends: openmultiboot (= 1.0+git107+e2d97a4-r0)
+Recommends: libc6-dev, libfreetype-dev
+Section: devel
+Architecture: dm520
+Maintainer: oe-alliance
+MD5Sum: c0ca8e0f4825d9574717bb488d68c19e
+Size: 708
+Filename: openmultiboot-dev_1.0+git107+e2d97a4-r0_dm520.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Development files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot
+Version: 1.0+git107+e2d97a4-r0
+Depends: libc6 (>= 2.30), libfreetype6 (>= 2.10.1)
+Section: base
+Architecture: dm520
+Maintainer: oe-alliance
+MD5Sum: 0db046329f1751997a4be20ce28a4dbc
+Size: 38102
+Filename: openmultiboot_1.0+git107+e2d97a4-r0_dm520.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 20e9d753c8341321c47a18b4493a47e1
+Size: 710
+Filename: opkg-arch-config-dbg_1.0-r1_dm520.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Depends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2951cb57fe93f46d383becf115e8a177
+Size: 740
+Filename: opkg-arch-config-dev_1.0-r1_dm520.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 62d5ccc04af998df611f9fd8c2469453
+Size: 866
+Filename: opkg-arch-config_1.0-r1_dm520.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa-dbg
+Version: 1.0-r83
+Recommends: alsa-state-dbg, alsa-utils-alsactl-dbg
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 485a3567cd872eb34147eda8eb2ba523
+Size: 668
+Filename: packagegroup-base-alsa-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa-dev
+Version: 1.0-r83
+Recommends: alsa-state-dev, alsa-utils-alsactl-dev
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 673750342adafe7b34399930751a65d8
+Size: 666
+Filename: packagegroup-base-alsa-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa
+Version: 1.0-r83
+Depends: alsa-state, alsa-utils-alsactl
+Recommends: kernel-module-snd-mixer-oss, kernel-module-snd-pcm-oss
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b87136b6f049e916fc2961a469fb5db
+Size: 702
+Filename: packagegroup-base-alsa_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: ALSA sound support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dbg
+Version: 1.0-r83
+Recommends: bluez5-dbg
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6379ad263ef1d4dcc0237c984e8da61b
+Size: 656
+Filename: packagegroup-base-bluetooth-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dev
+Version: 1.0-r83
+Recommends: bluez5-dev
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 115df1eb5e109ad5489b65cfac05748e
+Size: 656
+Filename: packagegroup-base-bluetooth-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth
+Version: 1.0-r83
+Depends: bluez5
+Recommends: kernel-module-bluetooth, kernel-module-bnep, kernel-module-hci-uart, kernel-module-hci-vhci, kernel-module-hidp, kernel-module-l2cap, kernel-module-rfcomm, kernel-module-sco
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bcdb3f2694eb7e39be5f0edaa33b1d0b
+Size: 712
+Filename: packagegroup-base-bluetooth_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Bluetooth support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dbg
+Version: 1.0-r83
+Recommends: module-init-tools-dbg, packagegroup-base-alsa-dbg, packagegroup-base-ipv6-dbg, packagegroup-base-nfs-dbg, packagegroup-base-zeroconf-dbg, packagegroup-distro-base-dbg, packagegroup-machine-base-dbg
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e2fd62a4f93b12bb0db94bdf3f8a662
+Size: 754
+Filename: packagegroup-base-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Debugging files
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dev
+Version: 1.0-r83
+Depends: packagegroup-base (= 1.0-r83)
+Recommends: module-init-tools-dev, packagegroup-base-alsa-dev, packagegroup-base-ipv6-dev, packagegroup-base-nfs-dev, packagegroup-base-zeroconf-dev, packagegroup-distro-base-dev, packagegroup-machine-base-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d12379bf08e1fd8bae9cd65fcfec3fa5
+Size: 780
+Filename: packagegroup-base-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Development files
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended-dbg
+Version: 1.0-r83
+Recommends: packagegroup-base-bluetooth-dbg, packagegroup-base-dbg, packagegroup-base-wifi-dbg
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 559f1da558d32f52c4a7a18a10326364
+Size: 670
+Filename: packagegroup-base-extended-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended-dev
+Version: 1.0-r83
+Recommends: packagegroup-base-bluetooth-dev, packagegroup-base-dev, packagegroup-base-wifi-dev
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0cbb7e4e26236d6407d0b8508ef5eb79
+Size: 670
+Filename: packagegroup-base-extended-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended
+Version: 1.0-r83
+Depends: packagegroup-base, packagegroup-base-bluetooth, packagegroup-base-wifi
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 88b5e3aa3b5c9c50f2eec8e0661d7bfd
+Size: 660
+Filename: packagegroup-base-extended_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1469cd78a672bfd63f0be7b51f576f8f
+Size: 636
+Filename: packagegroup-base-ipv6-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6-dev
+Version: 1.0-r83
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e4e706d73b217c9c1d4d98b7c662940a
+Size: 636
+Filename: packagegroup-base-ipv6-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6
+Version: 1.0-r83
+Recommends: kernel-module-ipv6
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 236ece8c7ce4c84a0d0eaab1a9943747
+Size: 658
+Filename: packagegroup-base-ipv6_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: IPv6 support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs-dbg
+Version: 1.0-r83
+Recommends: rpcbind-dbg
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e3c78af9d2dd31041d69ebb32bf69f90
+Size: 652
+Filename: packagegroup-base-nfs-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs-dev
+Version: 1.0-r83
+Recommends: rpcbind-dev
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee47de880c9e0da78bffda042d303545
+Size: 652
+Filename: packagegroup-base-nfs-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs
+Version: 1.0-r83
+Depends: rpcbind
+Recommends: kernel-module-nfs
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d3f9c4d8edd75cb4aaafde4c1915dcad
+Size: 682
+Filename: packagegroup-base-nfs_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: NFS network filesystem support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost-dbg
+Version: 1.0-r83
+Recommends: usbutils-dbg
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 917b21e6da603f3f1c059efd80e3edb3
+Size: 656
+Filename: packagegroup-base-usbhost-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost-dev
+Version: 1.0-r83
+Recommends: usbutils-dev
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78a4eb0d29ab5d29ad4663d23b05e2d3
+Size: 656
+Filename: packagegroup-base-usbhost-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost
+Version: 1.0-r83
+Depends: usbutils
+Recommends: kernel-module-ehci-hcd, kernel-module-mousedev, kernel-module-ohci-hcd, kernel-module-scsi-mod, kernel-module-sd-mod, kernel-module-uhci-hcd, kernel-module-usb-storage, kernel-module-usbcore, kernel-module-usbhid, kernel-module-usbmouse, kernel-module-usbnet, kernel-module-usbserial
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cd17e093dd277b5de856313c22583336
+Size: 736
+Filename: packagegroup-base-usbhost_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: USB host support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi-dbg
+Version: 1.0-r83
+Recommends: iw-dbg, wireless-regdb-static-dbg, wpa-supplicant-dbg
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a83497a763d8b2eabff52c138dabb866
+Size: 682
+Filename: packagegroup-base-wifi-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi-dev
+Version: 1.0-r83
+Recommends: iw-dev, wireless-regdb-static-dev, wpa-supplicant-dev
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a8d2e39796cb1d0b97aa89d2ba94bb53
+Size: 682
+Filename: packagegroup-base-wifi-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi
+Version: 1.0-r83
+Depends: iw, wireless-regdb-static, wpa-supplicant
+Recommends: kernel-module-aes, kernel-module-aes-generic, kernel-module-arc4, kernel-module-crypto_algapi, kernel-module-cryptomgr, kernel-module-ecb, kernel-module-ieee80211-crypt, kernel-module-ieee80211-crypt-ccmp, kernel-module-ieee80211-crypt-tkip, kernel-module-ieee80211-crypt-wep, kernel-module-michael-mic
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bd93394595e76e481f504237f35b787b
+Size: 760
+Filename: packagegroup-base-wifi_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: WiFi support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf-dbg
+Version: 1.0-r83
+Recommends: avahi-daemon-dbg, libnss-mdns-dbg
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 94812b99fc433222efe99c6c9fe348ab
+Size: 670
+Filename: packagegroup-base-zeroconf-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf-dev
+Version: 1.0-r83
+Recommends: avahi-daemon-dev, libnss-mdns-dev
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e92e49098b865f803c8ea0e13c426a23
+Size: 670
+Filename: packagegroup-base-zeroconf-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf
+Version: 1.0-r83
+Depends: avahi-daemon, libnss-mdns
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c84678e04cc344141dd7edfe64a3470d
+Size: 672
+Filename: packagegroup-base-zeroconf_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Zeroconf support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base
+Version: 1.0-r83
+Depends: module-init-tools, packagegroup-base-alsa, packagegroup-base-ipv6, packagegroup-base-nfs, packagegroup-base-zeroconf, packagegroup-distro-base, packagegroup-machine-base
+Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-uinput, kernel-module-unix
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 764066d630834a8845acfd82b87edfd6
+Size: 738
+Filename: packagegroup-base_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dbg
+Version: 1.0-r17
+Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, dreambox-boot-progress-dbg, dreambox-dvb-modules-dm520-dbg, eudev-dbg, gstreamer1.0-libav-dbg, gstreamer1.0-plugin-dvbmediasink-dbg, init-ifupdown-dbg, initscripts-dbg, kernel-module-hmac-dbg, kernel-module-md4-dbg, kernel-module-stv0299-dbg, libpagecache-dbg, libpassthrough-dbg, modutils-initscripts-dbg, netbase-dbg, sysvinit-dbg, update-alternatives-opkg-dbg
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b6c3610364f451c86d3653cb35de9bb1
+Size: 882
+Filename: packagegroup-core-boot-dbg_1.0-r17_dm520.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Debugging files
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dev
+Version: 1.0-r17
+Depends: packagegroup-core-boot (= 1.0-r17)
+Recommends: base-files-dev, base-passwd-dev, busybox-dev, dreambox-boot-progress-dev, dreambox-dvb-modules-dm520-dev, eudev-dev, gstreamer1.0-libav-dev, gstreamer1.0-plugin-dvbmediasink-dev, init-ifupdown-dev, initscripts-dev, kernel-module-hmac-dev, kernel-module-md4-dev, kernel-module-stv0299-dev, libpagecache-dev, libpassthrough-dev, modutils-initscripts-dev, netbase-dev, sysvinit-dev, update-alternatives-opkg-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 67f2252b58d616ad17d74526c57b569f
+Size: 904
+Filename: packagegroup-core-boot-dev_1.0-r17_dm520.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Development files
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: base-files, base-passwd, busybox, dreambox-boot-progress, dreambox-dvb-modules-dm520, eudev, gstreamer1.0-libav, gstreamer1.0-plugin-dvbmediasink, init-ifupdown, initscripts, kernel-module-hmac, kernel-module-md4, kernel-module-stv0299, libpagecache, libpassthrough, modutils-initscripts, netbase, sysvinit, update-alternatives-opkg
+Recommends: busybox-syslog
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bcc9c6934c4e49f0529103c992d9b02c
+Size: 822
+Filename: packagegroup-core-boot_1.0-r17_dm520.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc52b841c15e9194097cff1b26897d38
+Size: 638
+Filename: packagegroup-distro-base-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base-dev
+Version: 1.0-r83
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ed75d21d3c423e4afe990c095be5e340
+Size: 638
+Filename: packagegroup-distro-base-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base
+Version: 1.0-r83
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c25e58b728575b03df998329b7397d4b
+Size: 640
+Filename: packagegroup-distro-base_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: openpli extras
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4529224ce54249a983d55a0c38b2578e
+Size: 638
+Filename: packagegroup-machine-base-dbg_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base-dev
+Version: 1.0-r83
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aa151e9b109aac6cd5945b07d88c6900
+Size: 638
+Filename: packagegroup-machine-base-dev_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base
+Version: 1.0-r83
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bd78c29b621aadce7681acdb70ff7cae
+Size: 664
+Filename: packagegroup-machine-base_1.0-r83_dm520.ipk
+Source: packagegroup-base.bb
+Description: Extra packages required to fully support dm520 hardware
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: recovery-autoflashd
+Version: 1.1+git152+fbd0c5f-r0
+Depends: libc6 (>= 2.30), libudev1 (>= 3.2.8)
+Recommends: update-rc.d
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5c644e3258a993622b4dd62ec5e33807
+Size: 4832
+Filename: recovery-autoflashd_1.1+git152+fbd0c5f-r0_dm520.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-dbg
+Version: 1.1+git152+fbd0c5f-r0
+Recommends: libc6-dbg, libudev-dbg
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2719af4cc128239b14f00de74e5d2919
+Size: 34030
+Filename: recovery-dbg_1.1+git152+fbd0c5f-r0_dm520.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox - Debugging files
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-dev
+Version: 1.1+git152+fbd0c5f-r0
+Depends: recovery (= 1.1+git152+fbd0c5f-r0)
+Recommends: coreutils-realpath-dev, flash-scripts-dev, gpgv-dev, initscripts-dev, libc6-dev, libudev-dev, mtd-utils-dev, mtd-utils-ubifs-dev, pigz-dev, recovery-autoflashd-dev, udev-dev, update-rc.d-dev, util-linux-blkid-dev, util-linux-mount-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c47d2c9473ddba56f7e29f9c6f56722a
+Size: 860
+Filename: recovery-dev_1.1+git152+fbd0c5f-r0_dm520.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox - Development files
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-fbscaled
+Version: 1.1+git152+fbd0c5f-r0
+Recommends: update-rc.d
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 521daa7d8ff7a1718ea5d74746192d93
+Size: 1944
+Filename: recovery-fbscaled_1.1+git152+fbd0c5f-r0_dm520.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery
+Version: 1.1+git152+fbd0c5f-r0
+Depends: flash-scripts, gpgv, mtd-utils-ubifs, pigz, recovery-autoflashd, util-linux-blkid, util-linux-mount
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: decae58e948e7c193120abeb3acdbc9b
+Size: 21016
+Filename: recovery_1.1+git152+fbd0c5f-r0_dm520.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: satipclient-dbg
+Version: 1.0+git74+6d342c0-r0
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8f76c7fcf0db6ce319790f97b15b7e46
+Size: 200164
+Filename: satipclient-dbg_1.0+git74+6d342c0-r0_dm520.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Debugging files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient-dev
+Version: 1.0+git74+6d342c0-r0
+Depends: satipclient (= 1.0+git74+6d342c0-r0)
+Recommends: initscripts-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, update-rc.d-dev
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de40441a6bed5516d445513ce0dd31bc
+Size: 752
+Filename: satipclient-dev_1.0+git74+6d342c0-r0_dm520.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Development files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient
+Version: 1.0+git74+6d342c0-r0
+Depends: libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0)
+Recommends: update-rc.d
+Section: base
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6e92b3d08886d0d9b99e0d5c5ffa2f5e
+Size: 25790
+Filename: satipclient_1.0+git74+6d342c0-r0_dm520.ipk
+Source: satipclient.bb
+Description: satip client using vtuner
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: shadow-securetty-dbg
+Version: 4.6-r3
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2ddca3526b0e5e9e1d6db1e06b5b632
+Size: 688
+Filename: shadow-securetty-dbg_4.6-r3_dm520.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Debugging files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dev
+Version: 4.6-r3
+Depends: shadow-securetty (= 4.6-r3)
+Section: devel
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e955f4b6b512fa39d090f124758e3685
+Size: 716
+Filename: shadow-securetty-dev_4.6-r3_dm520.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Development files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty
+Version: 4.6-r3
+Section: base utils
+Architecture: dm520
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 771a787f5ccc83e94e60e4708ff574f5
+Size: 1366
+Filename: shadow-securetty_4.6-r3_dm520.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file
+OE: shadow-securetty
+License: MIT
+Priority: optional
+

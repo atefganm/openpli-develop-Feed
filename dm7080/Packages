@@ -1,0 +1,3503 @@
+Package: 3rd-party-feed-configs-dbg
+Version: 1.1-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6c0c8bcfcbd53eba265e5e04fdad0e25
+Size: 680
+Filename: 3rd-party-feed-configs-dbg_1.1-r0_dm7080.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0 - Debugging files
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: 3rd-party-feed-configs-dev
+Version: 1.1-r0
+Depends: 3rd-party-feed-configs (= 1.1-r0)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d9a079edd0dcf51087cd62a78445879e
+Size: 714
+Filename: 3rd-party-feed-configs-dev_1.1-r0_dm7080.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0 - Development files
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: 3rd-party-feed-configs
+Version: 1.1-r0
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 40931aaf882bc0ba38fd69e17dc44714
+Size: 936
+Filename: 3rd-party-feed-configs_1.1-r0_dm7080.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: alsa-state-dbg
+Version: 0.2.0-r5
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4818b23330d07a84a49fac7de5855b57
+Size: 760
+Filename: alsa-state-dbg_0.2.0-r5_dm7080.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration - Debugging files
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: alsa-state-dev
+Version: 0.2.0-r5
+Depends: alsa-state (= 0.2.0-r5)
+Recommends: alsa-utils-alsactl-dev, initd-functions-dev, initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9ec522d540cfe634ae29119d5de99ebb
+Size: 832
+Filename: alsa-state-dev_0.2.0-r5_dm7080.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration - Development files
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: alsa-state
+Version: 0.2.0-r5
+Depends: alsa-utils-alsactl, initd-functions
+Recommends: alsa-states, update-rc.d
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b4d2f4186d4c06e5585514421a5b5575
+Size: 1652
+Filename: alsa-state_0.2.0-r5_dm7080.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: alsa-states
+Version: 0.2.0-r5
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a3ee9388912cc31362e4055f2f8b829e
+Size: 848
+Filename: alsa-states_0.2.0-r5_dm7080.ipk
+Source: alsa-state.bb
+Description: Alsa scenario files to enable alsa state restoration
+OE: alsa-state
+HomePage: http://www.alsa-project.org/
+License: MIT
+Priority: optional
+
+Package: base-files-dbg
+Version: 3.0.14-r89
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0b482f334199deb5202c49d23a3a1cf
+Size: 742
+Filename: base-files-dbg_3.0.14-r89_dm7080.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89
+Depends: base-files (= 3.0.14-r89)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 118a0d61b45d49037d31f0023967c4d8
+Size: 772
+Filename: base-files-dev_3.0.14-r89_dm7080.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r89
+Section: doc
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8a7a9ca5f89a391b69da949f9fd8bf6d
+Size: 854
+Filename: base-files-doc_3.0.14-r89_dm7080.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a0956b4e3049922fd96a3098cc49f5ba
+Size: 3212
+Filename: base-files_3.0.14-r89_dm7080.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: distro-feed-configs-dbg
+Version: 1.0-r6
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7055433d4aec88fdc33ea43e87d0778b
+Size: 692
+Filename: distro-feed-configs-dbg_1.0-r6_dm7080.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Debugging files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs-dev
+Version: 1.0-r6
+Depends: distro-feed-configs (= 1.0-r6)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a16d97c519b1fdd461a48cd54de20002
+Size: 724
+Filename: distro-feed-configs-dev_1.0-r6_dm7080.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Development files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs
+Version: 1.0-r6
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 301a47f8cbcc1c95ffc54cbea485eb02
+Size: 900
+Filename: distro-feed-configs_1.0-r6_dm7080.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: dreambox-dvb-modules-dm7080-dbg
+Version: 3.4-4.0-20190502-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a8cef42e66dd5bcff1e2fb9b8f85b28
+Size: 700
+Filename: dreambox-dvb-modules-dm7080-dbg_3.4-4.0-20190502-r0_dm7080.ipk
+Source: dreambox-dvb-modules-dm7080_3.4-4.0-20190502.bb
+Description: Hardware drivers for Dreambox - Debugging files
+OE: dreambox-dvb-modules-dm7080
+License: CLOSED
+Priority: required
+
+Package: dreambox-dvb-modules-dm7080-dev
+Version: 3.4-4.0-20190502-r0
+Depends: dreambox-dvb-modules-dm7080 (= 3.4-4.0-20190502-r0)
+Recommends: dreambox-dvb-modules-dm7080-stb-core-dev, dreambox-secondstage-dm7080-dev, kernel-3.4-4.0-dm7080-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de7968485986bd551faa96f810f106a6
+Size: 764
+Filename: dreambox-dvb-modules-dm7080-dev_3.4-4.0-20190502-r0_dm7080.ipk
+Source: dreambox-dvb-modules-dm7080_3.4-4.0-20190502.bb
+Description: Hardware drivers for Dreambox - Development files
+OE: dreambox-dvb-modules-dm7080
+License: CLOSED
+Priority: required
+
+Package: dreambox-dvb-modules-dm7080-lcd
+Version: 3.4-4.0-20190502-r0
+Depends: dreambox-dvb-modules-dm7080-stb-core
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 209bfd3256482401d2182975401b6d99
+Size: 4648
+Filename: dreambox-dvb-modules-dm7080-lcd_3.4-4.0-20190502-r0_dm7080.ipk
+Source: dreambox-dvb-modules-dm7080_3.4-4.0-20190502.bb
+Description: Hardware drivers for Dreambox
+OE: dreambox-dvb-modules-dm7080
+License: CLOSED
+Priority: required
+
+Package: dreambox-dvb-modules-dm7080-stb-core
+Version: 3.4-4.0-20190502-r0
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 43e5c2e1e625aac0573166bb60c36708
+Size: 10120
+Filename: dreambox-dvb-modules-dm7080-stb-core_3.4-4.0-20190502-r0_dm7080.ipk
+Source: dreambox-dvb-modules-dm7080_3.4-4.0-20190502.bb
+Description: Hardware drivers for Dreambox
+OE: dreambox-dvb-modules-dm7080
+License: CLOSED
+Priority: required
+
+Package: dreambox-dvb-modules-dm7080
+Version: 3.4-4.0-20190502-r0
+Depends: dreambox-dvb-modules-dm7080-stb-core, dreambox-secondstage-dm7080, kernel-3.4-4.0-dm7080
+Recommends: dreambox-dvb-modules-dm7080-lcd
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 58ada38d906dbd8692b12b2a6843facd
+Size: 4636868
+Filename: dreambox-dvb-modules-dm7080_3.4-4.0-20190502-r0_dm7080.ipk
+Source: dreambox-dvb-modules-dm7080_3.4-4.0-20190502.bb
+Description: Hardware drivers for Dreambox
+OE: dreambox-dvb-modules-dm7080
+License: CLOSED
+Priority: required
+
+Package: dreambox-secondstage-dm7080
+Version: 14-r0
+Depends: flash-scripts
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8ee1cc992a67d8e1440caa7ae1127093
+Size: 147514
+Filename: dreambox-secondstage-dm7080_14-r0_dm7080.ipk
+Source: dreambox-secondstage-dm7080_14.bb
+Description: Dreambox second stage bootloader
+OE: dreambox-secondstage-dm7080
+License: CLOSED
+Priority: required
+
+Package: dvb-usb-drivers-meta
+Version: 1.1-r0
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 82ffddafa57af6a11b8c4646b1f68b6f
+Size: 618
+Filename: dvb-usb-drivers-meta_1.1-r0_dm7080.ipk
+Source: dvb-usb-drivers-meta.bb
+Description: dvb-usb-drivers-meta version 1.1-r0
+OE: dvb-usb-drivers-meta
+License: GPLv2+
+Priority: optional
+
+Package: e2fsprogs-badblocks
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libext2fs2 (>= 1.45.3)
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 20b85adfa99d6b20f1531dd93a1ba8fd
+Size: 9594
+Filename: e2fsprogs-badblocks_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs-dbg
+Version: 1.45.3-r0
+Recommends: libc6-dbg, libcomerr-dbg, libe2p-dbg, libext2fs-dbg, libss-dbg, util-linux-libblkid-dbg, util-linux-libuuid-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 20a1701fed4404acf658a0cd5b99e099
+Size: 1188416
+Filename: e2fsprogs-dbg_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Debugging files
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-dev
+Version: 1.45.3-r0
+Depends: e2fsprogs (= 1.45.3-r0), libcom-err2, libe2p2, libext2fs2, libss2
+Recommends: attr-dev, bash-dev, e2fsprogs-badblocks-dev, libc6-dev, libcomerr-dev, libe2p-dev, libext2fs-dev, libss-dev, update-alternatives-opkg-dev, util-linux-dev, util-linux-libblkid-dev, util-linux-libuuid-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 059bf5c548af61c78d7e59f32bbcac03
+Size: 41430
+Filename: e2fsprogs-dev_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Development files
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-doc
+Version: 1.45.3-r0
+Depends: update-alternatives-opkg
+Section: doc
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 95a3216b116ce90f69fe5a5bc6f63288
+Size: 70328
+Filename: e2fsprogs-doc_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Documentation files
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-e2fsck
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libuuid1 (>= 2.34)
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5b0f83c10b60ee5bd8ed15073731cfa
+Size: 105536
+Filename: e2fsprogs-e2fsck_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs-e2scrub
+Version: 1.45.3-r0
+Depends: bash
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f8632b74120d38ec1a2bfb961914c04d
+Size: 4884
+Filename: e2fsprogs-e2scrub_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-ca
+Version: 1.45.3-r0
+Provides: ca-translation, e2fsprogs-locale
+Recommends: virtual-locale-ca
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d39283a9cecc01c7e1bd8188947bcac2
+Size: 39184
+Filename: e2fsprogs-locale-ca_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - ca translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-cs
+Version: 1.45.3-r0
+Provides: cs-translation, e2fsprogs-locale
+Recommends: virtual-locale-cs
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1acb959790e438d13132a16b81f83cf
+Size: 51264
+Filename: e2fsprogs-locale-cs_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - cs translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-da
+Version: 1.45.3-r0
+Provides: da-translation, e2fsprogs-locale
+Recommends: virtual-locale-da
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f3d9e8d514486266f4763f9b294ae2b
+Size: 40050
+Filename: e2fsprogs-locale-da_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - da translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-de
+Version: 1.45.3-r0
+Provides: de-translation, e2fsprogs-locale
+Recommends: virtual-locale-de
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 505ad1ea76a8c22a9d41ba8953d9f1b4
+Size: 49192
+Filename: e2fsprogs-locale-de_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - de translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-eo
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, eo-translation
+Recommends: virtual-locale-eo
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 70606b0f2da18af9812bc4b01132f8b9
+Size: 26376
+Filename: e2fsprogs-locale-eo_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - eo translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-es
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, es-translation
+Recommends: virtual-locale-es
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 26d60850866993b037a1a316be110334
+Size: 50480
+Filename: e2fsprogs-locale-es_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - es translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-fi
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, fi-translation
+Recommends: virtual-locale-fi
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 27a9447fb80eab6019fc17a1acda8039
+Size: 8008
+Filename: e2fsprogs-locale-fi_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - fi translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-fr
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, fr-translation
+Recommends: virtual-locale-fr
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f914f2cebb9aea60507fbf2c277f954
+Size: 49584
+Filename: e2fsprogs-locale-fr_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - fr translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-hu
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, hu-translation
+Recommends: virtual-locale-hu
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1afa47973bfb1c98f1ffcabf80425eb8
+Size: 47814
+Filename: e2fsprogs-locale-hu_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - hu translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-id
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, id-translation
+Recommends: virtual-locale-id
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f2c5bd1aec670a068e1e22099a00a7dd
+Size: 24120
+Filename: e2fsprogs-locale-id_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - id translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-it
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, it-translation
+Recommends: virtual-locale-it
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b2d6ee83a877ed216437a1c53110fe97
+Size: 18192
+Filename: e2fsprogs-locale-it_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - it translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-ms
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, ms-translation
+Recommends: virtual-locale-ms
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f955bcee467def71560f93fceca4b169
+Size: 6888
+Filename: e2fsprogs-locale-ms_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - ms translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-nl
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, nl-translation
+Recommends: virtual-locale-nl
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 987d510ea9bdb8186355f58d7c3d6d2c
+Size: 44888
+Filename: e2fsprogs-locale-nl_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - nl translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-pl
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, pl-translation
+Recommends: virtual-locale-pl
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 25ca3b2c1a74b9088890b571e107f91a
+Size: 49780
+Filename: e2fsprogs-locale-pl_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - pl translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-pt
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b35d70a1d2aacfeb05eb72c453bb5142
+Size: 47816
+Filename: e2fsprogs-locale-pt_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - pt translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-sr
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, sr-translation
+Recommends: virtual-locale-sr
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c4b768daaf984c4f68e829a052dd1087
+Size: 50188
+Filename: e2fsprogs-locale-sr_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - sr translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-sv
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4fecc9dfb402b87a2809fdfc25c54ca7
+Size: 48700
+Filename: e2fsprogs-locale-sv_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - sv translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-tr
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, tr-translation
+Recommends: virtual-locale-tr
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 81ad92f8e164699ce03a21230c78e7b1
+Size: 22218
+Filename: e2fsprogs-locale-tr_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - tr translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-uk
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, uk-translation
+Recommends: virtual-locale-uk
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f826e201f3d1877cf4164c13305d4d9e
+Size: 53872
+Filename: e2fsprogs-locale-uk_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - uk translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-vi
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, vi-translation
+Recommends: virtual-locale-vi
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fff81e699cc7be1abdb4a85343dd2da0
+Size: 49054
+Filename: e2fsprogs-locale-vi_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - vi translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-locale-zh-cn
+Version: 1.45.3-r0
+Provides: e2fsprogs-locale, zh-cn-translation
+Recommends: virtual-locale-zh-cn
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 02a64b7b255edf1f4a94380c3959b8fc
+Size: 45540
+Filename: e2fsprogs-locale-zh-cn_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - zh_CN translations
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-mke2fs
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libuuid1 (>= 2.34), update-alternatives-opkg
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d4324e872fe0a82a9fb5818ecd8f9603
+Size: 47482
+Filename: e2fsprogs-mke2fs_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs-resize2fs
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3)
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b71fe198e322f4f04a588c4b260aa8ea
+Size: 25482
+Filename: e2fsprogs-resize2fs_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-staticdev
+Version: 1.45.3-r0
+Depends: e2fsprogs-dev (= 1.45.3-r0)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 71205c41c14ca8b44f973c150ee8334c
+Size: 746766
+Filename: e2fsprogs-staticdev_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities - Development files (Static Libraries)
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: e2fsprogs-tune2fs
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libuuid1 (>= 2.34), update-alternatives-opkg
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a5a8d5bbe2094b52ce40c73d8a89535
+Size: 36774
+Filename: e2fsprogs-tune2fs_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: e2fsprogs
+Version: 1.45.3-r0
+Depends: e2fsprogs-badblocks, libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3), libe2p2 (>= 1.45.3), libext2fs2 (>= 1.45.3), libss2 (>= 1.45.3), libuuid1 (>= 2.34), update-alternatives-opkg
+Recommends: e2fsprogs-e2fsck, e2fsprogs-mke2fs
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ffc70e4ccc43827d9b4fd5025186526a
+Size: 113078
+Filename: e2fsprogs_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: enigma2-dbg
+Version: 2.7+git18996+3d3f0d3-r0
+Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: dbcdbbbbf061f36561703a765f52cd8c
+Size: 840
+Filename: enigma2-dbg_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Debugging files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-dev
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: enigma2 (= 2.7+git18996+3d3f0d3-r0)
+Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-iso8859-15-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypt-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libjpeg-dev, libmad-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-imaging-dev, python-lang-dev, python-logging-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-re-dev, python-shell-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, virtual/blindscan-dvbc-dev, wireless-tools-dev, wpa-supplicant-dev
+Section: devel
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 9b8bb2e787fedf3eacf2a3361c149365
+Size: 122766
+Filename: enigma2-dev_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Development files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-fonts
+Version: 2020.10.17-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: c60ca4c17914c2cf9b57eecc0e638a0a
+Size: 2334138
+Filename: enigma2-fonts_2020.10.17-r0_dm7080.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-meta
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: ca128319ded5e35208b836aaac3d3ad4
+Size: 4018
+Filename: enigma2-meta_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge-950q
+Version: 1.0-r0
+Recommends: firmware-xc5000c, kernel-module-au0828, kernel-module-au8522, kernel-module-au8522-common, kernel-module-au8522-dig, kernel-module-tveeprom, kernel-module-xc5000
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 740d1e391988482f7c8ae79a9307cf06
+Size: 724
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge-950q_1.0-r0_dm7080.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge-950q.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge-950q version 1.0-r0
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge-950q
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-af9015
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-af9013, firmware-dvb-usb-af9015, kernel-module-af9013, kernel-module-dvb-pll, kernel-module-dvb-usb, kernel-module-dvb-usb-af9015, kernel-module-mc44s803, kernel-module-mt2060, kernel-module-mxl5005s, kernel-module-mxl5007t, kernel-module-qt1010, kernel-module-stv0299, kernel-module-tda18218, kernel-module-tda18271
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 598ffad61bb8591f18fa7cebd9f79270
+Size: 744
+Filename: enigma2-plugin-drivers-dvb-usb-af9015_1.1-r0_dm7080.ipk
+Source: enigma2-plugin-drivers-dvb-usb-af9015.bb
+Description: enigma2-plugin-drivers-dvb-usb-af9015 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-af9015
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dib0700
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-dib0700-1.20, firmware-dvb-usb-dibusb-5.0.0.11, firmware-dvb-usb-dibusb-6.0.0.8, firmware-dvb-usb-dibusb-an2235-01, firmware-xc3028-v27, firmware-xc3028l-v36, kernel-module-dib0070, kernel-module-dib0090, kernel-module-dib3000mb, kernel-module-dib3000mc, kernel-module-dib7000m, kernel-module-dib7000p, kernel-module-dib8000, kernel-module-dibx000-common, kernel-module-dvb-usb, kernel-module-dvb-usb-dib0700, kernel-module-dvb-usb-dibusb-common, kernel-module-dvb-usb-dibusb-mc, kernel-module-fc0013, kernel-module-mt2060, kernel-module-mt2266, kernel-module-tuner-xc2028
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 98b5fafe1f93d20c588e3f7f712d374b
+Size: 792
+Filename: enigma2-plugin-drivers-dvb-usb-dib0700_1.1-r0_dm7080.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dib0700.bb
+Description: enigma2-plugin-drivers-dvb-usb-dib0700 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-dib0700
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dtt200u
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-dtt200u-01, firmware-dvb-usb-wt220u-02, firmware-dvb-usb-wt220u-fc03, firmware-dvb-usb-wt220u-miglia-01, firmware-dvb-usb-wt220u-zl0353-01, kernel-module-dvb-usb-dtt200u
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c45da339388f8b0a89b051d9a363a807
+Size: 696
+Filename: enigma2-plugin-drivers-dvb-usb-dtt200u_1.1-r0_dm7080.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dtt200u.bb
+Description: enigma2-plugin-drivers-dvb-usb-dtt200u version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-dtt200u
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dw2102
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-ds3000, firmware-dvb-usb-s660, kernel-module-dvb-usb-dw2102, kernel-module-stb6100, kernel-module-stv090x
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38e1663ebc6168a799008754e0b7e229
+Size: 700
+Filename: enigma2-plugin-drivers-dvb-usb-dw2102_1.1-r0_dm7080.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dw2102.bb
+Description: enigma2-plugin-drivers-dvb-usb-dw2102 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-dw2102
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-siano
+Version: 1.1-r0
+Recommends: firmware-dvb-nova-12mhz-b0, firmware-dvb-siano, firmware-isdbt-nova-12mhz-b0, kernel-module-smsdvb, kernel-module-smsmdtv, kernel-module-smsusb
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4719833f4816119c5dc68d4f4ebf773e
+Size: 696
+Filename: enigma2-plugin-drivers-dvb-usb-siano_1.1-r0_dm7080.ipk
+Source: enigma2-plugin-drivers-dvb-usb-siano.bb
+Description: enigma2-plugin-drivers-dvb-usb-siano version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-siano
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-tbs
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-tbs5925, firmware-dvb-usb-tbs5980, kernel-module-cx24116, kernel-module-dvb-usb-tbsusb, kernel-module-stb6000, kernel-module-stb6100, kernel-module-stv0288, kernel-module-stv0299, kernel-module-stv090x, kernel-module-tda10071
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1051433eb17dad335a35fa6b351889e1
+Size: 714
+Filename: enigma2-plugin-drivers-dvb-usb-tbs_1.1-r0_dm7080.ipk
+Source: enigma2-plugin-drivers-dvb-usb-tbs.bb
+Description: enigma2-plugin-drivers-dvb-usb-tbs version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-tbs
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-technisat-skystar
+Version: 1.0-r0
+Recommends: blindscan-s2, firmware-dvb-usb-technisat-skystar, kernel-module-dvb-usb-technisat-usb2, kernel-module-stv090x, kernel-module-stv6110x
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dd9d4a6180e8b77d9dec0e03b71c2c74
+Size: 704
+Filename: enigma2-plugin-drivers-dvb-usb-technisat-skystar_1.0-r0_dm7080.ipk
+Source: enigma2-plugin-drivers-dvb-usb-technisat-skystar.bb
+Description: enigma2-plugin-drivers-dvb-usb-technisat-skystar version 1.0-r0
+OE: enigma2-plugin-drivers-dvb-usb-technisat-skystar
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: ec6f6604a3011e454ff807405b571b44
+Size: 5258
+Filename: enigma2-plugin-extensions-cutlisteditor-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: aio-grab
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: ec6a374bea799dbd57ab7ebbacc15740
+Size: 7620
+Filename: enigma2-plugin-extensions-cutlisteditor_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: b86992be8f993e934a00619c7d769e3d
+Size: 21718
+Filename: enigma2-plugin-extensions-dvdburn-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, python-imaging, replex
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: fbb99a9af2cd6b282707051f1688a72b
+Size: 796544
+Filename: enigma2-plugin-extensions-dvdburn_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 74d93c88e22ce486840510fbffa3e5c6
+Size: 1862
+Filename: enigma2-plugin-extensions-dvdplayer-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer
+Version: 2.7+git18996+3d3f0d3-r0
+Recommends: kernel-module-udf
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: eccdd27407b2e9128039569805523bdd
+Size: 2596
+Filename: enigma2-plugin-extensions-dvdplayer_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 741e31f5350fd985c2975e35cb3f6427
+Size: 14776
+Filename: enigma2-plugin-extensions-graphmultiepg-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 90630133b1559e3fe7cf26f6f91f3104
+Size: 22030
+Filename: enigma2-plugin-extensions-graphmultiepg_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 782125eb2cbd7167be5e040cf391da48
+Size: 11106
+Filename: enigma2-plugin-extensions-mediaplayer-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 3b0e7910bbc7685cc652158e6b59a553
+Size: 20414
+Filename: enigma2-plugin-extensions-mediaplayer_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: dccf85b6c41c116e81e7b12fd88af060
+Size: 1948
+Filename: enigma2-plugin-extensions-mediascanner-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: a5ff6df35a0120244eaa432de364882f
+Size: 5294
+Filename: enigma2-plugin-extensions-mediascanner_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dbg
+Version: 1+git3915+be17a6a-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e064ed53a0dc0d41a2d3de6362cbd43a
+Size: 726
+Filename: enigma2-plugin-extensions-openwebif-dbg_1+git3915+be17a6a-r0_dm7080.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0 - Debugging files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dev
+Version: 1+git3915+be17a6a-r0
+Depends: enigma2-plugin-extensions-openwebif (= 1+git3915+be17a6a-r0)
+Recommends: aio-grab-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pyopenssl-dev, python-shell-dev, python-unixadmin-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f37af36a259e062df79360ec4482f40f
+Size: 842
+Filename: enigma2-plugin-extensions-openwebif-dev_1+git3915+be17a6a-r0_dm7080.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0 - Development files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-src
+Version: 1+git3915+be17a6a-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2ee71c3a0d8b227f7089170f17840a3a
+Size: 234978
+Filename: enigma2-plugin-extensions-openwebif-src_1+git3915+be17a6a-r0_dm7080.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0 - Source files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-vxg
+Version: 1+git3915+be17a6a-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 393d5012ba761632cfa65c29118d71bb
+Size: 1232214
+Filename: enigma2-plugin-extensions-openwebif-vxg_1+git3915+be17a6a-r0_dm7080.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif
+Version: 1+git3915+be17a6a-r0
+Depends: aio-grab, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pyopenssl, python-shell, python-unixadmin
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c493c66db23d30babea80803d8dc77c
+Size: 1679484
+Filename: enigma2-plugin-extensions-openwebif_1+git3915+be17a6a-r0_dm7080.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+be17a6a42d-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 21e08277563d8201cd650800c9fc5c16
+Size: 6546
+Filename: enigma2-plugin-extensions-pictureplayer-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 658c820345a961e428998ac227d05cde
+Size: 13170
+Filename: enigma2-plugin-extensions-pictureplayer_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dbg
+Version: 2.0+git6+0b2e06b-r1
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 046c63919a735a1ea827f726ba4a8166
+Size: 720
+Filename: enigma2-plugin-extensions-screenposition-dbg_2.0+git6+0b2e06b-r1_dm7080.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Debugging files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dev
+Version: 2.0+git6+0b2e06b-r1
+Depends: enigma2-plugin-extensions-screenposition (= 2.0+git6+0b2e06b-r1)
+Recommends: python-core-dev, python-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1449afcebc569671015362f3453e9bfb
+Size: 772
+Filename: enigma2-plugin-extensions-screenposition-dev_2.0+git6+0b2e06b-r1_dm7080.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Development files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-src
+Version: 2.0+git6+0b2e06b-r1
+Depends: enigma2-plugin-extensions-screenposition
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 79751b84333bbdc77c1f2db3ad45eb93
+Size: 2270
+Filename: enigma2-plugin-extensions-screenposition-src_2.0+git6+0b2e06b-r1_dm7080.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Source files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition
+Version: 2.0+git6+0b2e06b-r1
+Depends: python-core
+Replaces: enigma2-plugin-pli-screenposition
+Conflicts: enigma2-plugin-pli-screenposition
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b0e5e67b4390d5566ee235b5ed0e9857
+Size: 3022
+Filename: enigma2-plugin-extensions-screenposition_2.0+git6+0b2e06b-r1_dm7080.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dbg
+Version: 0.2+git12+abdfb2b-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: afda3d9f13c50a0ae682fb563dafde46
+Size: 736
+Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git12+abdfb2b-r0_dm7080.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Debugging files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dev
+Version: 0.2+git12+abdfb2b-r0
+Depends: enigma2-plugin-extensions-shootyourscreen (= 0.2+git12+abdfb2b-r0)
+Recommends: aio-grab-dev, python-core-dev, python-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6c443ed696a92ae679bad7b8c1fb8e48
+Size: 792
+Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git12+abdfb2b-r0_dm7080.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Development files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-src
+Version: 0.2+git12+abdfb2b-r0
+Depends: enigma2-plugin-extensions-shootyourscreen
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 872e79ae6e1c2e112f428e8bdf8f7e9a
+Size: 4268
+Filename: enigma2-plugin-extensions-shootyourscreen-src_0.2+git12+abdfb2b-r0_dm7080.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Source files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen
+Version: 0.2+git12+abdfb2b-r0
+Depends: aio-grab, python-core
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c3ce5919b075bdb56a43808bde845e21
+Size: 9324
+Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git12+abdfb2b-r0_dm7080.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-dbg
+Version: 2.7+git18996+3d3f0d3-r0
+Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 5525871ff38e7ce190a0eeda207c8654
+Size: 8811008
+Filename: enigma2-plugin-extensions-socketmmi-dbg_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (debug)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 80deb3becbde7862715f7e6c9bcf66c8
+Size: 1472
+Filename: enigma2-plugin-extensions-socketmmi-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-staticdev
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 8c22e23387e22dbdb3a88d9b0cee06cd
+Size: 86956
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (static development)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0), libudfread0 (>= 1.0.0+git104+2ba6fa9), libxml2 (>= 2.9.9)
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: b3b3d3180fb228be5114d4fe7094e740
+Size: 10042
+Filename: enigma2-plugin-extensions-socketmmi_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dbg
+Version: 0.6+git40+c9150af-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 64f1b6115fbf0e684da4cd3c025cb1c7
+Size: 726
+Filename: enigma2-plugin-systemplugins-autoshutdown-dbg_0.6+git40+c9150af-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dev
+Version: 0.6+git40+c9150af-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown (= 0.6+git40+c9150af-r0)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f3e298c795923829bb72ac265b07af61
+Size: 754
+Filename: enigma2-plugin-systemplugins-autoshutdown-dev_0.6+git40+c9150af-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Development files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-src
+Version: 0.6+git40+c9150af-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a0ae82d19ba6c7ff59cb290243d6865
+Size: 6048
+Filename: enigma2-plugin-systemplugins-autoshutdown-src_0.6+git40+c9150af-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Source files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown
+Version: 0.6+git40+c9150af-r0
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb78bc48190f52bc200de3c6de2b1697
+Size: 21106
+Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git40+c9150af-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: efc8cff82b6ed5c5402eb97626ae1a6a
+Size: 3900
+Filename: enigma2-plugin-systemplugins-cablescan-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 7da390957c70b891b3eb1e555946ff9b
+Size: 5772
+Filename: enigma2-plugin-systemplugins-cablescan_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: c497e7718eea334a3eca4c3343af7c9e
+Size: 6216
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 61d9535cec99bd4851574e084259ee1d
+Size: 9622
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: b52cf8ab4f48879dc5448608f80713eb
+Size: 2546
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: d6fc35e1ae84326a23e2657ed2f87b2c
+Size: 3340
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: cbe5397162832eba2312ba1e116422ab
+Size: 6236
+Filename: enigma2-plugin-systemplugins-diseqctester-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 1148cdc9c3d1fc8b4de61e7e82f38c3b
+Size: 8786
+Filename: enigma2-plugin-systemplugins-diseqctester_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: bb01f4a5ba5682e4445763eeaad10be9
+Size: 4874
+Filename: enigma2-plugin-systemplugins-fastscan-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: c2b769f0e4f63bb11ff9f2f53cf0a1fd
+Size: 7396
+Filename: enigma2-plugin-systemplugins-fastscan_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 3c022bf79e85032cc0672b80093180cf
+Size: 3170
+Filename: enigma2-plugin-systemplugins-hdmicec-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 04ea35b3a2456f57e9870509c7299403
+Size: 4332
+Filename: enigma2-plugin-systemplugins-hdmicec_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 8728ee75b660bd3742f1c6d90a197b01
+Size: 1952
+Filename: enigma2-plugin-systemplugins-hotplug-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: hotplug-e2-helper
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 117b5549dff87e1c62be46568cee7957
+Size: 2488
+Filename: enigma2-plugin-systemplugins-hotplug_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: f85fcb8506f544d5b57039d025215457
+Size: 4218
+Filename: enigma2-plugin-systemplugins-networkwizard-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 76bf07ce792ecc3b944da1298f6a0e77
+Size: 7264
+Filename: enigma2-plugin-systemplugins-networkwizard_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 15e8ea8f19a181fe1393571881b98b13
+Size: 2438
+Filename: enigma2-plugin-systemplugins-osd3dsetup-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 7a4a14825c30f5c144053f2769e1966d
+Size: 3430
+Filename: enigma2-plugin-systemplugins-osd3dsetup_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: bdd594324e00815ca17b33b3a6ed38ba
+Size: 3962
+Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: b77b4eec78aafdb062b11fc1e9af59a9
+Size: 5442
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: e0285b148985853d75e5893b39596cb1
+Size: 14412
+Filename: enigma2-plugin-systemplugins-positionersetup-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 166ec3ccd74e0481a62829c00e48c370
+Size: 21036
+Filename: enigma2-plugin-systemplugins-positionersetup_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: d046df449475159eab45d3ec5716f96b
+Size: 2088
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 4dc597c4fd507416de9dd68e82d5448c
+Size: 2836
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 216bcff60b2b549db742770603991cad
+Size: 6088
+Filename: enigma2-plugin-systemplugins-satfinder-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: a6991e850cb766ebd8c49b5c5b81e7b5
+Size: 7950
+Filename: enigma2-plugin-systemplugins-satfinder_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dbg
+Version: 1+git163+1559e94-r0
+Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, uchardet-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 35cba6c6254c8048c075a19dedf1c00a
+Size: 957810
+Filename: enigma2-plugin-systemplugins-serviceapp-dbg_1+git163+1559e94-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dev
+Version: 1+git163+1559e94-r0
+Depends: enigma2-plugin-systemplugins-serviceapp (= 1+git163+1559e94-r0)
+Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, libstdc++-dev, openssl-dev, python-json-dev, uchardet-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ca6df228e472b5784e43e57deabc134d
+Size: 5674
+Filename: enigma2-plugin-systemplugins-serviceapp-dev_1+git163+1559e94-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0 - Development files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp
+Version: 1+git163+1559e94-r0
+Depends: enigma2, libc6 (>= 2.30), libcrypto1.1 (>= 1.1.1g), libgcc1 (>= 9.2.0), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 9.2.0), openssl, python-json, uchardet (>= 0.0.6+git267+6f38ab9)
+Recommends: exteplayer3, gstplayer
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 43302e845825efa4b4bd02a7906ceedb
+Size: 88984
+Filename: enigma2-plugin-systemplugins-serviceapp_1+git163+1559e94-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3-dbg
+Version: git31+a84cd6e-r0
+Recommends: gstreamer1.0-dbg, libc6-dbg, libgcc-s-dbg, libglib-2.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgsttag-1.0-dbg, libgstvideo-1.0-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e2bc3f1be0ab7f7150ed7585d2abe304
+Size: 391290
+Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git31+a84cd6e-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3-dev
+Version: git31+a84cd6e-r0
+Depends: enigma2-plugin-systemplugins-servicemp3 (= git31+a84cd6e-r0)
+Recommends: enigma2-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libgcc-s-dev, libglib-2.0-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgsttag-1.0-dev, libgstvideo-1.0-dev, libstdc++-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a7edfc0510f600a592ae83e1e85d4ef
+Size: 1154
+Filename: enigma2-plugin-systemplugins-servicemp3-dev_git31+a84cd6e-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0 - Development files
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3
+Version: git31+a84cd6e-r0
+Depends: enigma2, gstreamer1.0 (>= 1.18.4+git19055+eacb7aa), libc6 (>= 2.30), libgcc1 (>= 9.2.0), libglib-2.0-0 (>= 2.60.7), libgstaudio-1.0-0 (>= 1.18.4+git20584+64fa797), libgstpbutils-1.0-0 (>= 1.18.4+git20584+64fa797), libgsttag-1.0-0 (>= 1.18.4+git20584+64fa797), libgstvideo-1.0-0 (>= 1.18.4+git20584+64fa797), libstdc++6 (>= 9.2.0)
+Provides: virtual/enigma2-mediaservice
+Recommends: glib-networking, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mms, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-mpg123, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, virtual/gstreamer1.0-dvbmediasink
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4a34b29662e1514b85f62e7bbb662f2b
+Size: 42094
+Filename: enigma2-plugin-systemplugins-servicemp3_git31+a84cd6e-r0_dm7080.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: a8ca86aace0e733bd9b41c98b29635b3
+Size: 16226
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: python-twisted-web
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: de6bf11b31e07f67058987013fecafc4
+Size: 42630
+Filename: enigma2-plugin-systemplugins-softwaremanager_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: c1e7e5ac96686402ced80ffb477bcad9
+Size: 2196
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 202b2c9121cfc63b8e982dfeab253334
+Size: 2934
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 5f963541eb4d9fcba564d59f522792d0
+Size: 5458
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 4c0ceadd99f66a9d5219519443596d54
+Size: 8166
+Filename: enigma2-plugin-systemplugins-videoenhancement_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: e2ef179655b41584f62e556a2e71f744
+Size: 8374
+Filename: enigma2-plugin-systemplugins-videomode-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 98e9c6eb79aae584aa72772390bf8ad0
+Size: 57344
+Filename: enigma2-plugin-systemplugins-videomode_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 3f85415b290edf76d66c8d136e6e4f37
+Size: 4474
+Filename: enigma2-plugin-systemplugins-videotune-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 4a0d0ff58a91047b542d64f6b0727ff8
+Size: 64908
+Filename: enigma2-plugin-systemplugins-videotune_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: f93c432decb41bbf1c1f03519b5ed805
+Size: 7562
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: python-wifi, wireless-tools, wpa-supplicant
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: aba4b9cac2f64e89b316bacefa2e4d13
+Size: 11090
+Filename: enigma2-plugin-systemplugins-wirelesslan_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-src
+Version: 2.7+git18996+3d3f0d3-r0
+Section: devel
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: efdc44719c0c15053d31b4aaa75ad3e5
+Size: 399192
+Filename: enigma2-src_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Source files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-staticdev
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: enigma2-dev (= 2.7+git18996+3d3f0d3-r0)
+Section: devel
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 1b684a88396c4f10b939417b41f7fd26
+Size: 7192
+Filename: enigma2-staticdev_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2
+Version: 2.7+git18996+3d3f0d3-r0
+Depends: alsa-conf, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.30), libcrypt2 (>= 4.4.8), libcrypto1.1 (>= 1.1.1g), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git128+515a1b6), libfreetype6 (>= 2.10.1), libfribidi0 (>= 1.0.5), libgcc1 (>= 9.2.0), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.60.7), libgomp1 (>= 9.2.0), libjpeg62 (>= 2.0.3), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.2), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 9.2.0), libtuxtxt0 (>= 2.0+git71+fa18f77), libtuxtxt32bpp0 (>= 2.0+git71+fa18f77), libudfread0 (>= 1.0.0+git104+2ba6fa9), libxml2 (>= 2.9.9), python-codecs, python-core, python-crypt, python-fcntl, python-lang, python-logging, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-re, python-shell, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, virtual/blindscan-dvbc
+Replaces: enigma2-plugin-pli-softcamsetup, enigma2-plugin-systemplugins-skinselector
+Conflicts: enigma2-plugin-pli-softcamsetup, enigma2-plugin-systemplugins-skinselector
+Recommends: enigma2-plugin-skins-pli-hd, glibc-gconv-utf-16, hotplug-e2-helper, libdvdcss2, ofgwrite, python-sendfile, virtual/enigma2-mediaservice
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: e2d7a7f4e59905d401e070ca99564a85
+Size: 5644110
+Filename: enigma2_2.7+git18996+3d3f0d3-r0_dm7080.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: fastboot-dbg
+Version: 1.3-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c3a52b5806bac1d4ab1f343e24f7f500
+Size: 676
+Filename: fastboot-dbg_1.3-r0_dm7080.ipk
+Source: fastboot_1.3.bb
+Description: Fastboot stuff for a Dreambox - Debugging files
+OE: fastboot
+License: GPLv2+
+Priority: optional
+
+Package: fastboot-dev
+Version: 1.3-r0
+Depends: fastboot (= 1.3-r0)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 696267e8cd2ba3fb641e9eb659495e88
+Size: 704
+Filename: fastboot-dev_1.3-r0_dm7080.ipk
+Source: fastboot_1.3.bb
+Description: Fastboot stuff for a Dreambox - Development files
+OE: fastboot
+License: GPLv2+
+Priority: optional
+
+Package: fastboot
+Version: 1.3-r0
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d5e04a4143d5886c726b40f6c5d8fc48
+Size: 1524
+Filename: fastboot_1.3-r0_dm7080.ipk
+Source: fastboot_1.3.bb
+Description: Fastboot stuff for a Dreambox
+OE: fastboot
+License: GPLv2+
+Priority: optional
+
+Package: flash-scripts
+Version: 1.1+git152+fbd0c5f-r0
+Depends: coreutils-realpath, fastboot, libc6 (>= 2.30), mkbootblob, util-linux-sfdisk
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4a96a7881475194e99433eb8706928d6
+Size: 23534
+Filename: flash-scripts_1.1+git152+fbd0c5f-r0_dm7080.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-dbg
+Version: 1.0+git95+1d19731-r0
+Recommends: gstreamer1.0-dbg, libc6-dbg, libdca-dbg, libglib-2.0-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df4bd7d172eb70c601c89aa0b31b3443
+Size: 101586
+Filename: gstreamer1.0-plugin-dvbmediasink-dbg_1.0+git95+1d19731-r0_dm7080.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Debugging files
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-dev
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0-plugin-dvbmediasink (= 1.0+git95+1d19731-r0)
+Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libdca-dev, libglib-2.0-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 564ae35f4322af5d40dc19b7bbc5132d
+Size: 774
+Filename: gstreamer1.0-plugin-dvbmediasink-dev_1.0+git95+1d19731-r0_dm7080.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Development files
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-staticdev
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0-plugin-dvbmediasink-dev (= 1.0+git95+1d19731-r0)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 66086bb489b7fd459ba3807cbff444ce
+Size: 136664
+Filename: gstreamer1.0-plugin-dvbmediasink-staticdev_1.0+git95+1d19731-r0_dm7080.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Development files (Static Libraries)
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0 (>= 1.18.4+git19055+eacb7aa), libc6 (>= 2.30), libdca (>= 0.0.6), libglib-2.0-0 (>= 2.60.7)
+Provides: gst-plugin-dvbmediasink, virtual/gstreamer1.0-dvbmediasink
+Replaces: gst-plugin-dvbmediasink
+Conflicts: gst-plugin-dvbmediasink
+Section: multimedia
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6f9905de7cf64686707997cea2b2b3cf
+Size: 28226
+Filename: gstreamer1.0-plugin-dvbmediasink_1.0+git95+1d19731-r0_dm7080.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8189es-3.4-4.0-dm7080
+Version: 1.0-r0
+Depends: kernel-3.4-4.0-dm7080
+Provides: kernel-module-8189es
+Section: kernel/modules
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c54eab983742211871fd52bd6dbb2776
+Size: 382576
+Filename: kernel-module-8189es-3.4-4.0-dm7080_1.0-r0_dm7080.ipk
+Source: kernel-module-8189es_1.0.bb
+Description: 8189es kernel module
+OE: kernel-module-8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8189es-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d21bd51e0f1883008ae25573e6f25092
+Size: 702
+Filename: kernel-module-8189es-dbg_1.0-r0_dm7080.ipk
+Source: kernel-module-8189es_1.0.bb
+Description: Ralink 8189es v1.0 - Debugging files
+OE: kernel-module-8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8189es-dev
+Version: 1.0-r0
+Depends: kernel-module-8189es (= 1.0-r0)
+Recommends: kernel-3.4-4.0-dm7080-dev, kernel-module-8189es-3.4-4.0-dm7080-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c21d1d5e38d7e703d35e3ea2a9017f53
+Size: 752
+Filename: kernel-module-8189es-dev_1.0-r0_dm7080.ipk
+Source: kernel-module-8189es_1.0.bb
+Description: Ralink 8189es v1.0 - Development files
+OE: kernel-module-8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8189es
+Version: 1.0-r0
+Depends: kernel-module-8189es-3.4-4.0-dm7080
+Section: kernel/modules
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1746a35e9de6555527f8529951b84c8c
+Size: 654
+Filename: kernel-module-8189es_1.0-r0_dm7080.ipk
+Source: kernel-module-8189es_1.0.bb
+Description: Ralink 8189es v1.0
+OE: kernel-module-8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu-3.4-4.0-dm7080
+Version: 1.0-r0
+Depends: kernel-3.4-4.0-dm7080
+Provides: kernel-module-8192eu
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b4e247405bc71be1ee2fc86c7648193
+Size: 379728
+Filename: kernel-module-8192eu-3.4-4.0-dm7080_1.0-r0_dm7080.ipk
+Source: kernel-module-8192eu.bb
+Description: 8192eu kernel module
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4479cfd28aed6a8003ebf504e2d0f4c6
+Size: 716
+Filename: kernel-module-8192eu-dbg_1.0-r0_dm7080.ipk
+Source: kernel-module-8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Debugging files
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu-dev
+Version: 1.0-r0
+Depends: kernel-module-8192eu (= 1.0-r0)
+Recommends: kernel-3.4-4.0-dm7080-dev, kernel-module-8192eu-3.4-4.0-dm7080-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 426b9ba5500f796193a700f88038cdc0
+Size: 770
+Filename: kernel-module-8192eu-dev_1.0-r0_dm7080.ipk
+Source: kernel-module-8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Development files
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu
+Version: 1.0-r0
+Depends: kernel-module-8192eu-3.4-4.0-dm7080
+Provides: rtl8192eu
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b0c5cc1112bc6286f046563ce1b09ca
+Size: 674
+Filename: kernel-module-8192eu_1.0-r0_dm7080.ipk
+Source: kernel-module-8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-88x2bu-3.4-4.0-dm7080
+Version: 5.6.1-r0
+Depends: kernel-3.4-4.0-dm7080
+Provides: kernel-module-88x2bu
+Section: kernel/modules
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 79ba209663a228fef238575e6d8d776d
+Size: 658098
+Filename: kernel-module-88x2bu-3.4-4.0-dm7080_5.6.1-r0_dm7080.ipk
+Source: kernel-module-88x2bu_5.6.1.bb
+Description: 88x2bu kernel module
+OE: kernel-module-88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-88x2bu-dbg
+Version: 5.6.1-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 07f0bce8dccd3cb9ff0a4b962a0f6de9
+Size: 708
+Filename: kernel-module-88x2bu-dbg_5.6.1-r0_dm7080.ipk
+Source: kernel-module-88x2bu_5.6.1.bb
+Description: Ralink 88x2BU v5.6.1 - Debugging files
+OE: kernel-module-88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-88x2bu-dev
+Version: 5.6.1-r0
+Depends: kernel-module-88x2bu (= 5.6.1-r0)
+Recommends: kernel-3.4-4.0-dm7080-dev, kernel-module-88x2bu-3.4-4.0-dm7080-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e9bd71297141ccdad42f57f5ddbaa80
+Size: 758
+Filename: kernel-module-88x2bu-dev_5.6.1-r0_dm7080.ipk
+Source: kernel-module-88x2bu_5.6.1.bb
+Description: Ralink 88x2BU v5.6.1 - Development files
+OE: kernel-module-88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-88x2bu
+Version: 5.6.1-r0
+Depends: kernel-module-88x2bu-3.4-4.0-dm7080
+Provides: rtl8822bu
+Section: kernel/modules
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9646e799207ef7d9e1548ebbd8a037a1
+Size: 672
+Filename: kernel-module-88x2bu_5.6.1-r0_dm7080.ipk
+Source: kernel-module-88x2bu_5.6.1.bb
+Description: Ralink 88x2BU v5.6.1
+OE: kernel-module-88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: libcom-err2
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30)
+Provides: libcomerr
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c43d9c798d746fb0678d9d57395baab
+Size: 4686
+Filename: libcom-err2_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libe2p2
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30)
+Provides: libe2p
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1b8a89487e04f265d8427f4ba2bd79a
+Size: 10790
+Filename: libe2p2_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libext2fs2
+Version: 1.45.3-r0
+Depends: libblkid1 (>= 2.34), libc6 (>= 2.30), libcom-err2 (>= 1.45.3)
+Provides: libext2fs
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3e9bfc6cb5cf385c861cd207c9156d40
+Size: 153822
+Filename: libext2fs2_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libss2
+Version: 1.45.3-r0
+Depends: libc6 (>= 2.30), libcom-err2 (>= 1.45.3)
+Provides: libss
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f6040e3f6ac97cd193e185a8300e266
+Size: 8166
+Filename: libss2_1.45.3-r0_dm7080.ipk
+Source: e2fsprogs_1.45.3.bb
+Description: Ext2 Filesystem Utilities
+OE: e2fsprogs
+HomePage: http://e2fsprogs.sourceforge.net/
+License: GPLv2 & LGPLv2 & BSD & MIT
+Priority: optional
+
+Package: libtuxtxt32bpp-dbg
+Version: 2.0+git71+fa18f77-r3
+Provides: tuxtxt-enigma2-dbg
+Recommends: libc6-dbg, libfreetype-dbg, libtuxtxt-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ed59b5d152ef01943031408eb0ff9ce
+Size: 28062
+Filename: libtuxtxt32bpp-dbg_2.0+git71+fa18f77-r3_dm7080.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Debugging files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-dev
+Version: 2.0+git71+fa18f77-r3
+Depends: libtuxtxt32bpp0 (= 2.0+git71+fa18f77-r3)
+Provides: tuxtxt-enigma2-dev
+Recommends: libc6-dev, libfreetype-dev, libtuxtxt-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f29762639c44185e274002f3b726c665
+Size: 872
+Filename: libtuxtxt32bpp-dev_2.0+git71+fa18f77-r3_dm7080.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Development files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-src
+Version: 2.0+git71+fa18f77-r3
+Provides: tuxtxt-enigma2-src
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 914b25d1fbd34d8f3123aeeb58f48b93
+Size: 1876
+Filename: libtuxtxt32bpp-src_2.0+git71+fa18f77-r3_dm7080.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Source files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp0
+Version: 2.0+git71+fa18f77-r3
+Depends: libc6 (>= 2.30), libfreetype6 (>= 2.10.1), libtuxtxt0 (>= 2.0+git71+fa18f77)
+Provides: tuxtxt-enigma2
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bed54fea34c9bdb4290579b07d72fe24
+Size: 58858
+Filename: libtuxtxt32bpp0_2.0+git71+fa18f77-r3_dm7080.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: make-mod-scripts-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f45a8e50f71fa95e24349ad935715312
+Size: 686
+Filename: make-mod-scripts-dbg_1.0-r0_dm7080.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Debugging files
+OE: make-mod-scripts
+License: GPLv2
+Priority: optional
+
+Package: make-mod-scripts-dev
+Version: 1.0-r0
+Depends: make-mod-scripts (= 1.0-r0)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 42e7aae6892dae0da286cd5c234778ff
+Size: 716
+Filename: make-mod-scripts-dev_1.0-r0_dm7080.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Development files
+OE: make-mod-scripts
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot-dbg
+Version: 1.0+git107+e2d97a4-r0
+Recommends: libc6-dbg, libfreetype-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: oe-alliance
+MD5Sum: 96f237b38b5a333cbd13a446ebfe498b
+Size: 33232
+Filename: openmultiboot-dbg_1.0+git107+e2d97a4-r0_dm7080.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Debugging files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot-dev
+Version: 1.0+git107+e2d97a4-r0
+Depends: openmultiboot (= 1.0+git107+e2d97a4-r0)
+Recommends: libc6-dev, libfreetype-dev
+Section: devel
+Architecture: dm7080
+Maintainer: oe-alliance
+MD5Sum: d5c3d82ce36a29e3b253b01dd6fae383
+Size: 710
+Filename: openmultiboot-dev_1.0+git107+e2d97a4-r0_dm7080.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Development files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot
+Version: 1.0+git107+e2d97a4-r0
+Depends: libc6 (>= 2.30), libfreetype6 (>= 2.10.1)
+Section: base
+Architecture: dm7080
+Maintainer: oe-alliance
+MD5Sum: 1528419289de8e5cbfb0bd0e90a34ff7
+Size: 38088
+Filename: openmultiboot_1.0+git107+e2d97a4-r0_dm7080.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dccd50c6fdba5766bf98045e89120875
+Size: 710
+Filename: opkg-arch-config-dbg_1.0-r1_dm7080.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Depends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 50ad0e6e2b0508e5cbad9272cb82d67a
+Size: 740
+Filename: opkg-arch-config-dev_1.0-r1_dm7080.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 92f0e3d172ce4ab7f2fefb1e50b26451
+Size: 868
+Filename: opkg-arch-config_1.0-r1_dm7080.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa-dbg
+Version: 1.0-r83
+Recommends: alsa-state-dbg, alsa-utils-alsactl-dbg
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4f7e7de29d624d8ecb74890121543fa3
+Size: 664
+Filename: packagegroup-base-alsa-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa-dev
+Version: 1.0-r83
+Recommends: alsa-state-dev, alsa-utils-alsactl-dev
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 08788d86c87851fcb0a9c9af0d4f134c
+Size: 668
+Filename: packagegroup-base-alsa-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa
+Version: 1.0-r83
+Depends: alsa-state, alsa-utils-alsactl
+Recommends: kernel-module-snd-mixer-oss, kernel-module-snd-pcm-oss
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5efdd7fe9e588e4f598a1745e3ec3c5f
+Size: 702
+Filename: packagegroup-base-alsa_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: ALSA sound support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dbg
+Version: 1.0-r83
+Recommends: bluez5-dbg
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4d9a94cba21e8501222f03c94e8e4f79
+Size: 654
+Filename: packagegroup-base-bluetooth-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dev
+Version: 1.0-r83
+Recommends: bluez5-dev
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 57415a5654f68a1c8bed84e8dfd5aac0
+Size: 656
+Filename: packagegroup-base-bluetooth-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth
+Version: 1.0-r83
+Depends: bluez5
+Recommends: kernel-module-bluetooth, kernel-module-bnep, kernel-module-hci-uart, kernel-module-hci-vhci, kernel-module-hidp, kernel-module-l2cap, kernel-module-rfcomm, kernel-module-sco
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 229c39de89b48e7d235c8b3217cb6461
+Size: 712
+Filename: packagegroup-base-bluetooth_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Bluetooth support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dbg
+Version: 1.0-r83
+Recommends: module-init-tools-dbg, packagegroup-base-alsa-dbg, packagegroup-base-ipv6-dbg, packagegroup-base-nfs-dbg, packagegroup-base-zeroconf-dbg, packagegroup-distro-base-dbg, packagegroup-machine-base-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d8dcdfed69f1e59bfd4cdad58a75eeea
+Size: 754
+Filename: packagegroup-base-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Debugging files
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dev
+Version: 1.0-r83
+Depends: packagegroup-base (= 1.0-r83)
+Recommends: module-init-tools-dev, packagegroup-base-alsa-dev, packagegroup-base-ipv6-dev, packagegroup-base-nfs-dev, packagegroup-base-zeroconf-dev, packagegroup-distro-base-dev, packagegroup-machine-base-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 137f8b0a1eff8805d45518ee382465e9
+Size: 780
+Filename: packagegroup-base-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Development files
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended-dbg
+Version: 1.0-r83
+Recommends: packagegroup-base-bluetooth-dbg, packagegroup-base-dbg, packagegroup-base-wifi-dbg
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a0ed1703c18b8cbd1295948fad7e7e1b
+Size: 672
+Filename: packagegroup-base-extended-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended-dev
+Version: 1.0-r83
+Recommends: packagegroup-base-bluetooth-dev, packagegroup-base-dev, packagegroup-base-wifi-dev
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a669c45e87189d95b45f308b1da5208a
+Size: 670
+Filename: packagegroup-base-extended-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended
+Version: 1.0-r83
+Depends: packagegroup-base, packagegroup-base-bluetooth, packagegroup-base-wifi
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dd6fd13c3ef557ad716e47491ddea168
+Size: 658
+Filename: packagegroup-base-extended_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 65474e9f65e2a5de8f28026a268fa18b
+Size: 638
+Filename: packagegroup-base-ipv6-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6-dev
+Version: 1.0-r83
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc37141b5eee9a951a99c3860f832338
+Size: 636
+Filename: packagegroup-base-ipv6-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6
+Version: 1.0-r83
+Recommends: kernel-module-ipv6
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3ae941dbad551af921c475ef74fd888a
+Size: 664
+Filename: packagegroup-base-ipv6_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: IPv6 support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs-dbg
+Version: 1.0-r83
+Recommends: rpcbind-dbg
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0bf4f5db67db6cc1eede72a1c280dbe1
+Size: 650
+Filename: packagegroup-base-nfs-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs-dev
+Version: 1.0-r83
+Recommends: rpcbind-dev
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7efdd8e84d82742a0b61154d13b2bf5a
+Size: 652
+Filename: packagegroup-base-nfs-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs
+Version: 1.0-r83
+Depends: rpcbind
+Recommends: kernel-module-nfs
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1d4a879432571c7396d181028877923
+Size: 684
+Filename: packagegroup-base-nfs_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: NFS network filesystem support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost-dbg
+Version: 1.0-r83
+Recommends: usbutils-dbg
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3a73282de3d2ef65f45e715e58f25107
+Size: 654
+Filename: packagegroup-base-usbhost-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost-dev
+Version: 1.0-r83
+Recommends: usbutils-dev
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ed4fd2fdd2e7aa2549726cc5d8d6f52a
+Size: 656
+Filename: packagegroup-base-usbhost-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost
+Version: 1.0-r83
+Depends: usbutils
+Recommends: kernel-module-ehci-hcd, kernel-module-mousedev, kernel-module-ohci-hcd, kernel-module-scsi-mod, kernel-module-sd-mod, kernel-module-uhci-hcd, kernel-module-usb-storage, kernel-module-usbcore, kernel-module-usbhid, kernel-module-usbmouse, kernel-module-usbnet, kernel-module-usbserial
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 908d80baa58ef88a8f00d95217629de2
+Size: 736
+Filename: packagegroup-base-usbhost_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: USB host support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi-dbg
+Version: 1.0-r83
+Recommends: iw-dbg, wireless-regdb-static-dbg, wpa-supplicant-dbg
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e22c78c5c4911f8b16753b0fde835525
+Size: 682
+Filename: packagegroup-base-wifi-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi-dev
+Version: 1.0-r83
+Recommends: iw-dev, wireless-regdb-static-dev, wpa-supplicant-dev
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5073b655716f399f90cf4ccd775ce75b
+Size: 684
+Filename: packagegroup-base-wifi-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi
+Version: 1.0-r83
+Depends: iw, wireless-regdb-static, wpa-supplicant
+Recommends: kernel-module-aes, kernel-module-aes-generic, kernel-module-arc4, kernel-module-crypto_algapi, kernel-module-cryptomgr, kernel-module-ecb, kernel-module-ieee80211-crypt, kernel-module-ieee80211-crypt-ccmp, kernel-module-ieee80211-crypt-tkip, kernel-module-ieee80211-crypt-wep, kernel-module-michael-mic
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8c8dd239c95d05cdafd374fd2267b360
+Size: 760
+Filename: packagegroup-base-wifi_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: WiFi support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf-dbg
+Version: 1.0-r83
+Recommends: avahi-daemon-dbg, libnss-mdns-dbg
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 81d5827865302ccd8fa97c6d00a27e60
+Size: 674
+Filename: packagegroup-base-zeroconf-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf-dev
+Version: 1.0-r83
+Recommends: avahi-daemon-dev, libnss-mdns-dev
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 569a41537af6af48e5f5c22960a78365
+Size: 674
+Filename: packagegroup-base-zeroconf-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf
+Version: 1.0-r83
+Depends: avahi-daemon, libnss-mdns
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7de4e62b9501d3cc4dc447ed7866384
+Size: 670
+Filename: packagegroup-base-zeroconf_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Zeroconf support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base
+Version: 1.0-r83
+Depends: module-init-tools, packagegroup-base-alsa, packagegroup-base-ipv6, packagegroup-base-nfs, packagegroup-base-zeroconf, packagegroup-distro-base, packagegroup-machine-base
+Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-uinput, kernel-module-unix
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee10ba20afc93f2289814e12a28fb0ec
+Size: 736
+Filename: packagegroup-base_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dbg
+Version: 1.0-r17
+Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, dreambox-boot-progress-dbg, dreambox-dvb-modules-dm7080-dbg, eudev-dbg, gstreamer1.0-libav-dbg, gstreamer1.0-plugin-dvbmediasink-dbg, init-ifupdown-dbg, initscripts-dbg, kernel-module-hmac-dbg, kernel-module-md4-dbg, kernel-module-stv0299-dbg, libpagecache-dbg, libpassthrough-dbg, modutils-initscripts-dbg, netbase-dbg, sysvinit-dbg, update-alternatives-opkg-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dc29b4cbbe4d09c5e797d8e06fa76055
+Size: 884
+Filename: packagegroup-core-boot-dbg_1.0-r17_dm7080.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Debugging files
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dev
+Version: 1.0-r17
+Depends: packagegroup-core-boot (= 1.0-r17)
+Recommends: base-files-dev, base-passwd-dev, busybox-dev, dreambox-boot-progress-dev, dreambox-dvb-modules-dm7080-dev, eudev-dev, gstreamer1.0-libav-dev, gstreamer1.0-plugin-dvbmediasink-dev, init-ifupdown-dev, initscripts-dev, kernel-module-hmac-dev, kernel-module-md4-dev, kernel-module-stv0299-dev, libpagecache-dev, libpassthrough-dev, modutils-initscripts-dev, netbase-dev, sysvinit-dev, update-alternatives-opkg-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2ee216cc75b27410a4b183e141a056b0
+Size: 908
+Filename: packagegroup-core-boot-dev_1.0-r17_dm7080.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Development files
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: base-files, base-passwd, busybox, dreambox-boot-progress, dreambox-dvb-modules-dm7080, eudev, gstreamer1.0-libav, gstreamer1.0-plugin-dvbmediasink, init-ifupdown, initscripts, kernel-module-hmac, kernel-module-md4, kernel-module-stv0299, libpagecache, libpassthrough, modutils-initscripts, netbase, sysvinit, update-alternatives-opkg
+Recommends: busybox-syslog
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ccf080fdd744d84aaadb2460eb394c37
+Size: 824
+Filename: packagegroup-core-boot_1.0-r17_dm7080.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: abdaad86e836d65742ce67d4cdcc24ae
+Size: 638
+Filename: packagegroup-distro-base-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base-dev
+Version: 1.0-r83
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 507bfb912bad8a82b2f4880c6d243c93
+Size: 636
+Filename: packagegroup-distro-base-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base
+Version: 1.0-r83
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dbb291745c84d2f8bab01e79b293ed3f
+Size: 640
+Filename: packagegroup-distro-base_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: openpli extras
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 57c1ead9fd55a3cd7c72abef3aa3dee3
+Size: 638
+Filename: packagegroup-machine-base-dbg_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base-dev
+Version: 1.0-r83
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1e86ef77c07c0dd10282e1e39db62d38
+Size: 638
+Filename: packagegroup-machine-base-dev_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base
+Version: 1.0-r83
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a21b41c330963213d0516f8d240fa8e8
+Size: 664
+Filename: packagegroup-machine-base_1.0-r83_dm7080.ipk
+Source: packagegroup-base.bb
+Description: Extra packages required to fully support dm7080 hardware
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: recovery-autoflashd
+Version: 1.1+git152+fbd0c5f-r0
+Depends: libc6 (>= 2.30), libudev1 (>= 3.2.8)
+Recommends: update-rc.d
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 20b5e85f7012e2b608319d2a8c78fb38
+Size: 4840
+Filename: recovery-autoflashd_1.1+git152+fbd0c5f-r0_dm7080.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-dbg
+Version: 1.1+git152+fbd0c5f-r0
+Recommends: libc6-dbg, libudev-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 41ec5e3be770afbbd060f2cb573c0adb
+Size: 34020
+Filename: recovery-dbg_1.1+git152+fbd0c5f-r0_dm7080.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox - Debugging files
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-dev
+Version: 1.1+git152+fbd0c5f-r0
+Depends: recovery (= 1.1+git152+fbd0c5f-r0)
+Recommends: coreutils-realpath-dev, e2fsprogs-mke2fs-dev, fastboot-dev, flash-scripts-dev, gpgv-dev, gptfdisk-dev, initscripts-dev, libc6-dev, libudev-dev, mkbootblob-dev, pigz-dev, recovery-autoflashd-dev, udev-dev, update-rc.d-dev, util-linux-blkid-dev, util-linux-mount-dev, util-linux-sfdisk-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fbdb30856f9c5c21056ee75f32558de4
+Size: 884
+Filename: recovery-dev_1.1+git152+fbd0c5f-r0_dm7080.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox - Development files
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-fbscaled
+Version: 1.1+git152+fbd0c5f-r0
+Recommends: update-rc.d
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 618d3cf25db31b6248f929b0c54cdb73
+Size: 1944
+Filename: recovery-fbscaled_1.1+git152+fbd0c5f-r0_dm7080.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery
+Version: 1.1+git152+fbd0c5f-r0
+Depends: e2fsprogs-mke2fs, flash-scripts, gpgv, gptfdisk, pigz, recovery-autoflashd, util-linux-blkid, util-linux-mount
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a274f4dbba3fb6c7e2846aff892e865b
+Size: 21020
+Filename: recovery_1.1+git152+fbd0c5f-r0_dm7080.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: satipclient-dbg
+Version: 1.0+git74+6d342c0-r0
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0dcdadc9d26e798f3d4633fd59ff47e3
+Size: 200090
+Filename: satipclient-dbg_1.0+git74+6d342c0-r0_dm7080.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Debugging files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient-dev
+Version: 1.0+git74+6d342c0-r0
+Depends: satipclient (= 1.0+git74+6d342c0-r0)
+Recommends: initscripts-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, update-rc.d-dev
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8babd9a64de407bdb59ee5737d0cf324
+Size: 752
+Filename: satipclient-dev_1.0+git74+6d342c0-r0_dm7080.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Development files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient
+Version: 1.0+git74+6d342c0-r0
+Depends: libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0)
+Recommends: update-rc.d
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7ade2ece82f1b3cdb9820783fa1bf830
+Size: 25814
+Filename: satipclient_1.0+git74+6d342c0-r0_dm7080.ipk
+Source: satipclient.bb
+Description: satip client using vtuner
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: shadow-securetty-dbg
+Version: 4.6-r3
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 589b36be905cbf6deecedabdd3f46258
+Size: 690
+Filename: shadow-securetty-dbg_4.6-r3_dm7080.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Debugging files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dev
+Version: 4.6-r3
+Depends: shadow-securetty (= 4.6-r3)
+Section: devel
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 616b88e82f646d58fd2f1525046df743
+Size: 718
+Filename: shadow-securetty-dev_4.6-r3_dm7080.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Development files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty
+Version: 4.6-r3
+Section: base utils
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2ccc21eac10a2d9579c885cef964139a
+Size: 1366
+Filename: shadow-securetty_4.6-r3_dm7080.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
