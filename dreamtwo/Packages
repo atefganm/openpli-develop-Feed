@@ -1,0 +1,3366 @@
+Package: 3rd-party-feed-configs-dbg
+Version: 1.1-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 57cf44e3723fee954170b39a8c95d10c
+Size: 686
+Filename: 3rd-party-feed-configs-dbg_1.1-r0_dreamtwo.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0 - Debugging files
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: 3rd-party-feed-configs-dev
+Version: 1.1-r0
+Depends: 3rd-party-feed-configs (= 1.1-r0)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 09ce187b281520b1dc3a1d651e0e9756
+Size: 714
+Filename: 3rd-party-feed-configs-dev_1.1-r0_dreamtwo.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0 - Development files
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: 3rd-party-feed-configs
+Version: 1.1-r0
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b009743bd9646d62d89b8a2fcc6fea76
+Size: 940
+Filename: 3rd-party-feed-configs_1.1-r0_dreamtwo.ipk
+Source: 3rd-party-feed-configs.bb
+Description: 3rd-party-feed-configs version 1.1-r0
+OE: 3rd-party-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: android-tools-conf-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 72fe0011abf649ce5364c039492f86ad
+Size: 706
+Filename: android-tools-conf-dbg_1.0-r0_dreamtwo.ipk
+Source: android-tools-conf_1.0.bb
+Description: android-tools-conf version 1.0-r0 - Debugging files
+OE: android-tools-conf
+License: MIT
+Priority: optional
+
+Package: android-tools-conf-dev
+Version: 1.0-r0
+Depends: android-tools-conf (= 1.0-r0)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b251780eb197baf70600b8bc72fb97d2
+Size: 736
+Filename: android-tools-conf-dev_1.0-r0_dreamtwo.ipk
+Source: android-tools-conf_1.0.bb
+Description: android-tools-conf version 1.0-r0 - Development files
+OE: android-tools-conf
+License: MIT
+Priority: optional
+
+Package: android-tools-conf
+Version: 1.0-r0
+Section: console/utils
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d8ba984ff08b6744e6d1d04551554d7c
+Size: 1406
+Filename: android-tools-conf_1.0-r0_dreamtwo.ipk
+Source: android-tools-conf_1.0.bb
+Description: android-tools-conf version 1.0-r0
+OE: android-tools-conf
+License: MIT
+Priority: optional
+
+Package: base-files-dbg
+Version: 3.0.14-r89
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 334a184058b639e5e8b131a6340081c9
+Size: 746
+Filename: base-files-dbg_3.0.14-r89_dreamtwo.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89
+Depends: base-files (= 3.0.14-r89)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5f1897a9cde7310fd0a4e1a1b1cf7e83
+Size: 776
+Filename: base-files-dev_3.0.14-r89_dreamtwo.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r89
+Section: doc
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9609f22dba7b4e313161e5303cb849ad
+Size: 856
+Filename: base-files-doc_3.0.14-r89_dreamtwo.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78469a91aa6f9310906de47d20a033aa
+Size: 3204
+Filename: base-files_3.0.14-r89_dreamtwo.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: bcmdhd-dbg
+Version: 1.363.59.144.x.cn-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ca1c539365d852b44f0eece40801d2a3
+Size: 686
+Filename: bcmdhd-dbg_1.363.59.144.x.cn-r0_dreamtwo.ipk
+Source: bcmdhd_1.363.59.144.x.cn.bb
+Description: Broadcom DHD driver - Debugging files
+OE: bcmdhd
+License: GPLv2+
+Priority: optional
+
+Package: bcmdhd-dev
+Version: 1.363.59.144.x.cn-r0
+Depends: bcmdhd (= 1.363.59.144.x.cn-r0)
+Recommends: bcmdhd-firmware-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5e14f60e833d802279e2f704a4526fc2
+Size: 732
+Filename: bcmdhd-dev_1.363.59.144.x.cn-r0_dreamtwo.ipk
+Source: bcmdhd_1.363.59.144.x.cn.bb
+Description: Broadcom DHD driver - Development files
+OE: bcmdhd
+License: GPLv2+
+Priority: optional
+
+Package: bcmdhd
+Version: 1.363.59.144.x.cn-r0
+Depends: bcmdhd-firmware
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f4541cdd0562a0773c4e83178914314
+Size: 352808
+Filename: bcmdhd_1.363.59.144.x.cn-r0_dreamtwo.ipk
+Source: bcmdhd_1.363.59.144.x.cn.bb
+Description: Broadcom DHD driver
+OE: bcmdhd
+License: GPLv2+
+Priority: optional
+
+Package: distro-feed-configs-dbg
+Version: 1.0-r6
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 58ed0e5498e302a77de9bb613e48d15a
+Size: 694
+Filename: distro-feed-configs-dbg_1.0-r6_dreamtwo.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Debugging files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs-dev
+Version: 1.0-r6
+Depends: distro-feed-configs (= 1.0-r6)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b95a338492657d1486f61ec70e9c9ce6
+Size: 724
+Filename: distro-feed-configs-dev_1.0-r6_dreamtwo.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Development files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs
+Version: 1.0-r6
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d61263e0dc18e2be8b55a4d57cd48c49
+Size: 924
+Filename: distro-feed-configs_1.0-r6_dreamtwo.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: dreambox-dvb-modules-dreamtwo-dbg
+Version: 4.9-20210518r0-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d8a06c0bcff1a3daeffc3f02ae650234
+Size: 700
+Filename: dreambox-dvb-modules-dreamtwo-dbg_4.9-20210518r0-r0_dreamtwo.ipk
+Source: dreambox-dvb-modules-dreamtwo_4.9-20210518r0.bb
+Description: Hardware drivers for Dreambox - Debugging files
+OE: dreambox-dvb-modules-dreamtwo
+License: Proprietary
+Priority: required
+
+Package: dreambox-dvb-modules-dreamtwo-dev
+Version: 4.9-20210518r0-r0
+Depends: dreambox-dvb-modules-dreamtwo (= 4.9-20210518r0-r0)
+Recommends: dreambox-dvb-modules-dreamtwo-firmware-dev, dreambox-dvb-modules-systemd-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 581089de47ce128e9765d1fd77cf2b3a
+Size: 754
+Filename: dreambox-dvb-modules-dreamtwo-dev_4.9-20210518r0-r0_dreamtwo.ipk
+Source: dreambox-dvb-modules-dreamtwo_4.9-20210518r0.bb
+Description: Hardware drivers for Dreambox - Development files
+OE: dreambox-dvb-modules-dreamtwo
+License: Proprietary
+Priority: required
+
+Package: dreambox-dvb-modules-dreamtwo-firmware
+Version: 4.9-20210518r0-r0
+Depends: dreambox-dvb-modules-dreamtwo-firmware
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a558a7562ecbf044c80ebe272e10b918
+Size: 103642
+Filename: dreambox-dvb-modules-dreamtwo-firmware_4.9-20210518r0-r0_dreamtwo.ipk
+Source: dreambox-dvb-modules-dreamtwo_4.9-20210518r0.bb
+Description: Hardware drivers for Dreambox
+OE: dreambox-dvb-modules-dreamtwo
+License: Proprietary
+Priority: required
+
+Package: dreambox-dvb-modules-dreamtwo
+Version: 4.9-20210518r0-r0
+Depends: dreambox-dvb-modules-dreamtwo-firmware, dreambox-dvb-modules-systemd
+Provides: dreamframeinject
+Replaces: dreamframeinject
+Conflicts: dreamframeinject
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1452e5331ad38ae4e8e0bafe88f37ba
+Size: 962548
+Filename: dreambox-dvb-modules-dreamtwo_4.9-20210518r0-r0_dreamtwo.ipk
+Source: dreambox-dvb-modules-dreamtwo_4.9-20210518r0.bb
+Description: Hardware drivers for Dreambox
+OE: dreambox-dvb-modules-dreamtwo
+License: Proprietary
+Priority: required
+
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge-950q
+Version: 1.0-r0
+Recommends: firmware-xc5000c, kernel-module-au0828, kernel-module-au8522, kernel-module-au8522-common, kernel-module-au8522-dig, kernel-module-tveeprom, kernel-module-xc5000
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5f0d8fd13faadcd455eb8560fb6bdfda
+Size: 726
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge-950q_1.0-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge-950q.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge-950q version 1.0-r0
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge-950q
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge-955q
+Version: 1.0-r0
+Recommends: firmware-cx231xx, kernel-module-cx231xx, kernel-module-cx231xx-dvb, kernel-module-cx25840, kernel-module-lgdt3306a, kernel-module-si2157, kernel-module-tveeprom
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 331c2a55d50b7731cbc2cfe0b2c12e94
+Size: 724
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge-955q_1.0-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge-955q.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge-955q version 1.0-r0
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge-955q
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge
+Version: 1.1-r0
+Recommends: firmware-xc5000, kernel-module-au0828, kernel-module-au8522, kernel-module-au8522-common, kernel-module-au8522-decoder, kernel-module-au8522-dig, kernel-module-cx231xx, kernel-module-cx231xx-alsa, kernel-module-cx231xx-dvb, kernel-module-cx2341x, kernel-module-em28xx, kernel-module-lgdt3305, kernel-module-tda18271, kernel-module-tda18271c2dd, kernel-module-tveeprom, kernel-module-xc5000
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4013b4a811fca4f66bde36aab00e8ed7
+Size: 768
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge version 1.1-r0
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-si2168-b40, kernel-module-em28xx, kernel-module-em28xx-dvb, kernel-module-em28xx-rc, kernel-module-si2157, kernel-module-si2168
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ae82a41d7262d0c6f3f361de12b24c19
+Size: 706
+Filename: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e_1.0-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e.bb
+Description: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e version 1.0-r0
+OE: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-ct2-usb-dvbsky-t330
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-si2168-b40, kernel-module-dvb-usb-dvbsky, kernel-module-si2157, kernel-module-si2168
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6072bf936a76421cc962dfadcf54792d
+Size: 690
+Filename: enigma2-plugin-drivers-ct2-usb-dvbsky-t330_1.0-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-ct2-usb-dvbsky-t330.bb
+Description: enigma2-plugin-drivers-ct2-usb-dvbsky-t330 version 1.0-r0
+OE: enigma2-plugin-drivers-ct2-usb-dvbsky-t330
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-ct2-usb-geniatech-t230
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-si2168-b40, firmware-dvb-tuner-si2158-a20, kernel-module-dvb-usb-cxusb, kernel-module-si2157, kernel-module-si2168
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a926a5911274ac948237f4cbbfeb1fb7
+Size: 708
+Filename: enigma2-plugin-drivers-ct2-usb-geniatech-t230_1.0-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-ct2-usb-geniatech-t230.bb
+Description: enigma2-plugin-drivers-ct2-usb-geniatech-t230 version 1.0-r0
+OE: enigma2-plugin-drivers-ct2-usb-geniatech-t230
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-af9015
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-af9013, firmware-dvb-usb-af9015, kernel-module-af9013, kernel-module-dvb-pll, kernel-module-dvb-usb, kernel-module-dvb-usb-af9015, kernel-module-mc44s803, kernel-module-mt2060, kernel-module-mxl5005s, kernel-module-mxl5007t, kernel-module-qt1010, kernel-module-stv0299, kernel-module-tda18218, kernel-module-tda18271
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 519ca692833aeee97aabb545ec7e83dc
+Size: 746
+Filename: enigma2-plugin-drivers-dvb-usb-af9015_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-af9015.bb
+Description: enigma2-plugin-drivers-dvb-usb-af9015 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-af9015
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-af9035
+Version: 1.3-r0
+Recommends: firmware-dvb-usb-af9035-01, firmware-dvb-usb-af9035-02, firmware-dvb-usb-it913x, kernel-module-af9033, kernel-module-dvb-usb-af9035, kernel-module-it913x, kernel-module-mxl5007t, kernel-module-tda18218, kernel-module-tua9001
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 85b07e9f7542bab352064b56c3dc3d45
+Size: 714
+Filename: enigma2-plugin-drivers-dvb-usb-af9035_1.3-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-af9035.bb
+Description: enigma2-plugin-drivers-dvb-usb-af9035 version 1.3-r0
+OE: enigma2-plugin-drivers-dvb-usb-af9035
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-as102
+Version: 1.1-r0
+Recommends: firmware-as102-data1-st, firmware-as102-data2-st, kernel-module-as102-fe, kernel-module-dvb-as102
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 282cfd02b30a586d8e803b21a6ca38fc
+Size: 684
+Filename: enigma2-plugin-drivers-dvb-usb-as102_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-as102.bb
+Description: enigma2-plugin-drivers-dvb-usb-as102 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-as102
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dib0700
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-dib0700-1.20, firmware-dvb-usb-dibusb-5.0.0.11, firmware-dvb-usb-dibusb-6.0.0.8, firmware-dvb-usb-dibusb-an2235-01, firmware-xc3028-v27, firmware-xc3028l-v36, kernel-module-dib0070, kernel-module-dib0090, kernel-module-dib3000mb, kernel-module-dib3000mc, kernel-module-dib7000m, kernel-module-dib7000p, kernel-module-dib8000, kernel-module-dibx000-common, kernel-module-dvb-usb, kernel-module-dvb-usb-dib0700, kernel-module-dvb-usb-dibusb-common, kernel-module-dvb-usb-dibusb-mc, kernel-module-fc0013, kernel-module-mt2060, kernel-module-mt2266, kernel-module-tuner-xc2028
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 90e5d250217f92824daebe8df5e03cee
+Size: 794
+Filename: enigma2-plugin-drivers-dvb-usb-dib0700_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dib0700.bb
+Description: enigma2-plugin-drivers-dvb-usb-dib0700 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-dib0700
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dtt200u
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-dtt200u-01, firmware-dvb-usb-wt220u-02, firmware-dvb-usb-wt220u-fc03, firmware-dvb-usb-wt220u-miglia-01, firmware-dvb-usb-wt220u-zl0353-01, kernel-module-dvb-usb-dtt200u
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 845e25bda45ad9458e70303010eaf942
+Size: 698
+Filename: enigma2-plugin-drivers-dvb-usb-dtt200u_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dtt200u.bb
+Description: enigma2-plugin-drivers-dvb-usb-dtt200u version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-dtt200u
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dw2102
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-ds3000, firmware-dvb-usb-s660, kernel-module-dvb-usb-dw2102, kernel-module-stb6100, kernel-module-stv090x
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9f92909cac674e4acc9bfff2007a034c
+Size: 702
+Filename: enigma2-plugin-drivers-dvb-usb-dw2102_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dw2102.bb
+Description: enigma2-plugin-drivers-dvb-usb-dw2102 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-dw2102
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-em28xx
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-tda10071, kernel-module-cxd2820r, kernel-module-em28xx-dvb, kernel-module-tda10071
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be5b7ab3564962690ea55da53fe1b6f9
+Size: 692
+Filename: enigma2-plugin-drivers-dvb-usb-em28xx_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-em28xx.bb
+Description: enigma2-plugin-drivers-dvb-usb-em28xx version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-em28xx
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-it913x
+Version: 1.2-r0
+Recommends: firmware-dvb-usb-af9035-01, firmware-dvb-usb-af9035-02, firmware-dvb-usb-it913x, kernel-module-af9033, kernel-module-dvb-usb-af9035, kernel-module-dvb-usb-it913x, kernel-module-it913x, kernel-module-it913x-fe
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0309f7aaa742882835bde8f038ca41ae
+Size: 700
+Filename: enigma2-plugin-drivers-dvb-usb-it913x_1.2-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-it913x.bb
+Description: enigma2-plugin-drivers-dvb-usb-it913x version 1.2-r0
+OE: enigma2-plugin-drivers-dvb-usb-it913x
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-pctv452e
+Version: 1.1-r0
+Recommends: kernel-module-dvb-usb-pctv452e
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d52d2fab19dc49b6e08b964354a618f2
+Size: 660
+Filename: enigma2-plugin-drivers-dvb-usb-pctv452e_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-pctv452e.bb
+Description: enigma2-plugin-drivers-dvb-usb-pctv452e version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-pctv452e
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-rtl2832
+Version: 1.1-r0
+Recommends: firmware-dvb-demod-mn88473-01, firmware-dvb-usb-af9015, firmware-dvb-usb-af9035-01, firmware-dvb-usb-af9035-02, kernel-module-dvb-usb-rtl2832, kernel-module-dvb-usb-rtl28xxu, kernel-module-e4000, kernel-module-fc0012, kernel-module-fc0013, kernel-module-mt2266, kernel-module-r820t, kernel-module-rtl2832
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5697c5646358a8e7e622e8f264474cd2
+Size: 740
+Filename: enigma2-plugin-drivers-dvb-usb-rtl2832_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-rtl2832.bb
+Description: USB DVB driver for Realtek RTL2832 chipset
+OE: enigma2-plugin-drivers-dvb-usb-rtl2832
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-siano
+Version: 1.1-r0
+Recommends: firmware-dvb-nova-12mhz-b0, firmware-dvb-siano, firmware-isdbt-nova-12mhz-b0, kernel-module-smsdvb, kernel-module-smsmdtv, kernel-module-smsusb
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 053b5af6d97103d81106e6a860d92bbb
+Size: 698
+Filename: enigma2-plugin-drivers-dvb-usb-siano_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-siano.bb
+Description: enigma2-plugin-drivers-dvb-usb-siano version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-siano
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-tbs
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-tbs5925, firmware-dvb-usb-tbs5980, kernel-module-cx24116, kernel-module-dvb-usb-tbsusb, kernel-module-stb6000, kernel-module-stb6100, kernel-module-stv0288, kernel-module-stv0299, kernel-module-stv090x, kernel-module-tda10071
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 74a7b1afa0787338145562eb99dc0f6c
+Size: 716
+Filename: enigma2-plugin-drivers-dvb-usb-tbs_1.1-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-tbs.bb
+Description: enigma2-plugin-drivers-dvb-usb-tbs version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-tbs
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-technisat-skystar
+Version: 1.0-r0
+Recommends: blindscan-s2, firmware-dvb-usb-technisat-skystar, kernel-module-dvb-usb-technisat-usb2, kernel-module-stv090x, kernel-module-stv6110x
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1c79ebd634edd481c8877706eeb24870
+Size: 704
+Filename: enigma2-plugin-drivers-dvb-usb-technisat-skystar_1.0-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-dvb-usb-technisat-skystar.bb
+Description: enigma2-plugin-drivers-dvb-usb-technisat-skystar version 1.0-r0
+OE: enigma2-plugin-drivers-dvb-usb-technisat-skystar
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-s2-usb-dvbsky-s960
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-m88ds3103, kernel-module-dvb-usb-dvbsky, kernel-module-ts2020
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aae42a35e0cdcc275476a63fc2489638
+Size: 686
+Filename: enigma2-plugin-drivers-s2-usb-dvbsky-s960_1.0-r0_dreamtwo.ipk
+Source: enigma2-plugin-drivers-s2-usb-dvbsky-s960.bb
+Description: enigma2-plugin-drivers-s2-usb-dvbsky-s960 version 1.0-r0
+OE: enigma2-plugin-drivers-s2-usb-dvbsky-s960
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dbg
+Version: 1+git3931+9d71760-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 21fcb17391b51f22986ab712c728cde5
+Size: 730
+Filename: enigma2-plugin-extensions-openwebif-dbg_1+git3931+9d71760-r0_dreamtwo.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+9d7176018c-r0 - Debugging files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dev
+Version: 1+git3931+9d71760-r0
+Depends: enigma2-plugin-extensions-openwebif (= 1+git3931+9d71760-r0)
+Recommends: aio-grab-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pyopenssl-dev, python-shell-dev, python-unixadmin-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 892b63e3652d5ce9ce17efdff712ecf6
+Size: 844
+Filename: enigma2-plugin-extensions-openwebif-dev_1+git3931+9d71760-r0_dreamtwo.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+9d7176018c-r0 - Development files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-src
+Version: 1+git3931+9d71760-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 53f95f970601c0629fdccbd269d1d07d
+Size: 235038
+Filename: enigma2-plugin-extensions-openwebif-src_1+git3931+9d71760-r0_dreamtwo.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+9d7176018c-r0 - Source files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-vxg
+Version: 1+git3931+9d71760-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 61fa9345e3e299e624bbc82156b5f174
+Size: 1232336
+Filename: enigma2-plugin-extensions-openwebif-vxg_1+git3931+9d71760-r0_dreamtwo.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+9d7176018c-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif
+Version: 1+git3931+9d71760-r0
+Depends: aio-grab, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pyopenssl, python-shell, python-unixadmin
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8288542fd382b32b59a160a831ff91ac
+Size: 1679790
+Filename: enigma2-plugin-extensions-openwebif_1+git3931+9d71760-r0_dreamtwo.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+9d7176018c-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dbg
+Version: 2.0+git6+0b2e06b-r1
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3bef4b570f186b9eecc623a57f5d4ea7
+Size: 718
+Filename: enigma2-plugin-extensions-screenposition-dbg_2.0+git6+0b2e06b-r1_dreamtwo.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Debugging files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dev
+Version: 2.0+git6+0b2e06b-r1
+Depends: enigma2-plugin-extensions-screenposition (= 2.0+git6+0b2e06b-r1)
+Recommends: python-core-dev, python-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 448a6f497f3857848196c1d56ea778d7
+Size: 770
+Filename: enigma2-plugin-extensions-screenposition-dev_2.0+git6+0b2e06b-r1_dreamtwo.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Development files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-src
+Version: 2.0+git6+0b2e06b-r1
+Depends: enigma2-plugin-extensions-screenposition
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f32423667d7e4b5b60b926de96f47e2b
+Size: 2270
+Filename: enigma2-plugin-extensions-screenposition-src_2.0+git6+0b2e06b-r1_dreamtwo.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Source files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition
+Version: 2.0+git6+0b2e06b-r1
+Depends: python-core
+Replaces: enigma2-plugin-pli-screenposition
+Conflicts: enigma2-plugin-pli-screenposition
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: eea3b9930944e014f9e76ca2403944d4
+Size: 3030
+Filename: enigma2-plugin-extensions-screenposition_2.0+git6+0b2e06b-r1_dreamtwo.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dbg
+Version: 0.2+git12+abdfb2b-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f5235474d8c1c2ce9a74a65bc7cc4940
+Size: 736
+Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git12+abdfb2b-r0_dreamtwo.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Debugging files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dev
+Version: 0.2+git12+abdfb2b-r0
+Depends: enigma2-plugin-extensions-shootyourscreen (= 0.2+git12+abdfb2b-r0)
+Recommends: aio-grab-dev, python-core-dev, python-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dc2de934fd7c64771abfd96c7a5f4822
+Size: 792
+Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git12+abdfb2b-r0_dreamtwo.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Development files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-src
+Version: 0.2+git12+abdfb2b-r0
+Depends: enigma2-plugin-extensions-shootyourscreen
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 98c0693dd97d9fcfec46ba5ec7d96bcd
+Size: 4268
+Filename: enigma2-plugin-extensions-shootyourscreen-src_0.2+git12+abdfb2b-r0_dreamtwo.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Source files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen
+Version: 0.2+git12+abdfb2b-r0
+Depends: aio-grab, python-core
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7a668a7b09d591903c1e79e709a5c3bc
+Size: 9316
+Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git12+abdfb2b-r0_dreamtwo.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dbg
+Version: 0.6+git40+c9150af-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 086a927f2a53fcb3c3fa713b58bd063f
+Size: 726
+Filename: enigma2-plugin-systemplugins-autoshutdown-dbg_0.6+git40+c9150af-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dev
+Version: 0.6+git40+c9150af-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown (= 0.6+git40+c9150af-r0)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7dc734213f6b6830332ec8fa74e76102
+Size: 756
+Filename: enigma2-plugin-systemplugins-autoshutdown-dev_0.6+git40+c9150af-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Development files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-src
+Version: 0.6+git40+c9150af-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e6cddfbbb46bcee707827fe9c65f9d5c
+Size: 6044
+Filename: enigma2-plugin-systemplugins-autoshutdown-src_0.6+git40+c9150af-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Source files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown
+Version: 0.6+git40+c9150af-r0
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3d59041421bf701aecfc9da54c50e42d
+Size: 21118
+Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git40+c9150af-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dbg
+Version: 1+git163+1559e94-r0
+Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, uchardet-dbg
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5c94becfdf509bd64c047ff914e4ac32
+Size: 964368
+Filename: enigma2-plugin-systemplugins-serviceapp-dbg_1+git163+1559e94-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dev
+Version: 1+git163+1559e94-r0
+Depends: enigma2-plugin-systemplugins-serviceapp (= 1+git163+1559e94-r0)
+Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, libstdc++-dev, openssl-dev, python-json-dev, uchardet-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 11bc72578ab33fe1b3fdecb5d9105a85
+Size: 5676
+Filename: enigma2-plugin-systemplugins-serviceapp-dev_1+git163+1559e94-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0 - Development files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp
+Version: 1+git163+1559e94-r0
+Depends: enigma2, libc6 (>= 2.30), libcrypto1.1 (>= 1.1.1g), libgcc1 (>= 9.2.0), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 9.2.0), openssl, python-json, uchardet (>= 0.0.7+git266+c8a3572)
+Recommends: exteplayer3, gstplayer
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f60f47048b034b87e657f3d1e06e893
+Size: 84588
+Filename: enigma2-plugin-systemplugins-serviceapp_1+git163+1559e94-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+1559e949a3-r0
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3-dbg
+Version: git31+a84cd6e-r0
+Recommends: gstreamer1.0-dbg, libc6-dbg, libgcc-s-dbg, libglib-2.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgsttag-1.0-dbg, libgstvideo-1.0-dbg, libstdc++-dbg
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e974d3cb2390dc558ef497914c779700
+Size: 393814
+Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git31+a84cd6e-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3-dev
+Version: git31+a84cd6e-r0
+Depends: enigma2-plugin-systemplugins-servicemp3 (= git31+a84cd6e-r0)
+Recommends: enigma2-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libgcc-s-dev, libglib-2.0-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgsttag-1.0-dev, libgstvideo-1.0-dev, libstdc++-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 40d636b530181b8146665f21d422e9e5
+Size: 1154
+Filename: enigma2-plugin-systemplugins-servicemp3-dev_git31+a84cd6e-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0 - Development files
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-servicemp3
+Version: git31+a84cd6e-r0
+Depends: enigma2, gstreamer1.0 (>= 1.18.1+git19029+29a8099), libc6 (>= 2.30), libgcc1 (>= 9.2.0), libglib-2.0-0 (>= 2.60.7), libgstaudio-1.0-0 (>= 1.18.1+git20522+4013b80), libgstpbutils-1.0-0 (>= 1.18.1+git20522+4013b80), libgsttag-1.0-0 (>= 1.18.1+git20522+4013b80), libgstvideo-1.0-0 (>= 1.18.1+git20522+4013b80), libstdc++6 (>= 9.2.0)
+Provides: virtual/enigma2-mediaservice
+Recommends: glib-networking, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mms, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-mpg123, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, virtual/gstreamer1.0-dvbmediasink
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 203f44f7499902a588154706cdff26b5
+Size: 38872
+Filename: enigma2-plugin-systemplugins-servicemp3_git31+a84cd6e-r0_dreamtwo.ipk
+Source: enigma2-plugin-systemplugins-servicemp3.bb
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+a84cd6edc5-r0
+OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: flash-scripts
+Version: 1.1+git162+81ff8d4-r0
+Depends: android-tools, coreutils-realpath, libc6 (>= 2.30), u-boot-mkimage, util-linux-sfdisk
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9584dc829cd743908094ac5ff0d97b1c
+Size: 24246
+Filename: flash-scripts_1.1+git162+81ff8d4-r0_dreamtwo.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-dbg
+Version: 1.0+git95+1d19731-r0
+Recommends: gstreamer1.0-dbg, libc6-dbg, libdca-dbg, libglib-2.0-dbg
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 64b7544038dd512504190698db46a2b3
+Size: 96878
+Filename: gstreamer1.0-plugin-dvbmediasink-dbg_1.0+git95+1d19731-r0_dreamtwo.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Debugging files
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-dev
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0-plugin-dvbmediasink (= 1.0+git95+1d19731-r0)
+Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libdca-dev, libglib-2.0-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2f3991b20244f3e26b486e560fa6bb02
+Size: 774
+Filename: gstreamer1.0-plugin-dvbmediasink-dev_1.0+git95+1d19731-r0_dreamtwo.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Development files
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink-staticdev
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0-plugin-dvbmediasink-dev (= 1.0+git95+1d19731-r0)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7ce541916cfa6b93c3485442922787f6
+Size: 134272
+Filename: gstreamer1.0-plugin-dvbmediasink-staticdev_1.0+git95+1d19731-r0_dreamtwo.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0 - Development files (Static Libraries)
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: gstreamer1.0-plugin-dvbmediasink
+Version: 1.0+git95+1d19731-r0
+Depends: gstreamer1.0 (>= 1.18.1+git19029+29a8099), libc6 (>= 2.30), libdca (>= 0.0.6), libglib-2.0-0 (>= 2.60.7)
+Provides: gst-plugin-dvbmediasink, virtual/gstreamer1.0-dvbmediasink
+Replaces: gst-plugin-dvbmediasink
+Conflicts: gst-plugin-dvbmediasink
+Section: multimedia
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d0de388d5521cb67f53cf2063fa3f93
+Size: 26812
+Filename: gstreamer1.0-plugin-dvbmediasink_1.0+git95+1d19731-r0_dreamtwo.ipk
+Source: gstreamer1.0-plugin-dvbmediasink.bb
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+1d19731383-r0
+OE: gstreamer1.0-plugin-dvbmediasink
+License: GPLv2
+Priority: optional
+
+Package: kernel-base
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-image
+Provides: kernel-base-4.9
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 54db82c5bd73334bf43df4d658c9a9b8
+Size: 5350
+Filename: kernel-base_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: linux-dmamlogic version 4.9.113-643173-gbc82830-
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-dev
+Version: 1:4.9.113-643173-gbc82830-
+Recommends: kernel-4.9-dev, kernel-base-dev, kernel-devicetree-dev, kernel-image-image.gz-dev, kernel-module-ath-4.9-dev, kernel-module-ath10k-core-4.9-dev, kernel-module-ath10k-pci-4.9-dev, kernel-module-autofs4-4.9-dev, kernel-module-block2mtd-4.9-dev, kernel-module-bluetooth-4.9-dev, kernel-module-bnep-4.9-dev, kernel-module-br-netfilter-4.9-dev, kernel-module-bsd-comp-4.9-dev, kernel-module-cifs-4.9-dev, kernel-module-cmac-4.9-dev, kernel-module-cramfs-4.9-dev, kernel-module-crc-ccitt-4.9-dev, kernel-module-crc-itu-t-4.9-dev, kernel-module-ddr-window-4.9-dev, kernel-module-efivarfs-4.9-dev, kernel-module-ext2-4.9-dev, kernel-module-fuse-4.9-dev, kernel-module-hci-uart-4.9-dev, kernel-module-hid-a4tech-4.9-dev, kernel-module-hid-belkin-4.9-dev, kernel-module-hid-ezkey-4.9-dev, kernel-module-hid-logitech-4.9-dev, kernel-module-hid-logitech-dj-4.9-dev, kernel-module-hid-logitech-hidpp-4.9-dev, kernel-module-hid-microsoft-4.9-dev, kernel-module-hidp-4.9-dev, kernel-module-isofs-4.9-dev, kernel-module-jffs2-4.9-dev, kernel-module-joydev-4.9-dev, kernel-module-l2tp-ppp-4.9-dev, kernel-module-lcd-4.9-dev, kernel-module-md4-4.9-dev, kernel-module-mousedev-4.9-dev, kernel-module-msdos-4.9-dev, kernel-module-nandsim-4.9-dev, kernel-module-nfsd-4.9-dev, kernel-module-nls-cp437-4.9-dev, kernel-module-nls-cp850-4.9-dev, kernel-module-ntfs-4.9-dev, kernel-module-pktcdvd-4.9-dev, kernel-module-ppp-async-4.9-dev, kernel-module-ppp-deflate-4.9-dev, kernel-module-ppp-generic-4.9-dev, kernel-module-ppp-mppe-4.9-dev, kernel-module-pppoe-4.9-dev, kernel-module-pppolac-4.9-dev, kernel-module-pppopns-4.9-dev, kernel-module-pppox-4.9-dev, kernel-module-rfcomm-4.9-dev, kernel-module-slhc-4.9-dev, kernel-module-squashfs-4.9-dev, kernel-module-tun-4.9-dev, kernel-module-udf-4.9-dev, kernel-module-veth-4.9-dev, kernel-module-vxlan-4.9-dev, kernel-module-xfs-4.9-dev, kernel-module-xt-addrtype-4.9-dev, kernel-module-xt-multiport-4.9-dev, libgcc-s-dev, linux-firmware-dev
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce9ac71471680f78555c3326e5de78b2
+Size: 843890
+Filename: kernel-dev_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: linux-dmamlogic version 4.9.113-643173-gbc82830-
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-devicetree
+Version: 1:4.9.113-643173-gbc82830-
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 06d83b194f5e5d8dc3f9cab0efa22faf
+Size: 16648
+Filename: kernel-devicetree_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: linux-dmamlogic version 4.9.113-643173-gbc82830-
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-headers
+Version: 1:4.9.113-643173-gbc82830-
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db1aabd8dcc59b96fdafb42c7acfa3aa
+Size: 822792
+Filename: kernel-headers_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: linux-dmamlogic version 4.9.113-643173-gbc82830-
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-image
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-devicetree
+Provides: kernel-image-4.9, kernel-image-image.gz, kernel-image-image.gz-4.9
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf94cdda36e68cec1e173afbefb3fb5d
+Size: 10165266
+Filename: kernel-image_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: linux-dmamlogic version 4.9.113-643173-gbc82830-
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ath-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-ath
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2f816f2e8fcc458ffc325efd4a4882c9
+Size: 11902
+Filename: kernel-module-ath-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ath kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ath10k-core-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ath-4.9
+Provides: kernel-module-ath10k-core
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1b80fa8abb60147062ea590effa5ac4
+Size: 101012
+Filename: kernel-module-ath10k-core-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ath10k-core kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ath10k-pci-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ath10k-core-4.9
+Provides: kernel-module-ath10k-pci
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 255c892c12b9505bceeec8d07f1827f5
+Size: 21144
+Filename: kernel-module-ath10k-pci-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ath10k-pci kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-autofs4-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-autofs4
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 85e1d5122c6d04f0460c246a87a98530
+Size: 16918
+Filename: kernel-module-autofs4-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: autofs4 kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-block2mtd-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-block2mtd
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3a156b271ef4d3c517374a6bbeb0d851
+Size: 5056
+Filename: kernel-module-block2mtd-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: block2mtd kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bluetooth-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-bluetooth
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 88f82670b07aeb3ede9eb6affd3b2162
+Size: 154496
+Filename: kernel-module-bluetooth-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: bluetooth kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bnep-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-bluetooth-4.9
+Provides: kernel-module-bnep
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1bfc5aa4b3a2652a777f44d0c3d37a57
+Size: 9850
+Filename: kernel-module-bnep-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: bnep kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-br-netfilter-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-br-netfilter
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 831309e0acba1dab4920807915d80188
+Size: 10354
+Filename: kernel-module-br-netfilter-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: br-netfilter kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bsd-comp-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ppp-generic-4.9
+Provides: kernel-module-bsd-comp
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 655f1e257298b5ce2a8f056c8e57b545
+Size: 5008
+Filename: kernel-module-bsd-comp-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: bsd-comp kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-cifs-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-cifs
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c95241ad83bd351780696ef7e172e048
+Size: 143664
+Filename: kernel-module-cifs-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: cifs kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-cmac-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-cmac
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 55ce8e535ca2faad3f4bf56e6136eb0c
+Size: 3546
+Filename: kernel-module-cmac-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: cmac kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-cramfs-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-cramfs
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38b079b99ab571c65e9c5e620eae4945
+Size: 6506
+Filename: kernel-module-cramfs-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: cramfs kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-crc-ccitt-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-crc-ccitt
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1e1e2d8547bead12ca8a080594fa093e
+Size: 2346
+Filename: kernel-module-crc-ccitt-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: crc-ccitt kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-crc-itu-t-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-crc-itu-t
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 65c2fff81f4611e8b9ea613c2b098bb1
+Size: 2374
+Filename: kernel-module-crc-itu-t-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: crc-itu-t kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ddr-window-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-ddr-window
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9dd4db1dd794f2d9221e5017d602721f
+Size: 3870
+Filename: kernel-module-ddr-window-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ddr-window kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-efivarfs-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-efivarfs
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 900c12fa3249f1046e131c0ee799ff36
+Size: 6020
+Filename: kernel-module-efivarfs-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: efivarfs kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ext2-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-ext2
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7e4878cb79bc9d18a91b6ead49ba004e
+Size: 32402
+Filename: kernel-module-ext2-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ext2 kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-fuse-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-fuse
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f280e7f1ba55e59175c6c8981370c3bd
+Size: 49768
+Filename: kernel-module-fuse-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: fuse kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hci-uart-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-bluetooth-4.9
+Provides: kernel-module-hci-uart
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a39ecb086c6d43db9adf7e1112f4bbad
+Size: 7016
+Filename: kernel-module-hci-uart-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: hci-uart kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hid-a4tech-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-hid-a4tech
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f07ce56aa89ea301c97a2b676a41c548
+Size: 2818
+Filename: kernel-module-hid-a4tech-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: hid-a4tech kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hid-belkin-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-hid-belkin
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bf769747258e154d95b16e97821cebf6
+Size: 2580
+Filename: kernel-module-hid-belkin-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: hid-belkin kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hid-ezkey-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-hid-ezkey
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2866dcf0cd1bb93f5839b4797b47d37d
+Size: 2378
+Filename: kernel-module-hid-ezkey-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: hid-ezkey kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hid-logitech-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-hid-logitech
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e61f1e6f9ff62c2d4c35ee9a817be779
+Size: 6030
+Filename: kernel-module-hid-logitech-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: hid-logitech kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hid-logitech-dj-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-hid-logitech-dj
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f60ad3bea8908db6a0a959f473259703
+Size: 7888
+Filename: kernel-module-hid-logitech-dj-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: hid-logitech-dj kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hid-logitech-hidpp-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-hid-logitech-hidpp
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6fd0311440bd2a8db3ccb35a88269d65
+Size: 13494
+Filename: kernel-module-hid-logitech-hidpp-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: hid-logitech-hidpp kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hid-microsoft-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-hid-microsoft
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d5f1ec35056a161f7bb237baf9961335
+Size: 3744
+Filename: kernel-module-hid-microsoft-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: hid-microsoft kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hidp-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-bluetooth-4.9
+Provides: kernel-module-hidp
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 691791d73e81e5117ac30e976289c5b7
+Size: 12576
+Filename: kernel-module-hidp-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: hidp kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-isofs-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-isofs
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1eacf1321a3e8a3e4014035e932d63b
+Size: 18010
+Filename: kernel-module-isofs-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: isofs kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-jffs2-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-jffs2
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 49ac752a8209e8d36fb5e41a487840cd
+Size: 66396
+Filename: kernel-module-jffs2-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: jffs2 kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-joydev-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-joydev
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5e99307c59a3bb0482465f1bcc8d0f2
+Size: 8570
+Filename: kernel-module-joydev-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: joydev kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-l2tp-ppp-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ppp-generic-4.9, kernel-module-pppox-4.9
+Provides: kernel-module-l2tp-ppp
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ffe8e329ad67d5a4e561556950a2241c
+Size: 11540
+Filename: kernel-module-l2tp-ppp-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: l2tp-ppp kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-lcd-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-lcd
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ae131a969846644a934ea29a411b3504
+Size: 4584
+Filename: kernel-module-lcd-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: lcd kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-md4-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-md4
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f81fcd82e86cae9560446fba472b7fbb
+Size: 3646
+Filename: kernel-module-md4-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: md4 kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mousedev-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-mousedev
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 90d94668bd4cdb0f43b34728752d1886
+Size: 8690
+Filename: kernel-module-mousedev-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: mousedev kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-msdos-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-msdos
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a3b6afed06da4e5973282bd7f6782599
+Size: 6234
+Filename: kernel-module-msdos-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: msdos kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nandsim-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-nandsim
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fe3d654a6c38655022f9a5b0f8433829
+Size: 15836
+Filename: kernel-module-nandsim-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: nandsim kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nfsd-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-nfsd
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 541a2233087a58a81e5f118d1c309061
+Size: 48398
+Filename: kernel-module-nfsd-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: nfsd kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp437-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-nls-cp437
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e19639394e79b4d93a5ca3d63023f7b3
+Size: 3182
+Filename: kernel-module-nls-cp437-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: nls-cp437 kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp850-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-nls-cp850
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d673682527c38b89f3b65e94b35e8d61
+Size: 3062
+Filename: kernel-module-nls-cp850-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: nls-cp850 kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ntfs-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-ntfs
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef62a9fe66e72aa1ca8d53aa5667212b
+Size: 45108
+Filename: kernel-module-ntfs-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ntfs kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pktcdvd-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-pktcdvd
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 949fac3e487de97e7ee767b5eb22d22b
+Size: 17970
+Filename: kernel-module-pktcdvd-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: pktcdvd kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ppp-async-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-crc-ccitt-4.9, kernel-module-ppp-generic-4.9
+Provides: kernel-module-ppp-async
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6114063f78d5a6822a9475ce0fe6ace2
+Size: 7900
+Filename: kernel-module-ppp-async-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ppp-async kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ppp-deflate-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ppp-generic-4.9
+Provides: kernel-module-ppp-deflate
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 652d89ae165ebd39481f13e4221a51bf
+Size: 4414
+Filename: kernel-module-ppp-deflate-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ppp-deflate kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ppp-generic-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-slhc-4.9
+Provides: kernel-module-ppp-generic
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ed6af5261980e6b9b25d8f527d162ff0
+Size: 19016
+Filename: kernel-module-ppp-generic-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ppp-generic kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ppp-mppe-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ppp-generic-4.9
+Provides: kernel-module-ppp-mppe
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8364da1e6508e68e2c7b4d52ad6c0019
+Size: 5912
+Filename: kernel-module-ppp-mppe-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: ppp-mppe kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pppoe-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ppp-generic-4.9, kernel-module-pppox-4.9
+Provides: kernel-module-pppoe
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5b7d671c41ca6f8083b1d7c234047c29
+Size: 9190
+Filename: kernel-module-pppoe-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: pppoe kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pppolac-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ppp-generic-4.9, kernel-module-pppox-4.9
+Provides: kernel-module-pppolac
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 49033766ef0033cd16d1c4db91db9498
+Size: 5414
+Filename: kernel-module-pppolac-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: pppolac kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pppopns-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ppp-generic-4.9, kernel-module-pppox-4.9
+Provides: kernel-module-pppopns
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1ce8904d45531dd537015c4e3d80a51d
+Size: 5424
+Filename: kernel-module-pppopns-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: pppopns kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pppox-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-ppp-generic-4.9
+Provides: kernel-module-pppox
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 513b5c4f21b01b5ded7be868da38d7a5
+Size: 3516
+Filename: kernel-module-pppox-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: pppox kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rfcomm-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-bluetooth-4.9
+Provides: kernel-module-rfcomm
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6e5b03e6f279a3d0e75531c7c2625977
+Size: 23534
+Filename: kernel-module-rfcomm-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: rfcomm kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-slhc-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-slhc
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b6b8c840b0fb86188c09217538d4fab4
+Size: 4776
+Filename: kernel-module-slhc-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: slhc kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-squashfs-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-squashfs
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f88b2e23b11dc94af7077f0cf2547ea5
+Size: 19722
+Filename: kernel-module-squashfs-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: squashfs kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-tun-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-tun
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb109c86fb216ce494ebf59a5925350d
+Size: 16622
+Filename: kernel-module-tun-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: tun kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-udf-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9, kernel-module-crc-itu-t-4.9
+Provides: kernel-module-udf
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b6d2b5a03f0a71a474f4631f6b4ad98
+Size: 45944
+Filename: kernel-module-udf-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: udf kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-veth-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-veth
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 60646b73894d47adae6a9f92cb54f30c
+Size: 5060
+Filename: kernel-module-veth-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: veth kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-vxlan-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-vxlan
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3d2aab82c66a611baa9529f70da6c211
+Size: 22438
+Filename: kernel-module-vxlan-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: vxlan kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-wireguard-4.9
+Version: 1.0.20200413-r0
+Depends: kernel-4.9
+Provides: kernel-module-wireguard
+Section: networking
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 55b650b63a68a8418c79c8f22eab5337
+Size: 52808
+Filename: kernel-module-wireguard-4.9_1.0.20200413-r0_dreamtwo.ipk
+Source: wireguard-module_1.0.20200413.bb
+Description: wireguard kernel module
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-wireguard
+Version: 1.0.20200413-r0
+Depends: kernel-module-wireguard-4.9
+Provides: wireguard-module
+Recommends: kernel-module-xt-hashlimit
+Section: networking
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1732b45135db0f2ebb995c7740fe69e1
+Size: 886
+Filename: kernel-module-wireguard_1.0.20200413-r0_dreamtwo.ipk
+Source: wireguard-module_1.0.20200413.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xfs-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-xfs
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f807de9c810173e3919c0a2df70d1b96
+Size: 378584
+Filename: kernel-module-xfs-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: xfs kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-addrtype-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-xt-addrtype
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3d0c85745a2bf12485050f0661c6494a
+Size: 3520
+Filename: kernel-module-xt-addrtype-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: xt-addrtype kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-multiport-4.9
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-4.9
+Provides: kernel-module-xt-multiport
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2e0a94a3778f421a80e74928fa9ef8bf
+Size: 2690
+Filename: kernel-module-xt-multiport-4.9_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: xt-multiport kernel module
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-modules
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-module-ath-4.9, kernel-module-ath10k-core-4.9, kernel-module-ath10k-pci-4.9, kernel-module-autofs4-4.9, kernel-module-block2mtd-4.9, kernel-module-bluetooth-4.9, kernel-module-bnep-4.9, kernel-module-br-netfilter-4.9, kernel-module-bsd-comp-4.9, kernel-module-cifs-4.9, kernel-module-cmac-4.9, kernel-module-cramfs-4.9, kernel-module-crc-ccitt-4.9, kernel-module-crc-itu-t-4.9, kernel-module-ddr-window-4.9, kernel-module-efivarfs-4.9, kernel-module-ext2-4.9, kernel-module-fuse-4.9, kernel-module-hci-uart-4.9, kernel-module-hid-a4tech-4.9, kernel-module-hid-belkin-4.9, kernel-module-hid-ezkey-4.9, kernel-module-hid-logitech-4.9, kernel-module-hid-logitech-dj-4.9, kernel-module-hid-logitech-hidpp-4.9, kernel-module-hid-microsoft-4.9, kernel-module-hidp-4.9, kernel-module-isofs-4.9, kernel-module-jffs2-4.9, kernel-module-joydev-4.9, kernel-module-l2tp-ppp-4.9, kernel-module-lcd-4.9, kernel-module-md4-4.9, kernel-module-mousedev-4.9, kernel-module-msdos-4.9, kernel-module-nandsim-4.9, kernel-module-nfsd-4.9, kernel-module-nls-cp437-4.9, kernel-module-nls-cp850-4.9, kernel-module-ntfs-4.9, kernel-module-pktcdvd-4.9, kernel-module-ppp-async-4.9, kernel-module-ppp-deflate-4.9, kernel-module-ppp-generic-4.9, kernel-module-ppp-mppe-4.9, kernel-module-pppoe-4.9, kernel-module-pppolac-4.9, kernel-module-pppopns-4.9, kernel-module-pppox-4.9, kernel-module-rfcomm-4.9, kernel-module-slhc-4.9, kernel-module-squashfs-4.9, kernel-module-tun-4.9, kernel-module-udf-4.9, kernel-module-veth-4.9, kernel-module-vxlan-4.9, kernel-module-xfs-4.9, kernel-module-xt-addrtype-4.9, kernel-module-xt-multiport-4.9
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c8e302e0f2d23ae2cc21208b61ebc766
+Size: 978
+Filename: kernel-modules_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: linux-dmamlogic version 4.9.113-643173-gbc82830-
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel-vmlinux
+Version: 1:4.9.113-643173-gbc82830-
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bf81ec7e4fa6a3b055b11ccbd1728476
+Size: 66124530
+Filename: kernel-vmlinux_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: linux-dmamlogic version 4.9.113-643173-gbc82830-
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: kernel
+Version: 1:4.9.113-643173-gbc82830-
+Depends: kernel-base
+Provides: kernel-4.9
+Section: kernel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb2cbab7e165c5a2a407857d8c381e1f
+Size: 654
+Filename: kernel_4.9.113-643173-gbc82830-_dreamtwo.ipk
+Source: linux-dmamlogic_4.9.113.bb
+Description: linux-dmamlogic version 4.9.113-643173-gbc82830-
+OE: linux-dmamlogic
+License: GPLv2
+Priority: optional
+
+Package: libtuxtxt32bpp-dbg
+Version: 2.0+git71+fa18f77-r3
+Provides: tuxtxt-enigma2-dbg
+Recommends: libc6-dbg, libfreetype-dbg, libtuxtxt-dbg
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bbeb19af4e094b8c0536eef04485c68e
+Size: 27968
+Filename: libtuxtxt32bpp-dbg_2.0+git71+fa18f77-r3_dreamtwo.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Debugging files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-dev
+Version: 2.0+git71+fa18f77-r3
+Depends: libtuxtxt32bpp0 (= 2.0+git71+fa18f77-r3)
+Provides: tuxtxt-enigma2-dev
+Recommends: libc6-dev, libfreetype-dev, libtuxtxt-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: af11dae324d13a554032cdfba71be8e2
+Size: 872
+Filename: libtuxtxt32bpp-dev_2.0+git71+fa18f77-r3_dreamtwo.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Development files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-src
+Version: 2.0+git71+fa18f77-r3
+Provides: tuxtxt-enigma2-src
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 80f8b45f3c4d44d6e598d697e4a33ac8
+Size: 1878
+Filename: libtuxtxt32bpp-src_2.0+git71+fa18f77-r3_dreamtwo.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Source files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp0
+Version: 2.0+git71+fa18f77-r3
+Depends: libc6 (>= 2.30), libfreetype6 (>= 2.10.1), libtuxtxt0 (>= 2.0+git71+fa18f77)
+Provides: tuxtxt-enigma2
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3a9c22ce439a661901af42c6fd1b08d8
+Size: 59894
+Filename: libtuxtxt32bpp0_2.0+git71+fa18f77-r3_dreamtwo.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: make-mod-scripts-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e5981a168918d97a00e9f9cd2ee9048
+Size: 686
+Filename: make-mod-scripts-dbg_1.0-r0_dreamtwo.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Debugging files
+OE: make-mod-scripts
+License: GPLv2
+Priority: optional
+
+Package: make-mod-scripts-dev
+Version: 1.0-r0
+Depends: make-mod-scripts (= 1.0-r0)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 58dc9870c8d2e3407b57561c4f022611
+Size: 716
+Filename: make-mod-scripts-dev_1.0-r0_dreamtwo.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Development files
+OE: make-mod-scripts
+License: GPLv2
+Priority: optional
+
+Package: meson-mali-module-bifrost-r12p0-dbg
+Version: 201901-0-gd4a30ca-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 160129e39a9602da20e34f99c866c5be
+Size: 696
+Filename: meson-mali-module-bifrost-r12p0-dbg_201901-0-gd4a30ca-r0_dreamtwo.ipk
+Source: meson-mali-module-bifrost-r12p0_201901-0-gd4a30ca.bb
+Description: Mali kernel module - Debugging files
+OE: meson-mali-module-bifrost-r12p0
+License: GPLv2
+Priority: optional
+
+Package: meson-mali-module-bifrost-r12p0-dev
+Version: 201901-0-gd4a30ca-r0
+Depends: meson-mali-module-bifrost-r12p0 (= 201901-0-gd4a30ca-r0)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b821f933cbf142cecf75125159dcca99
+Size: 724
+Filename: meson-mali-module-bifrost-r12p0-dev_201901-0-gd4a30ca-r0_dreamtwo.ipk
+Source: meson-mali-module-bifrost-r12p0_201901-0-gd4a30ca.bb
+Description: Mali kernel module - Development files
+OE: meson-mali-module-bifrost-r12p0
+License: GPLv2
+Priority: optional
+
+Package: meson-mali-module-bifrost-r12p0
+Version: 201901-0-gd4a30ca-r0
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c733db56c444c53e5eb0ea4835b6b0fd
+Size: 149490
+Filename: meson-mali-module-bifrost-r12p0_201901-0-gd4a30ca-r0_dreamtwo.ipk
+Source: meson-mali-module-bifrost-r12p0_201901-0-gd4a30ca.bb
+Description: Mali kernel module
+OE: meson-mali-module-bifrost-r12p0
+License: GPLv2
+Priority: optional
+
+Package: nrf52-firmware-dreamtwo-dbg
+Version: 1.13-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6d358ea43408e1859d04356398ff797c
+Size: 674
+Filename: nrf52-firmware-dreamtwo-dbg_1.13-r0_dreamtwo.ipk
+Source: nrf52-firmware-dreamtwo_1.13.bb
+Description: nrf52-firmware-dreamtwo version 1.13-r0 - Debugging files
+OE: nrf52-firmware-dreamtwo
+License: CLOSED
+Priority: optional
+
+Package: nrf52-firmware-dreamtwo-dev
+Version: 1.13-r0
+Depends: nrf52-firmware-dreamtwo (= 1.13-r0)
+Recommends: flash-nrf52-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5c884b88adfd2f938182359e82deb46b
+Size: 720
+Filename: nrf52-firmware-dreamtwo-dev_1.13-r0_dreamtwo.ipk
+Source: nrf52-firmware-dreamtwo_1.13.bb
+Description: nrf52-firmware-dreamtwo version 1.13-r0 - Development files
+OE: nrf52-firmware-dreamtwo
+License: CLOSED
+Priority: optional
+
+Package: nrf52-firmware-dreamtwo
+Version: 1.13-r0
+Depends: flash-nrf52
+Provides: nrf52-firmware
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6f298edfcd93bfe448623c6acf562c1f
+Size: 178308
+Filename: nrf52-firmware-dreamtwo_1.13-r0_dreamtwo.ipk
+Source: nrf52-firmware-dreamtwo_1.13.bb
+Description: nrf52-firmware-dreamtwo version 1.13-r0
+OE: nrf52-firmware-dreamtwo
+License: CLOSED
+Priority: optional
+
+Package: openmultiboot-dbg
+Version: 1.0+git107+e2d97a4-r0
+Recommends: libc6-dbg, libfreetype-dbg
+Section: devel
+Architecture: dreamtwo
+Maintainer: oe-alliance
+MD5Sum: cb8b5f2c3bca757a8ea9d93777ed051b
+Size: 33190
+Filename: openmultiboot-dbg_1.0+git107+e2d97a4-r0_dreamtwo.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Debugging files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot-dev
+Version: 1.0+git107+e2d97a4-r0
+Depends: openmultiboot (= 1.0+git107+e2d97a4-r0)
+Recommends: libc6-dev, libfreetype-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: oe-alliance
+MD5Sum: 989daaf76402106aa17c9b7b6666457e
+Size: 710
+Filename: openmultiboot-dev_1.0+git107+e2d97a4-r0_dreamtwo.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Development files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot
+Version: 1.0+git107+e2d97a4-r0
+Depends: libc6 (>= 2.30), libfreetype6 (>= 2.10.1)
+Section: base
+Architecture: dreamtwo
+Maintainer: oe-alliance
+MD5Sum: c3c39077edb4d31b6330b22a0a9ef99a
+Size: 36832
+Filename: openmultiboot_1.0+git107+e2d97a4-r0_dreamtwo.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e7dd0c41ef6ab387e3835ededede0561
+Size: 712
+Filename: opkg-arch-config-dbg_1.0-r1_dreamtwo.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Depends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b539be557bef8c9a809053bda067d063
+Size: 742
+Filename: opkg-arch-config-dev_1.0-r1_dreamtwo.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: abd35d2d6b5d09685e592d620331973f
+Size: 860
+Filename: opkg-arch-config_1.0-r1_dreamtwo.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa-dbg
+Version: 1.0-r83
+Recommends: alsa-state-dbg, alsa-utils-alsactl-dbg
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 353363f44bd60edb52057d264c071311
+Size: 668
+Filename: packagegroup-base-alsa-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa-dev
+Version: 1.0-r83
+Recommends: alsa-state-dev, alsa-utils-alsactl-dev
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1d9627d059ad6b86b4d67926b73885b
+Size: 670
+Filename: packagegroup-base-alsa-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa
+Version: 1.0-r83
+Depends: alsa-state, alsa-utils-alsactl
+Recommends: kernel-module-snd-mixer-oss, kernel-module-snd-pcm-oss
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c89e26743eca77b50ee922de87adccbf
+Size: 704
+Filename: packagegroup-base-alsa_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: ALSA sound support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dbg
+Version: 1.0-r83
+Recommends: bluez5-dbg
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f3517e94144367d681dbcd37ad103f05
+Size: 658
+Filename: packagegroup-base-bluetooth-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dev
+Version: 1.0-r83
+Recommends: bluez5-dev
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5bc1270aa5fcc55fb296095800537555
+Size: 656
+Filename: packagegroup-base-bluetooth-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth
+Version: 1.0-r83
+Depends: bluez5
+Recommends: kernel-module-bluetooth, kernel-module-bnep, kernel-module-hci-uart, kernel-module-hci-vhci, kernel-module-hidp, kernel-module-l2cap, kernel-module-rfcomm, kernel-module-sco
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fb6a2837ef830303ca566e10c6c00eaa
+Size: 714
+Filename: packagegroup-base-bluetooth_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Bluetooth support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dbg
+Version: 1.0-r83
+Recommends: module-init-tools-dbg, packagegroup-base-alsa-dbg, packagegroup-base-bluetooth-dbg, packagegroup-base-ext2-dbg, packagegroup-base-ipv6-dbg, packagegroup-base-nfs-dbg, packagegroup-base-zeroconf-dbg, packagegroup-distro-base-dbg, packagegroup-machine-base-dbg
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 58b806c07195823eb49476995302baf9
+Size: 772
+Filename: packagegroup-base-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Debugging files
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dev
+Version: 1.0-r83
+Depends: packagegroup-base (= 1.0-r83)
+Recommends: module-init-tools-dev, packagegroup-base-alsa-dev, packagegroup-base-bluetooth-dev, packagegroup-base-ext2-dev, packagegroup-base-ipv6-dev, packagegroup-base-nfs-dev, packagegroup-base-zeroconf-dev, packagegroup-distro-base-dev, packagegroup-machine-base-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a149c13b98daef3f355cffa6b3b73c2
+Size: 796
+Filename: packagegroup-base-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Development files
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ext2-dbg
+Version: 1.0-r83
+Recommends: e2fsprogs-dbg, e2fsprogs-e2fsck-dbg, e2fsprogs-mke2fs-dbg, hdparm-dbg
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 39cfb6289ad1885a55165d58a53f60e7
+Size: 678
+Filename: packagegroup-base-ext2-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ext2-dev
+Version: 1.0-r83
+Recommends: e2fsprogs-dev, e2fsprogs-e2fsck-dev, e2fsprogs-mke2fs-dev, hdparm-dev
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: da06249f9ca954476b7bb780441a4c84
+Size: 678
+Filename: packagegroup-base-ext2-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ext2
+Version: 1.0-r83
+Depends: e2fsprogs, e2fsprogs-e2fsck, e2fsprogs-mke2fs, hdparm
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9665145b128bb3b23ab67475a47b60f8
+Size: 682
+Filename: packagegroup-base-ext2_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: ext2 filesystem support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended-dbg
+Version: 1.0-r83
+Recommends: packagegroup-base-dbg, packagegroup-base-wifi-dbg
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef919f64317f0739211775165fabc48e
+Size: 662
+Filename: packagegroup-base-extended-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended-dev
+Version: 1.0-r83
+Recommends: packagegroup-base-dev, packagegroup-base-wifi-dev
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4880e4381f0630f74bc9827bbcf47bf3
+Size: 662
+Filename: packagegroup-base-extended-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended
+Version: 1.0-r83
+Depends: packagegroup-base, packagegroup-base-wifi
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3fda91f16a45755fa30018cf34a5ca85
+Size: 652
+Filename: packagegroup-base-extended_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6a2705aa5f9c468a2b34268e309eb713
+Size: 640
+Filename: packagegroup-base-ipv6-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6-dev
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cd1ff59d607a0245eb77d17b530f9fbf
+Size: 638
+Filename: packagegroup-base-ipv6-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6
+Version: 1.0-r83
+Recommends: kernel-module-ipv6
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 592c1ee90a2163aaad7aed838ec4a8a3
+Size: 664
+Filename: packagegroup-base-ipv6_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: IPv6 support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs-dbg
+Version: 1.0-r83
+Recommends: rpcbind-dbg
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f3556bcacbaae4c185fd012afc1fe8e1
+Size: 654
+Filename: packagegroup-base-nfs-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs-dev
+Version: 1.0-r83
+Recommends: rpcbind-dev
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e29d15e7c5f99b134d3354f6b9357617
+Size: 652
+Filename: packagegroup-base-nfs-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs
+Version: 1.0-r83
+Depends: rpcbind
+Recommends: kernel-module-nfs
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9103a620ed09992d54495aa6b28a59a3
+Size: 684
+Filename: packagegroup-base-nfs_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: NFS network filesystem support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-serial-dbg
+Version: 1.0-r83
+Recommends: lrzsz-dbg, setserial-dbg
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d663079d40b333e9b66c91c035094a88
+Size: 662
+Filename: packagegroup-base-serial-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-serial-dev
+Version: 1.0-r83
+Recommends: lrzsz-dev, setserial-dev
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 292bc3efd37d3fbe31e9401d7607090f
+Size: 662
+Filename: packagegroup-base-serial-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-serial
+Version: 1.0-r83
+Depends: lrzsz, setserial
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 227a650ce7b60529316b3593b7fa38d2
+Size: 660
+Filename: packagegroup-base-serial_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Serial port support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbgadget-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 32cf665dbcf665649b328cd73c8f9556
+Size: 642
+Filename: packagegroup-base-usbgadget-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbgadget-dev
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 711d1b55008fd6a704ce4b669d254325
+Size: 642
+Filename: packagegroup-base-usbgadget-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbgadget
+Version: 1.0-r83
+Recommends: kernel-module-g-ether, kernel-module-g-file-storage, kernel-module-g-serial, kernel-module-gadgetfs, kernel-module-pxa27x_udc
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c64c697ff874bbf0ef618ea64d91bdb0
+Size: 708
+Filename: packagegroup-base-usbgadget_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: USB gadget support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost-dbg
+Version: 1.0-r83
+Recommends: usbutils-dbg
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a43c515531e81a582bf216fbf2129dc
+Size: 656
+Filename: packagegroup-base-usbhost-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost-dev
+Version: 1.0-r83
+Recommends: usbutils-dev
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 96ee0648d46e96f606159bd6aa4a1647
+Size: 656
+Filename: packagegroup-base-usbhost-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost
+Version: 1.0-r83
+Depends: usbutils
+Recommends: kernel-module-ehci-hcd, kernel-module-mousedev, kernel-module-ohci-hcd, kernel-module-scsi-mod, kernel-module-sd-mod, kernel-module-uhci-hcd, kernel-module-usb-storage, kernel-module-usbcore, kernel-module-usbhid, kernel-module-usbmouse, kernel-module-usbnet, kernel-module-usbserial
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ebe7ebed9f4c81d7d82072c7ceb66c94
+Size: 736
+Filename: packagegroup-base-usbhost_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: USB host support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-vfat-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4bcf6c7129a059c81c4209d248092efb
+Size: 638
+Filename: packagegroup-base-vfat-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-vfat-dev
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c27d96d777df6a667bce94ea68665c70
+Size: 640
+Filename: packagegroup-base-vfat-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-vfat
+Version: 1.0-r83
+Recommends: dosfstools, kernel-module-msdos, kernel-module-nls-cp437, kernel-module-nls-iso8859-1, kernel-module-vfat
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d6128679a5d4e5f54343bc10268b0343
+Size: 704
+Filename: packagegroup-base-vfat_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: FAT filesystem support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi-dbg
+Version: 1.0-r83
+Recommends: iw-dbg, wireless-regdb-static-dbg, wpa-supplicant-dbg
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 962200e40269e6a1312a47395a07e676
+Size: 684
+Filename: packagegroup-base-wifi-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi-dev
+Version: 1.0-r83
+Recommends: iw-dev, wireless-regdb-static-dev, wpa-supplicant-dev
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5eac789ebd9379cb6725318dea6d185d
+Size: 684
+Filename: packagegroup-base-wifi-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi
+Version: 1.0-r83
+Depends: iw, wireless-regdb-static, wpa-supplicant
+Recommends: kernel-module-aes, kernel-module-aes-generic, kernel-module-arc4, kernel-module-crypto_algapi, kernel-module-cryptomgr, kernel-module-ecb, kernel-module-ieee80211-crypt, kernel-module-ieee80211-crypt-ccmp, kernel-module-ieee80211-crypt-tkip, kernel-module-ieee80211-crypt-wep, kernel-module-michael-mic
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 30645fb96436cf24082d9a810ebc10d8
+Size: 760
+Filename: packagegroup-base-wifi_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: WiFi support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf-dbg
+Version: 1.0-r83
+Recommends: avahi-daemon-dbg, libnss-mdns-dbg
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1e6da0df82378fe30ca059e93866d62f
+Size: 678
+Filename: packagegroup-base-zeroconf-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf-dev
+Version: 1.0-r83
+Recommends: avahi-daemon-dev, libnss-mdns-dev
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b9e31f04262f52fca6f2b1f8015f5c8
+Size: 674
+Filename: packagegroup-base-zeroconf-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf
+Version: 1.0-r83
+Depends: avahi-daemon, libnss-mdns
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 855ae37643d2b96fcd87985c62b401ce
+Size: 672
+Filename: packagegroup-base-zeroconf_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Zeroconf support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base
+Version: 1.0-r83
+Depends: module-init-tools, packagegroup-base-alsa, packagegroup-base-bluetooth, packagegroup-base-ext2, packagegroup-base-ipv6, packagegroup-base-nfs, packagegroup-base-zeroconf, packagegroup-distro-base, packagegroup-machine-base
+Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-uinput, kernel-module-unix
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0b15a30b5c6b7d3f63476fc3fd357d2
+Size: 754
+Filename: packagegroup-base_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dbg
+Version: 1.0-r17
+Recommends: alsa-plugins-dbg, base-files-dbg, base-passwd-dbg, bcmdhd-dbg, bcmdhd-firmware-dbg, busybox-dbg, busybox-hwclock-dbg, dm-precompiled-dbg, dreambox-dvb-modules-dreamtwo-dbg, eudev-dbg, flash-scripts-dbg, gstreamer1.0-dreamsinks-dbg, init-ifupdown-dbg, initscripts-dbg, kernel-modules-dbg, meson-mali-dbg, meson-mali-module-bifrost-r12p0-dbg, modutils-initscripts-dbg, netbase-dbg, nrf52-firmware-dreamtwo-dbg, sysvinit-dbg, u-boot-bin-dbg, update-alternatives-opkg-dbg
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fad98c36024dcbf82e42189270af8aae
+Size: 906
+Filename: packagegroup-core-boot-dbg_1.0-r17_dreamtwo.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Debugging files
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dev
+Version: 1.0-r17
+Depends: packagegroup-core-boot (= 1.0-r17)
+Recommends: alsa-plugins-dev, base-files-dev, base-passwd-dev, bcmdhd-dev, bcmdhd-firmware-dev, busybox-dev, busybox-hwclock-dev, dm-precompiled-dev, dreambox-dvb-modules-dreamtwo-dev, eudev-dev, flash-scripts-dev, gstreamer1.0-dreamsinks-dev, init-ifupdown-dev, initscripts-dev, kernel-modules-dev, meson-mali-dev, meson-mali-module-bifrost-r12p0-dev, modutils-initscripts-dev, netbase-dev, nrf52-firmware-dreamtwo-dev, sysvinit-dev, u-boot-bin-dev, update-alternatives-opkg-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de2b99ccac7e48c86cf99e59b1e78740
+Size: 930
+Filename: packagegroup-core-boot-dev_1.0-r17_dreamtwo.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Development files
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: alsa-plugins, base-files, base-passwd, bcmdhd, bcmdhd-firmware, busybox, busybox-hwclock, dm-precompiled, dreambox-dvb-modules-dreamtwo, eudev, flash-scripts, gstreamer1.0-dreamsinks, init-ifupdown, initscripts, kernel-modules, meson-mali, meson-mali-module-bifrost-r12p0, modutils-initscripts, netbase, nrf52-firmware-dreamtwo, sysvinit, u-boot-bin, update-alternatives-opkg
+Recommends: busybox-syslog
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cd2e0dbdaaa31ed64c756f28beabecf6
+Size: 852
+Filename: packagegroup-core-boot_1.0-r17_dreamtwo.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5fc6e3070d130d88ca31def86249dca3
+Size: 640
+Filename: packagegroup-distro-base-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base-dev
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 99719794f1a7c085c772998fab57a8e2
+Size: 638
+Filename: packagegroup-distro-base-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 079b045a686c6b3fd5394531b9255db1
+Size: 642
+Filename: packagegroup-distro-base_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: openpli extras
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base-dbg
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c04d8daeb66082c1ea3a693f23d23eef
+Size: 640
+Filename: packagegroup-machine-base-dbg_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base-dev
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c5de4a1dc4f4a4a239380926f4d40608
+Size: 638
+Filename: packagegroup-machine-base-dev_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base
+Version: 1.0-r83
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38c60568d4596590f65e5f7651448ebd
+Size: 666
+Filename: packagegroup-machine-base_1.0-r83_dreamtwo.ipk
+Source: packagegroup-base.bb
+Description: Extra packages required to fully support dreamtwo hardware
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: recovery-autoflashd
+Version: 1.1+git162+81ff8d4-r0
+Depends: libc6 (>= 2.30), libudev1 (>= 3.2.8)
+Recommends: update-rc.d
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d20348f5ab1092d9a634e6e9ca882e93
+Size: 4718
+Filename: recovery-autoflashd_1.1+git162+81ff8d4-r0_dreamtwo.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-dbg
+Version: 1.1+git162+81ff8d4-r0
+Recommends: libc6-dbg, libudev-dbg
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b9d1ca4cce484cdd6f877ba8d7be6cf8
+Size: 33298
+Filename: recovery-dbg_1.1+git162+81ff8d4-r0_dreamtwo.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox - Debugging files
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-dev
+Version: 1.1+git162+81ff8d4-r0
+Depends: recovery (= 1.1+git162+81ff8d4-r0)
+Recommends: android-tools-dev, coreutils-realpath-dev, e2fsprogs-mke2fs-dev, flash-scripts-dev, gpgv-dev, gptfdisk-dev, initscripts-dev, libc6-dev, libudev-dev, pigz-dev, recovery-autoflashd-dev, recovery-fbscaled-dev, u-boot-mkimage-dev, udev-dev, update-rc.d-dev, util-linux-blkid-dev, util-linux-mount-dev, util-linux-sfdisk-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c55c68c629e63608e5ce9516f29d959d
+Size: 898
+Filename: recovery-dev_1.1+git162+81ff8d4-r0_dreamtwo.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox - Development files
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery-fbscaled
+Version: 1.1+git162+81ff8d4-r0
+Recommends: update-rc.d
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1a7bf5851705687014833e43c533731
+Size: 1952
+Filename: recovery-fbscaled_1.1+git162+81ff8d4-r0_dreamtwo.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: recovery
+Version: 1.1+git162+81ff8d4-r0
+Depends: e2fsprogs-mke2fs, flash-scripts, gpgv, gptfdisk, pigz, recovery-autoflashd, recovery-fbscaled, util-linux-blkid, util-linux-mount
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f5befb29d06bc73088d00b48be229a8
+Size: 21462
+Filename: recovery_1.1+git162+81ff8d4-r0_dreamtwo.ipk
+Source: recovery_1.1.bb
+Description: Command-line tools to flash and recover your Dreambox
+OE: recovery
+HomePage: http://dreamboxupdate.com/
+License: CLOSED
+Priority: optional
+
+Package: satipclient-dbg
+Version: 1.0+git69+ec50bfa-r0
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1ea360e9c0f18251175eaefc027b6b0
+Size: 201470
+Filename: satipclient-dbg_1.0+git69+ec50bfa-r0_dreamtwo.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Debugging files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient-dev
+Version: 1.0+git69+ec50bfa-r0
+Depends: satipclient (= 1.0+git69+ec50bfa-r0)
+Recommends: initscripts-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, update-rc.d-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7d1972ea3664a1a45b56c740d2356faf
+Size: 754
+Filename: satipclient-dev_1.0+git69+ec50bfa-r0_dreamtwo.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Development files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient
+Version: 1.0+git69+ec50bfa-r0
+Depends: libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0)
+Recommends: update-rc.d
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0999501dbe26a9005a1c7ec137699078
+Size: 22864
+Filename: satipclient_1.0+git69+ec50bfa-r0_dreamtwo.ipk
+Source: satipclient.bb
+Description: satip client using vtuner
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: shadow-securetty-dbg
+Version: 4.6-r3
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 595553c6f53f2433f4481837f442a7ea
+Size: 690
+Filename: shadow-securetty-dbg_4.6-r3_dreamtwo.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Debugging files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dev
+Version: 4.6-r3
+Depends: shadow-securetty (= 4.6-r3)
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4dcd7c8401992ddc47967713c728238c
+Size: 718
+Filename: shadow-securetty-dev_4.6-r3_dreamtwo.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Development files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty
+Version: 4.6-r3
+Section: base utils
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 557f02b646d8192faf54f48c36b86f3f
+Size: 1372
+Filename: shadow-securetty_4.6-r3_dreamtwo.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: u-boot-bin-dbg
+Version: 2-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8edfaed512eeaece31761fae28f19081
+Size: 664
+Filename: u-boot-bin-dbg_2-r0_dreamtwo.ipk
+Source: u-boot-bin_2.bb
+Description: u-boot-bin version 2-r0 - Debugging files
+OE: u-boot-bin
+License: Proprietary
+Priority: optional
+
+Package: u-boot-bin-dev
+Version: 2-r0
+Depends: u-boot-bin (= 2-r0)
+Recommends: flash-scripts-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 787573e9449398cc07cc5d01bbd7ca6f
+Size: 712
+Filename: u-boot-bin-dev_2-r0_dreamtwo.ipk
+Source: u-boot-bin_2.bb
+Description: u-boot-bin version 2-r0 - Development files
+OE: u-boot-bin
+License: Proprietary
+Priority: optional
+
+Package: u-boot-bin
+Version: 2-r0
+Depends: flash-scripts
+Section: base
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e01be71f8119d16dbeee0e5cc731a92b
+Size: 2026138
+Filename: u-boot-bin_2-r0_dreamtwo.ipk
+Source: u-boot-bin_2.bb
+Description: u-boot-bin version 2-r0
+OE: u-boot-bin
+License: Proprietary
+Priority: optional
+
+Package: wireguard-module-dbg
+Version: 1.0.20200413-r0
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2b29fb42336f9fbfae99ae131f48dda4
+Size: 900
+Filename: wireguard-module-dbg_1.0.20200413-r0_dreamtwo.ipk
+Source: wireguard-module_1.0.20200413.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN - Debugging files
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPLv2
+Priority: optional
+
+Package: wireguard-module-dev
+Version: 1.0.20200413-r0
+Depends: kernel-module-wireguard (= 1.0.20200413-r0)
+Recommends: kernel-4.9-dev, kernel-module-wireguard-4.9-dev, libmnl-dev
+Section: devel
+Architecture: dreamtwo
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e482cd488bd2ac2569228ae844f43b10
+Size: 960
+Filename: wireguard-module-dev_1.0.20200413-r0_dreamtwo.ipk
+Source: wireguard-module_1.0.20200413.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN - Development files
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPLv2
+Priority: optional
+
